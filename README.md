@@ -62,6 +62,8 @@
             📁 video/
             📄 index.json
             📄 profile.json
+        📄 _list_media.txt
+        📄 _url_list.txt
 📄 .nojekyll
 📄 README.md
 📄 index.html
