@@ -781,8 +781,22 @@ body.light .post-iframe-wrap { background: #ffffff; }
     margin-right: 0;     /* 取消和搜索框之间的间距 */
     margin-left: -4px;   /* 往左挤一点 */
   }
-  /* 三条线 —— 默认非常浅淡 + 加阴影确保各色 banner 都能看清 */
-  .menu-toggle::before {
+  /* 三条线 —— banner 是用户自定义图片不随主题切换
+     固定用深灰，无论主题切换都不变 */
+  .menu-toggle-banner::before {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 1.5px;
+    background: rgba(40, 40, 40, 0.85);
+    box-shadow:
+      0 -5px 0 rgba(40, 40, 40, 0.85),
+      0 5px 0 rgba(40, 40, 40, 0.85);
+    border-radius: 1px;
+    transition: background 0.15s, box-shadow 0.15s;
+  }
+  /* 搜索栏按钮（不在 banner 上）：暗色默认白线，浅色主题改深线 */
+  .menu-toggle-search::before {
     content: "";
     display: block;
     width: 17px;
@@ -792,27 +806,14 @@ body.light .post-iframe-wrap { background: #ffffff; }
       0 -5px 0 rgba(255, 255, 255, 0.85),
       0 5px 0 rgba(255, 255, 255, 0.85);
     border-radius: 1px;
-    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.5));
     transition: background 0.15s, box-shadow 0.15s;
   }
-  /* 浅色主题下，banner 按钮三条线 —— 用半透明深色 + 白色描边阴影
-     这样不管 banner 是彩色渐变还是白色/黑色都能看清 */
-  body.light .menu-toggle-banner::before {
-    background: rgba(40, 40, 40, 0.85);
-    box-shadow:
-      0 -5px 0 rgba(40, 40, 40, 0.85),
-      0 5px 0 rgba(40, 40, 40, 0.85);
-    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
-  }
-  /* 浅色主题下，搜索栏按钮在白底上需要深色三线 */
   body.light .menu-toggle-search::before {
     background: rgba(40, 40, 40, 0.9);
     box-shadow:
       0 -5px 0 rgba(40, 40, 40, 0.9),
       0 5px 0 rgba(40, 40, 40, 0.9);
   }
-  /* 暗色主题下，搜索栏按钮在暗底上仍用白色三线（保持) */
-  /* （已被基础规则覆盖，无需额外） */
 
   /* 点击/激活：浅淡背景 + 三条线变深更鲜明 */
   .menu-toggle:active,
