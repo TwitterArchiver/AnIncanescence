@@ -1,0 +1,223 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1916445158721327104"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1916440618173386903",
+    "created_at": "2025-04-27T10:51:48.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-04-27T11:51:48.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1916445169744052280"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 73,
+          "end": 96,
+          "url": "https://t.co/ZYxTBFCF6c",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1916445169744052280/photo/1",
+          "display_url": "pic.x.com/ZYxTBFCF6c",
+          "media_key": "3_1916445158721327104"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1916445169744052280",
+    "in_reply_to_user_id": "1808933044545630208",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1916440618173386903"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "感觉被道德绑架了一下。我也有自己的好感度系统，有权利选择和喜欢的人互动，也不欠任何人无限制的陪伴。\n所以我拒绝放弃自己的边界去供养一个不喜欢的人 https://t.co/ZYxTBFCF6c"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1264,
+        "media_key": "3_1916445158721327104",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GpiUt9UaEAAqjni.jpg",
+        "width": 1179
+      },
+      {
+        "height": 2049,
+        "media_key": "3_1916440608249720832",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GpiQlFfbsAA9sl_.jpg",
+        "width": 1179
+      },
+      {
+        "height": 455,
+        "media_key": "3_1916440608270635008",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GpiQlFka0AASNQi.jpg",
+        "width": 1179
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 41,
+          "following_count": 22,
+          "tweet_count": 93,
+          "listed_count": 0,
+          "like_count": 92,
+          "media_count": 23
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1916445158721327104"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1916440618173386903",
+        "created_at": "2025-04-27T10:51:48.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-04-27T11:51:48.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1916445169744052280"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 73,
+              "end": 96,
+              "url": "https://t.co/ZYxTBFCF6c",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1916445169744052280/photo/1",
+              "display_url": "pic.x.com/ZYxTBFCF6c",
+              "media_key": "3_1916445158721327104"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1916445169744052280",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1916440618173386903"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "感觉被道德绑架了一下。我也有自己的好感度系统，有权利选择和喜欢的人互动，也不欠任何人无限制的陪伴。\n所以我拒绝放弃自己的边界去供养一个不喜欢的人 https://t.co/ZYxTBFCF6c"
+      },
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1916440608249720832",
+            "3_1916440608270635008"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1916440618173386903",
+        "created_at": "2025-04-27T10:33:43.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-04-27T11:33:43.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1916440618173386903"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/FUlWwUwU9Z",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1916440618173386903/photo/1",
+              "display_url": "pic.x.com/FUlWwUwU9Z",
+              "media_key": "3_1916440608249720832"
+            },
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/FUlWwUwU9Z",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1916440618173386903/photo/1",
+              "display_url": "pic.x.com/FUlWwUwU9Z",
+              "media_key": "3_1916440608270635008"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1916440618173386903",
+        "lang": "zxx",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 16
+        },
+        "reply_settings": "everyone",
+        "text": "https://t.co/FUlWwUwU9Z"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

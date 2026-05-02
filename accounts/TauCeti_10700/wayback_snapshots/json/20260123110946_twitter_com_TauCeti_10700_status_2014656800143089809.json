@@ -1,0 +1,284 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_2014656790777249792",
+        "3_2014656790961520643"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "2014437402593656917",
+    "created_at": "2026-01-23T11:09:46.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-01-23T12:09:46.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2014656800143089809"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 0,
+          "end": 23,
+          "url": "https://t.co/dA3YNG94fp",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2014656800143089809/photo/1",
+          "display_url": "pic.x.com/dA3YNG94fp",
+          "media_key": "3_2014656790777249792"
+        },
+        {
+          "start": 0,
+          "end": 23,
+          "url": "https://t.co/dA3YNG94fp",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2014656800143089809/photo/1",
+          "display_url": "pic.x.com/dA3YNG94fp",
+          "media_key": "3_2014656790961520643"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2014656800143089809",
+    "in_reply_to_user_id": "1808933044545630208",
+    "lang": "zxx",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2014437402593656917"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "https://t.co/dA3YNG94fp"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 860,
+        "media_key": "3_2014656790777249792",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_V_rVabQAAriE-.jpg",
+        "width": 1206
+      },
+      {
+        "height": 1933,
+        "media_key": "3_2014656790961520643",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_V_rWGXAAMtme-.jpg",
+        "width": 1206
+      },
+      {
+        "height": 863,
+        "media_key": "3_2014437392925536256",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_S4IsuXMAAvf4y.jpg",
+        "width": 1206
+      },
+      {
+        "height": 1253,
+        "media_key": "3_2014437392711876611",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_S4Ir7bAAMlVaZ.jpg",
+        "width": 1206
+      },
+      {
+        "height": 1063,
+        "media_key": "3_2014437392720318464",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_S4Ir9b0AARlAH.jpg",
+        "width": 1206
+      },
+      {
+        "height": 1622,
+        "media_key": "3_2014437392716070913",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G_S4Ir8bAAEaHuU.jpg",
+        "width": 1206
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 74,
+          "following_count": 44,
+          "tweet_count": 346,
+          "listed_count": 1,
+          "like_count": 383,
+          "media_count": 86
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2014656790777249792",
+            "3_2014656790961520643"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "2014437402593656917",
+        "created_at": "2026-01-23T11:09:46.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-23T12:09:46.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2014656800143089809"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/dA3YNG94fp",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014656800143089809/photo/1",
+              "display_url": "pic.x.com/dA3YNG94fp",
+              "media_key": "3_2014656790777249792"
+            },
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/dA3YNG94fp",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014656800143089809/photo/1",
+              "display_url": "pic.x.com/dA3YNG94fp",
+              "media_key": "3_2014656790961520643"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2014656800143089809",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zxx",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2014437402593656917"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "https://t.co/dA3YNG94fp"
+      },
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2014437392925536256",
+            "3_2014437392711876611",
+            "3_2014437392720318464",
+            "3_2014437392716070913"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "2014437402593656917",
+        "created_at": "2026-01-22T20:37:57.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-22T21:37:57.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2014437402593656917"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 54,
+              "end": 77,
+              "url": "https://t.co/hSSPEN19Sf",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014437402593656917/photo/1",
+              "display_url": "pic.x.com/hSSPEN19Sf",
+              "media_key": "3_2014437392925536256"
+            },
+            {
+              "start": 54,
+              "end": 77,
+              "url": "https://t.co/hSSPEN19Sf",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014437402593656917/photo/1",
+              "display_url": "pic.x.com/hSSPEN19Sf",
+              "media_key": "3_2014437392711876611"
+            },
+            {
+              "start": 54,
+              "end": 77,
+              "url": "https://t.co/hSSPEN19Sf",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014437402593656917/photo/1",
+              "display_url": "pic.x.com/hSSPEN19Sf",
+              "media_key": "3_2014437392720318464"
+            },
+            {
+              "start": 54,
+              "end": 77,
+              "url": "https://t.co/hSSPEN19Sf",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2014437402593656917/photo/1",
+              "display_url": "pic.x.com/hSSPEN19Sf",
+              "media_key": "3_2014437392716070913"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2014437402593656917",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 72
+        },
+        "reply_settings": "everyone",
+        "text": "不理解爱也能构成爱...嗯。我一直不会把ai放在和人类同等的位置，权重存在不成竞争关系，独立的类别是公平的 https://t.co/hSSPEN19Sf"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

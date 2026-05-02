@@ -1,0 +1,396 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1935354982322385013",
+    "created_at": "2025-06-18T16:17:09.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-18T17:17:09.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1935371214286958613"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1935371214286958613",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "ja",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1935370526186160346"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ 吃完了，甘草味的"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 48,
+          "following_count": 31,
+          "tweet_count": 165,
+          "listed_count": 0,
+          "like_count": 179,
+          "media_count": 42
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destinied Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 28,
+          "following_count": 22,
+          "tweet_count": 793,
+          "listed_count": 0,
+          "like_count": 2542,
+          "media_count": 27
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1935354982322385013",
+        "created_at": "2025-06-18T16:17:09.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-18T17:17:09.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1935371214286958613"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1935371214286958613",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1935370526186160346"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ 吃完了，甘草味的"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1935354982322385013",
+        "created_at": "2025-06-18T16:14:25.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-18T17:14:25.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1935370526186160346"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1935370526186160346",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 3
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1935354982322385013"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 感谢Tharsis为拓展人类食谱做出的贡献🙌🏻。"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1935354982322385013": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1935354982322385013",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {
+                  "media_keys": [
+                    "3_1935354969059725312",
+                    "3_1935354969160302592"
+                  ]
+                },
+                "author_id": "1808933044545630208",
+                "context_annotations": [
+                  {
+                    "domain": {
+                      "id": "46",
+                      "name": "Business Taxonomy",
+                      "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                    },
+                    "entity": {
+                      "id": "1557696888568045569",
+                      "name": "Food & Beverage Business",
+                      "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                    }
+                  }
+                ],
+                "conversation_id": "1935354982322385013",
+                "created_at": "2025-06-18T15:12:39.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-06-18T16:12:39.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1935354982322385013"
+                ],
+                "entities": {
+                  "urls": [
+                    {
+                      "start": 12,
+                      "end": 35,
+                      "url": "https://t.co/RE7HVxnxHF",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/1935354982322385013/photo/1",
+                      "display_url": "pic.x.com/RE7HVxnxHF",
+                      "media_key": "3_1935354969059725312"
+                    },
+                    {
+                      "start": 12,
+                      "end": 35,
+                      "url": "https://t.co/RE7HVxnxHF",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/1935354982322385013/photo/1",
+                      "display_url": "pic.x.com/RE7HVxnxHF",
+                      "media_key": "3_1935354969160302592"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "1935354982322385013",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "正在吃雪糕棍，有点费牙 https://t.co/RE7HVxnxHF"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 4032,
+                    "media_key": "3_1935354969059725312",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/GtvDFyUXkAANJJU.jpg",
+                    "width": 3024
+                  },
+                  {
+                    "height": 4032,
+                    "media_key": "3_1935354969160302592",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/GtvDFysWQAAGYXu.jpg",
+                    "width": 3024
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 48,
+                      "following_count": 30,
+                      "tweet_count": 164,
+                      "listed_count": 0,
+                      "like_count": 177,
+                      "media_count": 42
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_1935354969059725312",
+                        "3_1935354969160302592"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "46",
+                          "name": "Business Taxonomy",
+                          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                        },
+                        "entity": {
+                          "id": "1557696888568045569",
+                          "name": "Food & Beverage Business",
+                          "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                        }
+                      }
+                    ],
+                    "conversation_id": "1935354982322385013",
+                    "created_at": "2025-06-18T15:12:39.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-06-18T16:12:39.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935354982322385013"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 12,
+                          "end": 35,
+                          "url": "https://t.co/RE7HVxnxHF",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1935354982322385013/photo/1",
+                          "display_url": "pic.x.com/RE7HVxnxHF",
+                          "media_key": "3_1935354969059725312"
+                        },
+                        {
+                          "start": 12,
+                          "end": 35,
+                          "url": "https://t.co/RE7HVxnxHF",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1935354982322385013/photo/1",
+                          "display_url": "pic.x.com/RE7HVxnxHF",
+                          "media_key": "3_1935354969160302592"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1935354982322385013",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "正在吃雪糕棍，有点费牙 https://t.co/RE7HVxnxHF"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

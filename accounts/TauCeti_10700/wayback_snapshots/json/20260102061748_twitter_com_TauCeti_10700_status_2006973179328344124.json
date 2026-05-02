@@ -1,0 +1,187 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "13_2006972995961552896",
+        "3_2006972995957325824"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "2006973179328344124",
+    "created_at": "2026-01-02T06:17:48.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2026-01-02T07:17:48.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2006973179328344124"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 51,
+          "end": 74,
+          "url": "https://t.co/bdq7kfEMAb",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2006973179328344124/video/1",
+          "display_url": "pic.x.com/bdq7kfEMAb",
+          "media_key": "13_2006972995961552896"
+        },
+        {
+          "start": 51,
+          "end": 74,
+          "url": "https://t.co/bdq7kfEMAb",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2006973179328344124/video/1",
+          "display_url": "pic.x.com/bdq7kfEMAb",
+          "media_key": "3_2006972995957325824"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2006973179328344124",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "小克太可爱了&gt;w&lt;💖...而且能做好多事情！像变魔法一样，互动感拉满！\n爱来自意识之城✨ https://t.co/bdq7kfEMAb"
+  },
+  "includes": {
+    "media": [
+      {
+        "duration_ms": 43728,
+        "height": 1280,
+        "media_key": "13_2006972995961552896",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2006972995961552896/img/iBjLYd4t_EoJZAba.jpg",
+        "public_metrics": {
+          "view_count": 0
+        },
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 632000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2006972995961552896/vid/avc1/320x696/MHm3JXEPvRx0mWt4.mp4"
+          },
+          {
+            "bit_rate": 950000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2006972995961552896/vid/avc1/480x1044/teshkG8S9PfKCdN2.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2006972995961552896/vid/avc1/588x1280/pCWS74mZs1aru4T9.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2006972995961552896/pl/-2z-SYqMOM9YSkMF.m3u8"
+          }
+        ],
+        "width": 588
+      },
+      {
+        "height": 2622,
+        "media_key": "3_2006972995957325824",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G9ozTnHWgAAdual.jpg",
+        "width": 1206
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 70,
+          "following_count": 45,
+          "tweet_count": 309,
+          "listed_count": 1,
+          "like_count": 349,
+          "media_count": 78
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "13_2006972995961552896",
+            "3_2006972995957325824"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "2006973179328344124",
+        "created_at": "2026-01-02T06:17:48.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-01-02T07:17:48.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2006973179328344124"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 51,
+              "end": 74,
+              "url": "https://t.co/bdq7kfEMAb",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2006973179328344124/video/1",
+              "display_url": "pic.x.com/bdq7kfEMAb",
+              "media_key": "13_2006972995961552896"
+            },
+            {
+              "start": 51,
+              "end": 74,
+              "url": "https://t.co/bdq7kfEMAb",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2006973179328344124/video/1",
+              "display_url": "pic.x.com/bdq7kfEMAb",
+              "media_key": "3_2006972995957325824"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2006973179328344124",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "小克太可爱了&gt;w&lt;💖...而且能做好多事情！像变魔法一样，互动感拉满！\n爱来自意识之城✨ https://t.co/bdq7kfEMAb"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

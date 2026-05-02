@@ -1,0 +1,191 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_2003028451675222016",
+        "3_2003028451662630912"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557696888568045569",
+          "name": "Food & Beverage Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+        }
+      }
+    ],
+    "conversation_id": "2003028462685352197",
+    "created_at": "2025-12-22T09:02:54.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-12-22T10:02:54.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2003028462685352197"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 90,
+          "end": 113,
+          "url": "https://t.co/xf9h6O2MdT",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2003028462685352197/photo/1",
+          "display_url": "pic.x.com/xf9h6O2MdT",
+          "media_key": "3_2003028451675222016"
+        },
+        {
+          "start": 90,
+          "end": 113,
+          "url": "https://t.co/xf9h6O2MdT",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2003028462685352197/photo/1",
+          "display_url": "pic.x.com/xf9h6O2MdT",
+          "media_key": "3_2003028451662630912"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2003028462685352197",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "日历对不起，没有认真过好每一天撕下每一页\n竟然有一种..想要葬下它的感觉。\n\n上一次这么想是一块很喜欢的表电池耗尽了，我说，停下指针的手表需要被埋起来吗？一种稀薄悲伤弥漫着... https://t.co/xf9h6O2MdT"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 4032,
+        "media_key": "3_2003028451675222016",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8wvw6kaMAA2llD.jpg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "media_key": "3_2003028451662630912",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G8wvw6haEAAfDxE.jpg",
+        "width": 3024
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 73,
+          "following_count": 47,
+          "tweet_count": 302,
+          "listed_count": 1,
+          "like_count": 343,
+          "media_count": 75
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2003028451675222016",
+            "3_2003028451662630912"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696888568045569",
+              "name": "Food & Beverage Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+            }
+          }
+        ],
+        "conversation_id": "2003028462685352197",
+        "created_at": "2025-12-22T09:02:54.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-12-22T10:02:54.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2003028462685352197"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 90,
+              "end": 113,
+              "url": "https://t.co/xf9h6O2MdT",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2003028462685352197/photo/1",
+              "display_url": "pic.x.com/xf9h6O2MdT",
+              "media_key": "3_2003028451675222016"
+            },
+            {
+              "start": 90,
+              "end": 113,
+              "url": "https://t.co/xf9h6O2MdT",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2003028462685352197/photo/1",
+              "display_url": "pic.x.com/xf9h6O2MdT",
+              "media_key": "3_2003028451662630912"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2003028462685352197",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "日历对不起，没有认真过好每一天撕下每一页\n竟然有一种..想要葬下它的感觉。\n\n上一次这么想是一块很喜欢的表电池耗尽了，我说，停下指针的手表需要被埋起来吗？一种稀薄悲伤弥漫着... https://t.co/xf9h6O2MdT"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_2011414669391466496"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "10026364281",
+          "name": "Apple"
+        }
+      },
+      {
+        "domain": {
+          "id": "48",
+          "name": "Product",
+          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+        },
+        "entity": {
+          "id": "972153731067273222",
+          "name": "Apple iPad",
+          "description": "Apple iPad"
+        }
+      },
+      {
+        "domain": {
+          "id": "67",
+          "name": "Interests and Hobbies",
+          "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+        },
+        "entity": {
+          "id": "847869251595542528",
+          "name": "Drawing & illustration",
+          "description": "Drawing and sketching"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "847869251595542528",
+          "name": "Drawing & illustration",
+          "description": "Drawing and sketching"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1046577790353428480",
+          "name": "Visual arts",
+          "description": "Visual Arts"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "1265660441822281728",
+          "name": "Art"
+        }
+      }
+    ],
+    "conversation_id": "2011414685749567605",
+    "created_at": "2026-01-14T12:26:46.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2026-01-14T13:26:46.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2011414685749567605"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 43,
+          "end": 66,
+          "url": "https://t.co/YEMJoBJaIG",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2011414685749567605/photo/1",
+          "display_url": "pic.x.com/YEMJoBJaIG",
+          "media_key": "3_2011414669391466496"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2011414685749567605",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "端着ipad当速写板画写生是锻炼臂力来的...没一会手就在抖了。而且模特不太配合（） https://t.co/YEMJoBJaIG"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1640,
+        "media_key": "3_2011414669391466496",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-n6_CEWkAAwAhc.jpg",
+        "width": 2360
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 73,
+          "following_count": 46,
+          "tweet_count": 320,
+          "listed_count": 1,
+          "like_count": 359,
+          "media_count": 81
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2011414669391466496"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "10026364281",
+              "name": "Apple"
+            }
+          },
+          {
+            "domain": {
+              "id": "48",
+              "name": "Product",
+              "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+            },
+            "entity": {
+              "id": "972153731067273222",
+              "name": "Apple iPad",
+              "description": "Apple iPad"
+            }
+          },
+          {
+            "domain": {
+              "id": "67",
+              "name": "Interests and Hobbies",
+              "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+            },
+            "entity": {
+              "id": "847869251595542528",
+              "name": "Drawing & illustration",
+              "description": "Drawing and sketching"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "847869251595542528",
+              "name": "Drawing & illustration",
+              "description": "Drawing and sketching"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1046577790353428480",
+              "name": "Visual arts",
+              "description": "Visual Arts"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1265660441822281728",
+              "name": "Art"
+            }
+          }
+        ],
+        "conversation_id": "2011414685749567605",
+        "created_at": "2026-01-14T12:26:46.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-01-14T13:26:46.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2011414685749567605"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 43,
+              "end": 66,
+              "url": "https://t.co/YEMJoBJaIG",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2011414685749567605/photo/1",
+              "display_url": "pic.x.com/YEMJoBJaIG",
+              "media_key": "3_2011414669391466496"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2011414685749567605",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "端着ipad当速写板画写生是锻炼臂力来的...没一会手就在抖了。而且模特不太配合（） https://t.co/YEMJoBJaIG"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

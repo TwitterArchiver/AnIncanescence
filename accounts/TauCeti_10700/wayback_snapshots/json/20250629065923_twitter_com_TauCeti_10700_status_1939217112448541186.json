@@ -1,0 +1,516 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "context_annotations": [
+      {
+        "domain": {
+          "id": "46",
+          "name": "Business Taxonomy",
+          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+        },
+        "entity": {
+          "id": "1557697333571112960",
+          "name": "Technology Business",
+          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+        }
+      },
+      {
+        "domain": {
+          "id": "47",
+          "name": "Brand",
+          "description": "Brands and Companies"
+        },
+        "entity": {
+          "id": "1631434932688920576",
+          "name": "OpenAI"
+        }
+      },
+      {
+        "domain": {
+          "id": "131",
+          "name": "Unified Twitter Taxonomy",
+          "description": "A taxonomy of user interests. "
+        },
+        "entity": {
+          "id": "898262889378619392",
+          "name": "Artificial intelligence",
+          "description": "Artificial Intelligence"
+        }
+      },
+      {
+        "domain": {
+          "id": "165",
+          "name": "Technology",
+          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+        },
+        "entity": {
+          "id": "848920371311001600",
+          "name": "Technology",
+          "description": "Technology and computing"
+        }
+      },
+      {
+        "domain": {
+          "id": "165",
+          "name": "Technology",
+          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+        },
+        "entity": {
+          "id": "898262889378619392",
+          "name": "Artificial intelligence",
+          "description": "Artificial Intelligence"
+        }
+      }
+    ],
+    "conversation_id": "1939005641068322835",
+    "created_at": "2025-06-29T06:59:23.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-29T07:59:23.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1939217112448541186"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1939217112448541186",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 4
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1939190661674328283"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ 去找她玩，很有意思（看给openai调成什么样了）"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 56,
+          "following_count": 45,
+          "tweet_count": 201,
+          "listed_count": 0,
+          "like_count": 253,
+          "media_count": 48
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destined Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 30,
+          "following_count": 24,
+          "tweet_count": 820,
+          "listed_count": 0,
+          "like_count": 2678,
+          "media_count": 27
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557697333571112960",
+              "name": "Technology Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "1631434932688920576",
+              "name": "OpenAI"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "898262889378619392",
+              "name": "Artificial intelligence",
+              "description": "Artificial Intelligence"
+            }
+          },
+          {
+            "domain": {
+              "id": "165",
+              "name": "Technology",
+              "description": "for individual and types of technology, e.g., food technology, 3D printing"
+            },
+            "entity": {
+              "id": "848920371311001600",
+              "name": "Technology",
+              "description": "Technology and computing"
+            }
+          },
+          {
+            "domain": {
+              "id": "165",
+              "name": "Technology",
+              "description": "for individual and types of technology, e.g., food technology, 3D printing"
+            },
+            "entity": {
+              "id": "898262889378619392",
+              "name": "Artificial intelligence",
+              "description": "Artificial Intelligence"
+            }
+          }
+        ],
+        "conversation_id": "1939005641068322835",
+        "created_at": "2025-06-29T06:59:23.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-29T07:59:23.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1939217112448541186"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1939217112448541186",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1939190661674328283"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ 去找她玩，很有意思（看给openai调成什么样了）"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1939005641068322835",
+        "created_at": "2025-06-29T05:14:16.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-29T06:14:16.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1939190661674328283"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1939190661674328283",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 6
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1939005641068322835"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 就喵就喵！你看你又急。"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1939005641068322835": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1939005641068322835",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {
+                  "media_keys": [
+                    "3_1939005632801316864"
+                  ]
+                },
+                "author_id": "1808933044545630208",
+                "context_annotations": [
+                  {
+                    "domain": {
+                      "id": "46",
+                      "name": "Business Taxonomy",
+                      "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                    },
+                    "entity": {
+                      "id": "1557696940178935808",
+                      "name": "Gaming Business",
+                      "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+                    }
+                  }
+                ],
+                "conversation_id": "1939005641068322835",
+                "created_at": "2025-06-28T16:59:04.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-06-28T17:59:04.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1939005641068322835"
+                ],
+                "entities": {
+                  "urls": [
+                    {
+                      "start": 7,
+                      "end": 30,
+                      "url": "https://t.co/a7sNChTXNB",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/1939005641068322835/photo/1",
+                      "display_url": "pic.x.com/a7sNChTXNB",
+                      "media_key": "3_1939005632801316864"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "1939005641068322835",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "喵你个大头😈 https://t.co/a7sNChTXNB"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 673,
+                    "media_key": "3_1939005632801316864",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/Gui7WYiaoAAlK3b.jpg",
+                    "width": 1179
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 56,
+                      "following_count": 45,
+                      "tweet_count": 200,
+                      "listed_count": 0,
+                      "like_count": 251,
+                      "media_count": 48
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_1939005632801316864"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "46",
+                          "name": "Business Taxonomy",
+                          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                        },
+                        "entity": {
+                          "id": "1557696940178935808",
+                          "name": "Gaming Business",
+                          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+                        }
+                      }
+                    ],
+                    "conversation_id": "1939005641068322835",
+                    "created_at": "2025-06-28T16:59:04.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-06-28T17:59:04.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1939005641068322835"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 7,
+                          "end": 30,
+                          "url": "https://t.co/a7sNChTXNB",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1939005641068322835/photo/1",
+                          "display_url": "pic.x.com/a7sNChTXNB",
+                          "media_key": "3_1939005632801316864"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1939005641068322835",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "喵你个大头😈 https://t.co/a7sNChTXNB"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

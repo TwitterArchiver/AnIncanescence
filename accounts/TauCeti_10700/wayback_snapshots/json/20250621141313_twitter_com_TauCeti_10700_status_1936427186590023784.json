@@ -1,0 +1,765 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1936397615425589698",
+    "created_at": "2025-06-21T14:13:13.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-21T15:13:13.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1936427186590023784"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 15,
+          "username": "zhangxiaofu673",
+          "id": "1791012392627040256"
+        },
+        {
+          "start": 16,
+          "end": 26,
+          "username": "Minokakay",
+          "id": "1597257668313260033"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1936427186590023784",
+    "in_reply_to_user_id": "1791012392627040256",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1936405059337965834"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@zhangxiaofu673 @Minokakay ..化痰，扑热息痛过量解毒，不过除说明书的这些外还有作为补剂的其他功能"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 51,
+          "following_count": 39,
+          "tweet_count": 181,
+          "listed_count": 0,
+          "like_count": 215,
+          "media_count": 45
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2024-05-16T07:46:53.000Z",
+        "description": "🍥🏳️‍⚧️/10",
+        "id": "1791012392627040256",
+        "location": "距离你0.0001米",
+        "name": "张小福",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1932190510451752960/LaG7VBTH_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 71,
+          "following_count": 216,
+          "tweet_count": 311,
+          "listed_count": 0,
+          "like_count": 212,
+          "media_count": 22
+        },
+        "username": "zhangxiaofu673",
+        "verified": false
+      },
+      {
+        "created_at": "2022-11-28T15:54:46.000Z",
+        "description": "悲しくなるならそれでもいいなら，\nずっと一人で笑えよ。成渝半休学陰暗比高三生 阿斯ADHD Pansexual INFP MtX🇺🇦🏳️‍⚧️🏳️‍🌈买HRT/美白/减肥/促智/安眠/抗抑郁找 @ChosekiNoraneko",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 97,
+                "end": 113,
+                "username": "ChosekiNoraneko"
+              }
+            ]
+          }
+        },
+        "id": "1597257668313260033",
+        "location": "重庆市精神卫生中心门诊5楼",
+        "name": "Minokakay（泰补色诺",
+        "pinned_tweet_id": "1933516848781537400",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1789594344930099200/wrFOWSe3_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 7752,
+          "following_count": 887,
+          "tweet_count": 19012,
+          "listed_count": 30,
+          "like_count": 43766,
+          "media_count": 1202
+        },
+        "username": "Minokakay",
+        "verified": true
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1936397615425589698",
+        "created_at": "2025-06-21T14:13:13.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-21T15:13:13.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1936427186590023784"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 15,
+              "username": "zhangxiaofu673",
+              "id": "1791012392627040256"
+            },
+            {
+              "start": 16,
+              "end": 26,
+              "username": "Minokakay",
+              "id": "1597257668313260033"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1936427186590023784",
+        "in_reply_to_user_id": "1791012392627040256",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1936405059337965834"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@zhangxiaofu673 @Minokakay ..化痰，扑热息痛过量解毒，不过除说明书的这些外还有作为补剂的其他功能"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1791012392627040256",
+        "conversation_id": "1936397615425589698",
+        "created_at": "2025-06-21T12:45:17.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-21T13:45:17.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1936405059337965834"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 10,
+              "username": "Minokakay",
+              "id": "1597257668313260033"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1936405059337965834",
+        "in_reply_to_user_id": "1597257668313260033",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 32
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1936403084588253552"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@Minokakay 方便讲一下效果嘛🥺"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1936403084588253552": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:58Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1936403084588253552",
+            "source": "x_api_oauth1:env.pale-fire",
+            "payload": {
+              "data": {
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 2,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 397
+                },
+                "reply_settings": "everyone",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-21T13:37:26.000Z"
+                },
+                "id": "1936403084588253552",
+                "in_reply_to_user_id": "1791012392627040256",
+                "lang": "ja",
+                "possibly_sensitive": false,
+                "created_at": "2025-06-21T12:37:26.000Z",
+                "text": "@zhangxiaofu673 拼多多就有",
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1936402490393854241"
+                  }
+                ],
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 15,
+                      "username": "zhangxiaofu673",
+                      "id": "1791012392627040256"
+                    }
+                  ]
+                },
+                "conversation_id": "1936397615425589698",
+                "edit_history_tweet_ids": [
+                  "1936403084588253552"
+                ],
+                "author_id": "1597257668313260033"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1789594344930099200/wrFOWSe3_normal.jpg",
+                    "verified": false,
+                    "location": "Tokyo",
+                    "id": "1597257668313260033",
+                    "public_metrics": {
+                      "followers_count": 14161,
+                      "following_count": 1051,
+                      "tweet_count": 25893,
+                      "listed_count": 53,
+                      "like_count": 44029,
+                      "media_count": 1790
+                    },
+                    "description": "发着光的半平米，胡乱哼唱的旋律，但是还想拯救你，同时拯救我自己。 \n成都大阪随机刷新✝️🍬找choseki见https://t.co/hStQSlMtBp",
+                    "created_at": "2022-11-28T15:54:46.000Z",
+                    "name": "Minokakay",
+                    "entities": {
+                      "description": {
+                        "urls": [
+                          {
+                            "start": 54,
+                            "end": 77,
+                            "url": "https://t.co/hStQSlMtBp",
+                            "expanded_url": "http://linktr.ee/choseki111",
+                            "display_url": "linktr.ee/choseki111"
+                          }
+                        ]
+                      }
+                    },
+                    "username": "Minokakay"
+                  },
+                  {
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/2027610643759865856/MXbYj71s_normal.jpg",
+                    "verified": false,
+                    "location": "距离你100米",
+                    "id": "1791012392627040256",
+                    "public_metrics": {
+                      "followers_count": 136,
+                      "following_count": 322,
+                      "tweet_count": 491,
+                      "listed_count": 1,
+                      "like_count": 394,
+                      "media_count": 44
+                    },
+                    "description": "hrt:2024.10.22",
+                    "created_at": "2024-05-16T07:46:53.000Z",
+                    "name": "张小福",
+                    "username": "zhangxiaofu673"
+                  }
+                ],
+                "tweets": [
+                  {
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 366
+                    },
+                    "reply_settings": "everyone",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-21T13:35:04.000Z"
+                    },
+                    "id": "1936402490393854241",
+                    "in_reply_to_user_id": "1597257668313260033",
+                    "lang": "zh",
+                    "possibly_sensitive": false,
+                    "created_at": "2025-06-21T12:35:04.000Z",
+                    "text": "@Minokakay 这种效果是啥，卖嘛",
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1936397615425589698"
+                      }
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 10,
+                          "username": "Minokakay",
+                          "id": "1597257668313260033"
+                        }
+                      ]
+                    },
+                    "conversation_id": "1936397615425589698",
+                    "edit_history_tweet_ids": [
+                      "1936402490393854241"
+                    ],
+                    "author_id": "1791012392627040256"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1936402490393854241",
+            "source": "x_api_oauth1:env.pale-fire",
+            "payload": {
+              "data": {
+                "text": "@Minokakay 这种效果是啥，卖嘛",
+                "conversation_id": "1936397615425589698",
+                "edit_history_tweet_ids": [
+                  "1936402490393854241"
+                ],
+                "created_at": "2025-06-21T12:35:04.000Z",
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1936397615425589698"
+                  }
+                ],
+                "possibly_sensitive": false,
+                "lang": "zh",
+                "author_id": "1791012392627040256",
+                "id": "1936402490393854241",
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 10,
+                      "username": "Minokakay",
+                      "id": "1597257668313260033"
+                    }
+                  ]
+                },
+                "in_reply_to_user_id": "1597257668313260033",
+                "reply_settings": "everyone",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-21T13:35:04.000Z"
+                },
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 1,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 366
+                }
+              },
+              "includes": {
+                "users": [
+                  {
+                    "username": "zhangxiaofu673",
+                    "name": "张小福",
+                    "public_metrics": {
+                      "followers_count": 136,
+                      "following_count": 322,
+                      "tweet_count": 491,
+                      "listed_count": 1,
+                      "like_count": 394,
+                      "media_count": 44
+                    },
+                    "verified": false,
+                    "description": "hrt:2024.10.22",
+                    "created_at": "2024-05-16T07:46:53.000Z",
+                    "location": "距离你100米",
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/2027610643759865856/MXbYj71s_normal.jpg",
+                    "id": "1791012392627040256"
+                  },
+                  {
+                    "username": "Minokakay",
+                    "name": "Minokakay",
+                    "public_metrics": {
+                      "followers_count": 14161,
+                      "following_count": 1051,
+                      "tweet_count": 25893,
+                      "listed_count": 53,
+                      "like_count": 44029,
+                      "media_count": 1790
+                    },
+                    "verified": false,
+                    "entities": {
+                      "description": {
+                        "urls": [
+                          {
+                            "start": 54,
+                            "end": 77,
+                            "url": "https://t.co/hStQSlMtBp",
+                            "expanded_url": "http://linktr.ee/choseki111",
+                            "display_url": "linktr.ee/choseki111"
+                          }
+                        ]
+                      }
+                    },
+                    "description": "发着光的半平米，胡乱哼唱的旋律，但是还想拯救你，同时拯救我自己。 \n成都大阪随机刷新✝️🍬找choseki见https://t.co/hStQSlMtBp",
+                    "created_at": "2022-11-28T15:54:46.000Z",
+                    "location": "Tokyo",
+                    "protected": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1789594344930099200/wrFOWSe3_normal.jpg",
+                    "id": "1597257668313260033"
+                  }
+                ]
+              },
+              "errors": [
+                {
+                  "value": "1936397615425589698",
+                  "detail": "Could not find tweet with referenced_tweets.id: [1936397615425589698].",
+                  "title": "Not Found Error",
+                  "resource_type": "tweet",
+                  "parameter": "referenced_tweets.id",
+                  "resource_id": "1936397615425589698",
+                  "type": "https://api.twitter.com/2/problems/resource-not-found"
+                }
+              ]
+            }
+          },
+          {
+            "id": "1936397615425589698",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1936397615425589698",
+                "created_at": "2025-06-21T14:14:18.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-21T15:14:18.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1936427461027275191"
+                ],
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 10,
+                      "username": "Minokakay",
+                      "id": "1597257668313260033"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "1936427461027275191",
+                "in_reply_to_user_id": "1597257668313260033",
+                "lang": "ja",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1936397615425589698"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "@Minokakay 直接吃估计味道像汽水糖（）"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 2048,
+                    "media_key": "3_1936397611357155328",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/Gt93XjjbsAAJphz.jpg",
+                    "width": 1536
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 51,
+                      "following_count": 39,
+                      "tweet_count": 182,
+                      "listed_count": 0,
+                      "like_count": 216,
+                      "media_count": 45
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  },
+                  {
+                    "created_at": "2022-11-28T15:54:46.000Z",
+                    "description": "悲しくなるならそれでもいいなら，\nずっと一人で笑えよ。成渝半休学陰暗比高三生 阿斯ADHD Pansexual INFP MtX🇺🇦🏳️‍⚧️🏳️‍🌈买HRT/美白/减肥/促智/安眠/抗抑郁找 @ChosekiNoraneko",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 97,
+                            "end": 113,
+                            "username": "ChosekiNoraneko"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1597257668313260033",
+                    "location": "重庆市精神卫生中心门诊5楼",
+                    "name": "Minokakay（泰补色诺",
+                    "pinned_tweet_id": "1933516848781537400",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1789594344930099200/wrFOWSe3_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 7752,
+                      "following_count": 887,
+                      "tweet_count": 19012,
+                      "listed_count": 30,
+                      "like_count": 43766,
+                      "media_count": 1202
+                    },
+                    "username": "Minokakay",
+                    "verified": true
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1936397615425589698",
+                    "created_at": "2025-06-21T14:14:18.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-21T15:14:18.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1936427461027275191"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 10,
+                          "username": "Minokakay",
+                          "id": "1597257668313260033"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1936427461027275191",
+                    "in_reply_to_user_id": "1597257668313260033",
+                    "lang": "ja",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1936397615425589698"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "@Minokakay 直接吃估计味道像汽水糖（）"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_1936397611357155328"
+                      ]
+                    },
+                    "author_id": "1597257668313260033",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "46",
+                          "name": "Business Taxonomy",
+                          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                        },
+                        "entity": {
+                          "id": "1557696888568045569",
+                          "name": "Food & Beverage Business",
+                          "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+                        }
+                      }
+                    ],
+                    "conversation_id": "1936397615425589698",
+                    "created_at": "2025-06-21T12:15:42.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-06-21T13:15:42.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1936397615425589698"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 14,
+                          "end": 37,
+                          "url": "https://t.co/Tk6aCCfidH",
+                          "expanded_url": "https://x.com/Minokakay/status/1936397615425589698/photo/1",
+                          "display_url": "pic.x.com/Tk6aCCfidH",
+                          "media_key": "3_1936397611357155328"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1936397615425589698",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 8,
+                      "like_count": 31,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 939
+                    },
+                    "reply_settings": "everyone",
+                    "text": "这么大，跟奶片似的怎么吃。 https://t.co/Tk6aCCfidH"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

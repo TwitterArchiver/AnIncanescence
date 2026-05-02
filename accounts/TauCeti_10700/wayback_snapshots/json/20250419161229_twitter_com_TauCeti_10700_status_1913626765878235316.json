@@ -1,0 +1,136 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1913626759507128320"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1913626765878235316",
+    "created_at": "2025-04-19T16:12:29.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-04-19T17:12:29.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1913626765878235316"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 11,
+          "end": 34,
+          "url": "https://t.co/tIXy1BCEe6",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1913626765878235316/photo/1",
+          "display_url": "pic.x.com/tIXy1BCEe6",
+          "media_key": "3_1913626759507128320"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1913626765878235316",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "但是我什么也看不见。 https://t.co/tIXy1BCEe6"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 508,
+        "media_key": "3_1913626759507128320",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Go6RZiEasAAx569.jpg",
+        "width": 1179
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 36,
+          "following_count": 19,
+          "tweet_count": 77,
+          "listed_count": 0,
+          "like_count": 73,
+          "media_count": 17
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1913626759507128320"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1913626765878235316",
+        "created_at": "2025-04-19T16:12:29.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-04-19T17:12:29.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1913626765878235316"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 11,
+              "end": 34,
+              "url": "https://t.co/tIXy1BCEe6",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1913626765878235316/photo/1",
+              "display_url": "pic.x.com/tIXy1BCEe6",
+              "media_key": "3_1913626759507128320"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1913626765878235316",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "但是我什么也看不见。 https://t.co/tIXy1BCEe6"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

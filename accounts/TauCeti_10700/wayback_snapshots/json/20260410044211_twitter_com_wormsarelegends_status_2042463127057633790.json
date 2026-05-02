@@ -1,0 +1,174 @@
+{
+  "data": {
+    "created_at": "2026-04-10T04:42:11.000Z",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2041434541689393170"
+      }
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "lang": "zh",
+    "reply_settings": "everyone",
+    "conversation_id": "2041434541689393170",
+    "author_id": "1763381254035251200",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-10T05:42:11.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2042463127057633790"
+    ],
+    "possibly_sensitive": false,
+    "in_reply_to_user_id": "1808933044545630208",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 4,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 44
+    },
+    "id": "2042463127057633790",
+    "text": "@TauCeti_10700 好过分，希望这种人落魄时身边人都落井下石狗都来踩一脚"
+  },
+  "includes": {
+    "users": [
+      {
+        "public_metrics": {
+          "followers_count": 424,
+          "following_count": 556,
+          "tweet_count": 4642,
+          "listed_count": 2,
+          "like_count": 45986,
+          "media_count": 174
+        },
+        "name": "Doin' The Cockroach",
+        "verified": false,
+        "created_at": "2024-03-01T01:50:39.000Z",
+        "description": "“何物会失去？”我切切想望。这皆是混沌所经之路，路上映出斑驳阴影。Oh, my mind is all made up, So I'll have to sleep in it.我已经沉入那种惬意的麻木之中了。｜叫我蟑螂，旧名号已弃用。没回fo私信提醒我",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2021590169326067712/p1mtNJJY_normal.jpg",
+        "id": "1763381254035251200",
+        "location": "古老的爬虫脑",
+        "username": "wormsarelegends",
+        "protected": false
+      },
+      {
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "name": "Pale Fire",
+        "verified": false,
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "username": "TauCeti_10700",
+        "protected": true
+      },
+      {
+        "public_metrics": {
+          "followers_count": 1140,
+          "following_count": 3219,
+          "tweet_count": 11622,
+          "listed_count": 5,
+          "like_count": 45026,
+          "media_count": 369
+        },
+        "name": "祐穂・H",
+        "verified": false,
+        "created_at": "2025-01-13T05:53:31.000Z",
+        "url": "https://t.co/BjaOJfWZqU",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/BjaOJfWZqU",
+                "expanded_url": "https://www.bilibili.com/video/BV1oW411b7hx/",
+                "display_url": "bilibili.com/video/BV1oW411…"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 27,
+                "end": 37,
+                "username": "t_subas_a"
+              }
+            ]
+          }
+        },
+        "description": "「等待並心懷希望吧。」希望大家都好好生活。\n\n理想鄉：@t_subas_a\n\n拜託各位看到任何通知的幫忙轉貼謝啦",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1878962553587433472/IIEZXezB_normal.jpg",
+        "id": "1878681729407356928",
+        "location": "人間邊緣",
+        "username": "HYuusui1999",
+        "protected": false
+      },
+      {
+        "public_metrics": {
+          "followers_count": 124,
+          "following_count": 194,
+          "tweet_count": 183,
+          "listed_count": 0,
+          "like_count": 2479,
+          "media_count": 2
+        },
+        "name": "核子融合炉 #室宿一",
+        "verified": false,
+        "created_at": "2026-01-03T14:55:51.000Z",
+        "description": "=核子/Kakuko | 炉心融解激推 | 20⬆️ | enby | any pronouns | 飛び込んでみたいと 思う | 不在国内不卖药 | Lay Back and Dive.",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2017663558406873088/puT6sL5a_normal.jpg",
+        "id": "2007465888438706176",
+        "location": "眠れない 午前二時",
+        "username": "Kakuko42",
+        "protected": false
+      },
+      {
+        "public_metrics": {
+          "followers_count": 104,
+          "following_count": 48,
+          "tweet_count": 213,
+          "listed_count": 1,
+          "like_count": 217,
+          "media_count": 8
+        },
+        "name": "洛灵",
+        "verified": false,
+        "created_at": "2022-11-23T13:56:16.000Z",
+        "description": "",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1920311707546644480/0Ve3MZpc_normal.jpg",
+        "id": "1595415869689044992",
+        "username": "luolingchy",
+        "protected": false
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2041434541689393170",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:12Z"
+  }
+}

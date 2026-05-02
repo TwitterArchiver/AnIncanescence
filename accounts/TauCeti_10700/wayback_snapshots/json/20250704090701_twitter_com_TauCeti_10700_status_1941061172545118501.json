@@ -1,0 +1,194 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1941061164672385024"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1941061172545118501",
+    "created_at": "2025-07-04T09:07:01.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-07-04T10:07:01.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1941061172545118501"
+    ],
+    "entities": {
+      "annotations": [
+        {
+          "start": 32,
+          "end": 32,
+          "probability": 0.6013,
+          "type": "Other",
+          "normalized_text": "X"
+        },
+        {
+          "start": 42,
+          "end": 55,
+          "probability": 0.7281,
+          "type": "Other",
+          "normalized_text": "MyXAnniversary"
+        }
+      ],
+      "hashtags": [
+        {
+          "start": 41,
+          "end": 56,
+          "tag": "MyXAnniversary"
+        }
+      ],
+      "urls": [
+        {
+          "start": 57,
+          "end": 80,
+          "url": "https://t.co/Ce1ufZsDso",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1941061172545118501/photo/1",
+          "display_url": "pic.x.com/Ce1ufZsDso",
+          "media_key": "3_1941061164672385024"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1941061172545118501",
+    "lang": "en",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "Do you remember when you joined X? I do! #MyXAnniversary https://t.co/Ce1ufZsDso"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1080,
+        "media_key": "3_1941061164672385024",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GvAI2FeagAAwddz.jpg",
+        "width": 1920
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 57,
+          "following_count": 45,
+          "tweet_count": 210,
+          "listed_count": 0,
+          "like_count": 262,
+          "media_count": 51
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1941061164672385024"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1941061172545118501",
+        "created_at": "2025-07-04T09:07:01.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-07-04T10:07:01.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1941061172545118501"
+        ],
+        "entities": {
+          "annotations": [
+            {
+              "start": 32,
+              "end": 32,
+              "probability": 0.6013,
+              "type": "Other",
+              "normalized_text": "X"
+            },
+            {
+              "start": 42,
+              "end": 55,
+              "probability": 0.7281,
+              "type": "Other",
+              "normalized_text": "MyXAnniversary"
+            }
+          ],
+          "hashtags": [
+            {
+              "start": 41,
+              "end": 56,
+              "tag": "MyXAnniversary"
+            }
+          ],
+          "urls": [
+            {
+              "start": 57,
+              "end": 80,
+              "url": "https://t.co/Ce1ufZsDso",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1941061172545118501/photo/1",
+              "display_url": "pic.x.com/Ce1ufZsDso",
+              "media_key": "3_1941061164672385024"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1941061172545118501",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "Do you remember when you joined X? I do! #MyXAnniversary https://t.co/Ce1ufZsDso"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

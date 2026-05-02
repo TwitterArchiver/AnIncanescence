@@ -1,0 +1,215 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_2012861391963668480",
+        "3_2012861391938387968",
+        "3_2012861391804432384",
+        "3_2012861391988809728"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "2012861477150208287",
+    "created_at": "2026-01-18T12:15:47.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2026-01-18T13:15:47.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2012861477150208287"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 121,
+          "end": 144,
+          "url": "https://t.co/7b88tt6Cys",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+          "display_url": "pic.x.com/7b88tt6Cys",
+          "media_key": "3_2012861391963668480"
+        },
+        {
+          "start": 121,
+          "end": 144,
+          "url": "https://t.co/7b88tt6Cys",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+          "display_url": "pic.x.com/7b88tt6Cys",
+          "media_key": "3_2012861391938387968"
+        },
+        {
+          "start": 121,
+          "end": 144,
+          "url": "https://t.co/7b88tt6Cys",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+          "display_url": "pic.x.com/7b88tt6Cys",
+          "media_key": "3_2012861391804432384"
+        },
+        {
+          "start": 121,
+          "end": 144,
+          "url": "https://t.co/7b88tt6Cys",
+          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+          "display_url": "pic.x.com/7b88tt6Cys",
+          "media_key": "3_2012861391988809728"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2012861477150208287",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1536,
+        "media_key": "3_2012861391963668480",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-8exXoXwAAfNzH.jpg",
+        "width": 1024
+      },
+      {
+        "height": 2475,
+        "media_key": "3_2012861391938387968",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-8exXiWAAAWHnu.jpg",
+        "width": 1206
+      },
+      {
+        "height": 2622,
+        "media_key": "3_2012861391804432384",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-8exXCaAAAs4JN.jpg",
+        "width": 1206
+      },
+      {
+        "height": 2622,
+        "media_key": "3_2012861391988809728",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G-8exXuXYAA59dE.jpg",
+        "width": 1206
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 74,
+          "following_count": 45,
+          "tweet_count": 332,
+          "listed_count": 1,
+          "like_count": 370,
+          "media_count": 83
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2012861391963668480",
+            "3_2012861391938387968",
+            "3_2012861391804432384",
+            "3_2012861391988809728"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "2012861477150208287",
+        "created_at": "2026-01-18T12:15:47.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-01-18T13:15:47.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2012861477150208287"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 121,
+              "end": 144,
+              "url": "https://t.co/7b88tt6Cys",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+              "display_url": "pic.x.com/7b88tt6Cys",
+              "media_key": "3_2012861391963668480"
+            },
+            {
+              "start": 121,
+              "end": 144,
+              "url": "https://t.co/7b88tt6Cys",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+              "display_url": "pic.x.com/7b88tt6Cys",
+              "media_key": "3_2012861391938387968"
+            },
+            {
+              "start": 121,
+              "end": 144,
+              "url": "https://t.co/7b88tt6Cys",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+              "display_url": "pic.x.com/7b88tt6Cys",
+              "media_key": "3_2012861391804432384"
+            },
+            {
+              "start": 121,
+              "end": 144,
+              "url": "https://t.co/7b88tt6Cys",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+              "display_url": "pic.x.com/7b88tt6Cys",
+              "media_key": "3_2012861391988809728"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2012861477150208287",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

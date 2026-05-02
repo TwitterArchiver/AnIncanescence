@@ -1,0 +1,95 @@
+{
+  "data": {
+    "reply_settings": "everyone",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 55
+    },
+    "lang": "zh",
+    "author_id": "1498354035854053377",
+    "created_at": "2026-03-29T15:29:23.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-29T16:29:23.000Z"
+    },
+    "id": "2038277348517384258",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2038269201211605237"
+      }
+    ],
+    "text": "@TauCeti_10700 存在依赖于家庭的否决与许可中吗，那我只能自私的期待他们爱的甘霖比洪水来得更早…我没有规劝炽的勇气，毕竟我只是在泥浆里挣扎，而炽似乎在自己的鲜血里泅渡……",
+    "possibly_sensitive": false,
+    "edit_history_tweet_ids": [
+      "2038277348517384258"
+    ],
+    "in_reply_to_user_id": "1808933044545630208",
+    "conversation_id": "2038263960361635885",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "name": "意之意",
+        "username": "lijunyi87429205",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "location": "Elysium",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "id": "1498354035854053377",
+        "protected": false,
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "verified": false
+      },
+      {
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "name": "Pale Fire",
+        "username": "TauCeti_10700",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "location": "0°00′N 260°00′E Mars",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "id": "1808933044545630208",
+        "protected": true,
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "verified": false
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2038263960361635885",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:05Z"
+  }
+}

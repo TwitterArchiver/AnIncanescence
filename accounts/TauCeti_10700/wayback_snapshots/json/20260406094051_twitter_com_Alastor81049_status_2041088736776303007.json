@@ -1,0 +1,310 @@
+{
+  "data": {
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-06T10:40:51.000Z"
+    },
+    "created_at": "2026-04-06T09:40:51.000Z",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "lang": "zh",
+    "author_id": "1760516990027079680",
+    "text": "@TauCeti_10700 小炽怎么了啊啊啊啊",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 31
+    },
+    "conversation_id": "2041010999097242110",
+    "possibly_sensitive": false,
+    "edit_history_tweet_ids": [
+      "2041088736776303007"
+    ],
+    "id": "2041088736776303007",
+    "reply_settings": "everyone",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2041010999097242110"
+      }
+    ],
+    "in_reply_to_user_id": "1808933044545630208"
+  },
+  "includes": {
+    "users": [
+      {
+        "public_metrics": {
+          "followers_count": 170,
+          "following_count": 77,
+          "tweet_count": 1503,
+          "listed_count": 1,
+          "like_count": 4623,
+          "media_count": 138
+        },
+        "created_at": "2021-08-27T23:26:42.000Z",
+        "protected": false,
+        "id": "1431397782867169285",
+        "name": "伞",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2028562862462156800/jS-WTSjB_normal.jpg",
+        "location": "挪威",
+        "description": "𝑪𝒂𝒍𝒍 𝒎𝒆 𝒃𝒚 𝒚𝒐𝒖𝒓 𝒏𝒂𝒎𝒆",
+        "verified": false,
+        "username": "NebLorne"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 35,
+          "following_count": 118,
+          "tweet_count": 783,
+          "listed_count": 1,
+          "like_count": 12180,
+          "media_count": 27
+        },
+        "created_at": "2024-02-22T04:09:11.000Z",
+        "protected": false,
+        "id": "1760516990027079680",
+        "name": "Alastor",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1913673644250992640/lQq5jF67_normal.jpg",
+        "location": "America",
+        "description": "我就是个见不得光的缺爱老鼠，但会友善对待所有人的",
+        "verified": false,
+        "username": "Alastor81049"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "protected": true,
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "location": "0°00′N 260°00′E Mars",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "verified": false,
+        "username": "TauCeti_10700"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 1387,
+          "following_count": 1467,
+          "tweet_count": 5310,
+          "listed_count": 4,
+          "like_count": 16782,
+          "media_count": 581
+        },
+        "created_at": "2023-01-31T19:36:01.000Z",
+        "protected": false,
+        "id": "1620506107306479617",
+        "name": "☯️🧬霊狐製作所 公式ツイッター",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2014282980437434368/FxOUZWSV_normal.jpg",
+        "url": "https://t.co/COn8ugIjyQ",
+        "location": "-0.15m",
+        "description": "狐狐「霧開川 望」与您同在~ 丨☯Survivalist 生存主義者 醫學/電子工程學🆙 丨INTP–T丨非二元 MtFutanari 无证药娘(?)🏳️‍⚧️丨She/Her丨私人實驗室「靈狐製作所」創始人(建設ing…)🧬丨技術加速主義/超友好🥰丨「願愛與健康常伴汝身」丨裡推@HEX_Ghostfox",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/COn8ugIjyQ",
+                "expanded_url": "https://github.com/CheeseGhostfox",
+                "display_url": "github.com/CheeseGhostfox"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 140,
+                "end": 153,
+                "username": "HEX_Ghostfox"
+              }
+            ]
+          }
+        },
+        "verified": false,
+        "username": "Cheese_Ghostfox"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 77,
+          "following_count": 81,
+          "tweet_count": 1075,
+          "listed_count": 0,
+          "like_count": 1587,
+          "media_count": 46
+        },
+        "created_at": "2023-03-21T00:19:55.000Z",
+        "protected": false,
+        "id": "1637972200371224577",
+        "name": "P0larstern",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2014033112875798528/fzYQKz3U_normal.jpg",
+        "description": "前世@nejamais1 | 男的 | 可以叫我小天 | 水仙 | 双相",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 2,
+                "end": 12,
+                "username": "nejamais1"
+              }
+            ]
+          }
+        },
+        "verified": false,
+        "username": "P0larstern"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "protected": false,
+        "id": "1498354035854053377",
+        "name": "意之意",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "location": "Elysium",
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "verified": false,
+        "username": "lijunyi87429205"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 142,
+          "following_count": 212,
+          "tweet_count": 1273,
+          "listed_count": 1,
+          "like_count": 2036,
+          "media_count": 58
+        },
+        "created_at": "2024-02-25T18:34:37.000Z",
+        "protected": false,
+        "id": "1761821960978460672",
+        "name": "🌌",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025827248633171968/d7BX3Lk3_normal.jpg",
+        "description": "they/them🏳️‍🌈🏳️‍⚧️ 务虚",
+        "verified": false,
+        "username": "oct424242"
+      }
+    ],
+    "tweets": [
+      {
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-06T10:40:51.000Z"
+        },
+        "created_at": "2026-04-06T09:40:51.000Z",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "lang": "zh",
+        "author_id": "1760516990027079680",
+        "text": "@TauCeti_10700 小炽怎么了啊啊啊啊",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 31
+        },
+        "conversation_id": "2041010999097242110",
+        "possibly_sensitive": false,
+        "edit_history_tweet_ids": [
+          "2041088736776303007"
+        ],
+        "id": "2041088736776303007",
+        "reply_settings": "everyone",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2041010999097242110"
+          }
+        ],
+        "in_reply_to_user_id": "1808933044545630208"
+      },
+      {
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-06T05:38:40.000Z"
+        },
+        "created_at": "2026-04-06T04:38:40.000Z",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "lang": "zh",
+        "author_id": "1761821960978460672",
+        "text": "@TauCeti_10700 ……？怎么会这样……",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 68
+        },
+        "conversation_id": "2041010999097242110",
+        "possibly_sensitive": false,
+        "edit_history_tweet_ids": [
+          "2041012690424828107"
+        ],
+        "id": "2041012690424828107",
+        "reply_settings": "everyone",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2041010999097242110"
+          }
+        ],
+        "in_reply_to_user_id": "1808933044545630208"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2041010999097242110",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:07Z"
+  }
+}

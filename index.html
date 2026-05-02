@@ -245,15 +245,85 @@ a:hover { text-decoration: underline; }
   color: var(--text); font-size: 16px; cursor: pointer;
   display: flex; align-items: center; justify-content: center;
   transition: background .15s;
+  -webkit-tap-highlight-color: transparent;
 }
 .theme-toggle-btn:hover { background: var(--bg-hover); }
+.theme-toggle-btn:focus,
+.theme-toggle-btn:focus-visible { outline: none; }
+
+/* 账号切换按钮（在主题按钮左边） */
+.account-switch-btn {
+  position: absolute; top: 12px; right: 60px;
+  height: 34px; padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  /* 默认半透明主题色背景：banner 上能透出底图，但文字仍清晰 */
+  background: color-mix(in srgb, var(--bg) 75%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--text); font-size: 13px; font-weight: 600; cursor: pointer;
+  display: flex; align-items: center; gap: 6px;
+  transition: background .15s;
+  max-width: 180px;
+  -webkit-tap-highlight-color: transparent;
+}
+.account-switch-btn:hover { background: var(--bg-hover); }
+.account-switch-btn:focus,
+.account-switch-btn:focus-visible { outline: none; }
+.account-switch-btn .mini-name {
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  max-width: 130px;
+}
+.account-switch-btn .arr { color: var(--text-dim); font-size: 10px; flex-shrink: 0; }
+
+/* 账号选择弹层 */
+.account-popup {
+  position: absolute; top: 54px; right: 16px;
+  width: 280px; max-width: calc(100vw - 32px);
+  background: var(--bg-panel); border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+  z-index: 50;
+  overflow: hidden;
+  display: none;
+}
+.account-popup.open { display: block; }
+.account-popup-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: background .12s;
+}
+.account-popup-item:last-of-type { border-bottom: none; }
+.account-popup-item:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.account-popup-item.current { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+/* 当鼠标在弹层上时：只有被 hover 的那项保持蓝色，当前账号项让出高亮 */
+.account-popup:hover .account-popup-item.current:not(:hover) { background: transparent; }
+.account-popup-item .a-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  background: var(--banner-bg); flex-shrink: 0; object-fit: cover;
+}
+.account-popup-item .a-info { flex: 1; min-width: 0; }
+.account-popup-item .a-name {
+  font-weight: 700; font-size: 14px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.account-popup-item .a-handle {
+  color: var(--text-dim); font-size: 12px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.account-popup-item .a-tick { color: var(--accent); font-weight: 700; font-size: 14px; }
+.account-popup-empty {
+  padding: 14px; color: var(--text-dim); font-size: 13px;
+  text-align: center;
+}
 .avatar-img {
-  width: 80px; height: 80px; border-radius: 50%;
+  width: 134px; height: 134px; border-radius: 50%;
   border: 4px solid var(--avatar-border);
-  position: absolute; top: -45px; left: 16px;
+  position: absolute; top: -67px; left: 16px;
   background: var(--banner-bg); object-fit: cover; display: block;
 }
-.profile-names  { margin-top: 44px; }
+.profile-names  { margin-top: 72px; }
 .p-name         { font-size: 20px; font-weight: 800; display: block; color: var(--text); }
 .p-user         { color: var(--text-dim); font-size: 15px; }
 .p-bio          { margin: 12px 0 8px; font-size: 15px; color: var(--text); line-height: 1.5; white-space: pre-wrap; }
@@ -703,12 +773,13 @@ body.light .post-iframe-wrap { background: #ffffff; }
     left: 8px;
     z-index: 5;  /* 高于 banner 但不影响主题按钮 */
   }
-  /* 状态B：搜索栏内的汉堡按钮（默认隐藏，搜索栏吸顶时由 JS 显示） */
+  /* 状态B：搜索栏内的汉堡按钮（默认隐藏，搜索栏吸顶时由 JS 显示）
+     大小和 banner 上的一样（36×36），只调整间距让搜索框靠左 */
   .menu-toggle-search {
     display: none;
     flex-shrink: 0;
-    margin-right: 0;
-    margin-left: -4px;  /* 往左挤一点，减少和搜索框的间距 */
+    margin-right: 0;     /* 取消和搜索框之间的间距 */
+    margin-left: -4px;   /* 往左挤一点 */
   }
   /* 三条线 —— 默认非常浅淡 */
   .menu-toggle::before {
@@ -716,26 +787,26 @@ body.light .post-iframe-wrap { background: #ffffff; }
     display: block;
     width: 17px;
     height: 1.5px;
-    background: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.85);
     box-shadow:
-      0 -5px 0 rgba(255, 255, 255, 0.55),
-      0 5px 0 rgba(255, 255, 255, 0.55);
+      0 -5px 0 rgba(255, 255, 255, 0.85),
+      0 5px 0 rgba(255, 255, 255, 0.85);
     border-radius: 1px;
     transition: background 0.15s, box-shadow 0.15s;
   }
   /* 浅色主题下，banner 按钮三条线仍要在彩色 banner 上能看清 */
   body.light .menu-toggle-banner::before {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.95);
     box-shadow:
-      0 -5px 0 rgba(255, 255, 255, 0.7),
-      0 5px 0 rgba(255, 255, 255, 0.7);
+      0 -5px 0 rgba(255, 255, 255, 0.95),
+      0 5px 0 rgba(255, 255, 255, 0.95);
   }
   /* 浅色主题下，搜索栏按钮在白底上需要深色三线 */
   body.light .menu-toggle-search::before {
-    background: rgba(40, 40, 40, 0.7);
+    background: rgba(40, 40, 40, 0.9);
     box-shadow:
-      0 -5px 0 rgba(40, 40, 40, 0.7),
-      0 5px 0 rgba(40, 40, 40, 0.7);
+      0 -5px 0 rgba(40, 40, 40, 0.9),
+      0 5px 0 rgba(40, 40, 40, 0.9);
   }
   /* 暗色主题下，搜索栏按钮在暗底上仍用白色三线（保持) */
   /* （已被基础规则覆盖，无需额外） */
@@ -820,6 +891,13 @@ body.light .post-iframe-wrap { background: #ffffff; }
         <button class="menu-toggle menu-toggle-banner" id="menu-toggle-banner" aria-label="打开菜单" onclick="toggleSidebar()"></button>
         <div class="profile-info">
           <button class="theme-toggle-btn" id="theme-btn" onclick="toggleTheme()">🌙</button>
+          <!-- 账号切换按钮（多账号场景才显示） -->
+          <button class="account-switch-btn" id="account-switch-btn" style="display:none" onclick="toggleAccountPopup(event)">
+            <span class="mini-name" id="account-switch-name">账号</span>
+            <span class="arr">▼</span>
+          </button>
+          <!-- 账号弹层 -->
+          <div class="account-popup" id="account-popup"></div>
           <img class="avatar-img" id="p-avatar" src="" alt="">
           <div class="profile-names">
             <span class="p-name"    id="p-name">炽烈已极</span>
@@ -902,10 +980,37 @@ body.light .post-iframe-wrap { background: #ffffff; }
 </div>
 
 <script>
-const DB_PATH      = 'wayback_snapshots/index.json';
-const PROFILE_PATH = 'wayback_snapshots/profile.json';
-const HTML_BASE    = 'wayback_snapshots/html/';
-const ASSET_BASE   = 'wayback_snapshots/';
+// 路径前缀（多账号支持）：根据当前账号 dir 动态调整
+// Electron 走  协议；当只有一个账号时账号清单为空，等同单账号场景
+// _accounts 是 main.js 暴露的虚拟路径，会动态扫 accounts/ 下所有子目录的 profile.json
+const ACCOUNTS_LIST_PATH = 'accounts.json';
+let ACCOUNT_BASE   = '';                       // 资源根
+let DB_PATH        = 'wayback_snapshots/index.json';
+let PROFILE_PATH   = 'wayback_snapshots/profile.json';
+let HTML_BASE      = 'wayback_snapshots/html/';
+let ASSET_BASE     = 'wayback_snapshots/';
+
+// 多账号状态
+let accounts       = [];       // 加载到的账号清单
+let currentAccount = null;     // 当前账号对象（accounts 里的某一项）
+
+function applyAccountPaths(acct) {
+  if (acct && acct.dir) {
+    const prefix = `accounts/${acct.dir}/`;
+    ACCOUNT_BASE = prefix;
+    DB_PATH      = prefix + 'wayback_snapshots/index.json';
+    PROFILE_PATH = prefix + 'wayback_snapshots/profile.json';
+    HTML_BASE    = prefix + 'wayback_snapshots/html/';
+    ASSET_BASE   = prefix + 'wayback_snapshots/';
+  } else {
+    // 单账号兜底：旧目录结构
+    ACCOUNT_BASE = '';
+    DB_PATH      = 'wayback_snapshots/index.json';
+    PROFILE_PATH = 'wayback_snapshots/profile.json';
+    HTML_BASE    = 'wayback_snapshots/html/';
+    ASSET_BASE   = 'wayback_snapshots/';
+  }
+}
 
 let db        = [];
 let treeData  = {};
@@ -914,6 +1019,7 @@ let ascending = false;
 let searchMode= false;
 let isLight   = false;
 let activeTab = 'tweets';
+let ownerUsername = '';  // 当前账号 username（去 @ 转小写），用于识别"主人 vs 外人"
 
 // tweet_id → item 的索引（用于快速查找回复关系）
 let idIndex  = {};
@@ -924,7 +1030,107 @@ let replyMap = {};
 async function init() {
   if (localStorage.getItem('reader-theme') === 'light') applyTheme(true, false);
   setupCustomScrollbar();
+  // 先尝试加载账号清单
+  await loadAccounts();
+  await loadCurrentAccount();
+}
+
+/* ── 多账号 ─────────────────────────────────────────── */
+async function loadAccounts() {
+  try {
+    const r = await fetch(ACCOUNTS_LIST_PATH);
+    if (!r.ok) return;
+    const list = await r.json();
+    if (!Array.isArray(list) || list.length === 0) return;
+    accounts = list;
+    // 决定当前账号：localStorage > 第一个
+    const remembered = localStorage.getItem('reader-account');
+    currentAccount = (remembered && accounts.find(a => a.dir === remembered)) || accounts[0];
+    applyAccountPaths(currentAccount);
+    renderAccountSwitcher();
+  } catch (e) {
+    // accounts.json 不存在 → 单账号模式（默认路径已经是兼容的）
+    console.info('accounts.json 不存在，使用单账号模式');
+  }
+}
+
+async function loadCurrentAccount() {
+  // 加载 profile + index
   await Promise.all([loadProfile(), loadIndex()]);
+}
+
+function renderAccountSwitcher() {
+  if (accounts.length < 2) {
+    // 只有 1 个账号或没有 accounts.json → 不显示切换按钮
+    document.getElementById('account-switch-btn').style.display = 'none';
+    return;
+  }
+  const btn = document.getElementById('account-switch-btn');
+  btn.style.display = 'flex';
+  if (currentAccount) {
+    document.getElementById('account-switch-name').textContent = currentAccount.name || currentAccount.username;
+  }
+  // 渲染弹层
+  const popup = document.getElementById('account-popup');
+  const stripAt = (s) => (s || '').replace(/^@/, '');
+  popup.innerHTML = accounts.map(a => `
+    <div class="account-popup-item ${currentAccount && a.dir === currentAccount.dir ? 'current' : ''}" onclick="switchAccount('${esc(a.dir)}')">
+      <img class="a-avatar" src="${a.avatar ? esc(a.avatar) : ''}" alt="" onerror="this.style.background='var(--banner-bg)';this.removeAttribute('src')">
+      <div class="a-info">
+        <div class="a-name">${esc(a.name || stripAt(a.username))}</div>
+        <div class="a-handle">@${esc(stripAt(a.username))}</div>
+      </div>
+      ${currentAccount && a.dir === currentAccount.dir ? '<span class="a-tick">✓</span>' : ''}
+    </div>
+  `).join('');
+}
+
+function toggleAccountPopup(e) {
+  if (e) e.stopPropagation();
+  const popup = document.getElementById('account-popup');
+  popup.classList.toggle('open');
+}
+
+// 点击别处关闭弹层
+document.addEventListener('click', (e) => {
+  const popup = document.getElementById('account-popup');
+  const btn = document.getElementById('account-switch-btn');
+  if (popup && popup.classList.contains('open') && !popup.contains(e.target) && !btn.contains(e.target)) {
+    popup.classList.remove('open');
+  }
+});
+
+async function switchAccount(dir) {
+  const acct = accounts.find(a => a.dir === dir);
+  if (!acct || (currentAccount && acct.dir === currentAccount.dir)) {
+    document.getElementById('account-popup').classList.remove('open');
+    return;
+  }
+  currentAccount = acct;
+  applyAccountPaths(acct);
+  localStorage.setItem('reader-account', acct.dir);
+  document.getElementById('account-popup').classList.remove('open');
+
+  // 重置状态
+  db = []; treeData = {}; idIndex = {}; replyMap = {};
+  activeDay = null; searchMode = false;
+  document.getElementById('search-input').value = '';
+  // 主内容区恢复欢迎页（避免显示上个账号的内容残留或空白）
+  const dayHeading = document.getElementById('day-heading');
+  if (dayHeading) dayHeading.textContent = '选择日期浏览';
+  const area = document.getElementById('content-area');
+  if (area) area.innerHTML = `
+      <div class="welcome">
+        <div class="welcome-icon">✦</div>
+        <div class="welcome-title">档案已就绪</div>
+        <div class="welcome-hint">从左侧选择日期，或在上方搜索关键词</div>
+      </div>`;
+  // 移除日期树上一个账号的高亮
+  document.querySelectorAll('.tree-day.active').forEach(el => el.classList.remove('active'));
+
+  // 更新按钮显示 + 重新加载数据
+  renderAccountSwitcher();
+  await loadCurrentAccount();
 }
 
 /* ── Profile ──────────────────────────────────────────── */
@@ -936,8 +1142,10 @@ async function loadProfile() {
     document.getElementById('p-name').textContent     = c.name     || '';
     document.getElementById('p-username').textContent = c.username || '';
     document.getElementById('p-bio').textContent      = c.bio      || '';
-    if (c.avatar) document.getElementById('p-avatar').src = `wayback_snapshots/${c.avatar}`;
-    if (c.banner) document.getElementById('p-banner').src = `wayback_snapshots/${c.banner}`;
+    // 保存当前账号 username（去 @ 转小写）—— 用于 reply-card 识别主人 vs 外人
+    ownerUsername = (c.username || '').replace(/^@/, '').toLowerCase();
+    if (c.avatar) document.getElementById('p-avatar').src = `${ASSET_BASE}${c.avatar}`;
+    if (c.banner) document.getElementById('p-banner').src = `${ASSET_BASE}${c.banner}`;
     if (c.location) document.getElementById('p-loc').innerHTML  = `📍 ${esc(c.location)}`;
     if (c.link) {
       const d = c.link.replace(/^https?:\/\//,'');
@@ -1095,7 +1303,7 @@ if (document.readyState === 'loading') {
 }
 
 /* ── 日视图 ───────────────────────────────────────────── */
-function selectDay(dk) {
+function selectDay(dk, skipScroll = false) {
   if (searchMode) exitSearch();
   activeDay = dk;
   document.querySelectorAll('.day-row').forEach(e=>e.classList.remove('active'));
@@ -1115,6 +1323,8 @@ function selectDay(dk) {
 
   // 手机端选完日期自动关抽屉
   autoCloseSidebarOnMobile();
+
+  if (skipScroll) return;  // jumpToRecent 调用时跳过自带滚动，避免和它的跳转打架
 
   // 中间主列滚动到"日期标题条"(day-topbar) 刚好贴在 sticky-area 下方
   setTimeout(() => {
@@ -1230,12 +1440,15 @@ function renderReplyCard(rep) {
   const avatar   = rep.author_avatar ? `${ASSET_BASE}${rep.author_avatar.replace(/^\.\.\//, '')}` : '';
   const bodyText = esc(rep.body_text || rep.text || '').replace(/\n/g, '<br>');
 
-  // 主人自己的推文不再显示 @AnIncandescence（右侧）
-  const isOwner = (rep.author_username || '').toLowerCase() === '@anincandescence';
+  // 主人自己的推文不再显示用户名（右侧）
+  // 用 profile.json 里的 username 判断（去 @ 转小写后比较）
+  const repUname = (rep.author_username || '').replace(/^@/, '').toLowerCase();
+  const isOwner = ownerUsername && repUname === ownerUsername;
   const usernameHtml = isOwner ? '' : `<span class="reply-username">${username}</span>`;
-  // 虚拟条目标记（表示该推文不在本地）
-  const virtualBadge = rep.is_virtual
-    ? `<span class="reply-virtual-badge" title="该推文数据来自 embedded-tweet-container">引用</span>`
+  // "引用"标识：所有非主人的推文都加（无论是虚拟条目还是已有独立 HTML 的真实条目）
+  // 因为这些都是被主人引用/回复的对象
+  const virtualBadge = !isOwner
+    ? `<span class="reply-virtual-badge" title="该推文为主人引用/回复的对象">引用</span>`
     : '';
 
   // 图片：只在 media_keys 有值时显示（media_keys=[] 说明图属于被引用推文，不属于本条回复）
@@ -1336,6 +1549,12 @@ function onFrameLoad(iframe) {
   // 所有iframe都做图片精确处理（基于 wanted_images / embedded_images）
   fixImagesInFrame(iframe);
   autoHeight(iframe);  // 处理完所有DOM操作后再算高度
+  // 关键：等 100ms 让 fixImagesInFrame 内部 80ms 的 setTimeout（折叠 embedded + 重算高度）跑完
+  // 然后再标记 loaded —— jumpToRecent 依赖此标记判定 iframe 高度是否真正稳定
+  setTimeout(() => {
+    autoHeight(iframe);  // 兜底再算一次
+    iframe.dataset.loaded = '1';
+  }, 100);
 }
 
 /* iframe内嵌html的body有 min-height:100vh + padding:20px，会撑出大片空白
@@ -1473,6 +1692,16 @@ function fixImagesInFrame(iframe) {
       }
     });
 
+    // 1c. 给所有保留的 tweet-image 加 onerror —— 文件实际不存在/加载失败时自动移除，
+    //     避免显示破图小图标和空白占位
+    nonjson.querySelectorAll('img.tweet-image').forEach(img => {
+      img.addEventListener('error', () => img.remove(), { once: true });
+      // 如果已经 broken（src 设置后已经触发过 error），上面监听不到，主动检查
+      if (img.complete && img.naturalWidth === 0) {
+        img.remove();
+      }
+    });
+
     // 1b. 处理外层视频：只保留 media_key 在 wanted_videos 里的
     const wantedVideoKeys = (item.wanted_videos || []).map(p => extractVideoKey(p));
     const outerVideos = nonjson.querySelectorAll('.tweet-content > video');
@@ -1482,6 +1711,26 @@ function fixImagesInFrame(iframe) {
       const srcEl = video.querySelector('source');
       const vKey = srcEl ? extractVideoKey(srcEl.getAttribute('src') || '') : '';
       if (!wantedVideoKeys.includes(vKey)) {
+        video.remove();
+      }
+    });
+
+    // 1d. 给所有保留的 video 加 error 监听 —— 视频文件实际不存在/加载失败时自动移除，
+    //     避免显示空白播放器框
+    nonjson.querySelectorAll('video').forEach(video => {
+      // video 自身的 error 事件
+      video.addEventListener('error', () => video.remove(), { once: true });
+      // <source> 子元素的 error（更可靠：每个 source 加载失败时触发）
+      video.querySelectorAll('source').forEach(s => {
+        s.addEventListener('error', () => {
+          // 该 source 失败 —— 如果所有 source 都失败，video.error 会非空
+          if (video.error || video.networkState === 3) {
+            video.remove();
+          }
+        }, { once: true });
+      });
+      // 如果已经处于 NETWORK_NO_SOURCE 状态（所有 source 加载失败），立即移除
+      if (video.networkState === 3) {
         video.remove();
       }
     });
@@ -1996,28 +2245,87 @@ function renderRecent() {
 
 /* ── 最近收录点击：跳到该推文并对齐到搜索栏下方 ─────── */
 function jumpToRecent(dayKey, file) {
-  selectDay(dayKey);
-  setTimeout(() => {
-    const col = document.getElementById('main-col');
-    // 找到目标推文 iframe（主推文）所在的 .post-block
+  const col = document.getElementById('main-col');
+  const sameDay = (activeDay === dayKey) && !searchMode;
+
+  if (!sameDay) {
+    if (col) {
+      col.style.visibility = 'hidden';
+      // 关键：切换日期前先把 scrollTop 重置为 0
+      // 这样后续 scroll 都基于干净的初始状态
+      col.scrollTop = 0;
+    }
+    selectDay(dayKey, true);
+  }
+
+  // 找到目标 .post-block 并跳转
+  const doJump = () => {
     const iframes = document.querySelectorAll('.post-iframe');
+    let block = null;
     for (const f of iframes) {
       if (f.src.endsWith(file)) {
-        const block = f.closest('.post-block');
-        if (block) {
-          // 计算 sticky 吸顶区域的高度（搜索栏+tab栏）
-          const sticky = document.querySelector('.sticky-area');
-          const stickyH = sticky ? sticky.offsetHeight : 0;
-          const rect = block.getBoundingClientRect();
-          const colRect = col.getBoundingClientRect();
-          // 目标滚动位置：当前scrollTop + （block距col顶部的距离） - stickyH
-          const target = col.scrollTop + (rect.top - colRect.top) - stickyH;
-          col.scrollTo({ top: target, behavior: 'smooth' });
-        }
+        block = f.closest('.post-block');
         break;
       }
     }
-  }, 250);
+    if (!block) {
+      if (col) col.style.visibility = '';
+      return;
+    }
+    // 关键：先恢复 visibility 再算位置/跳转
+    if (col) col.style.visibility = '';
+    // 强制 reflow 让所有最新布局生效
+    void document.body.offsetHeight;
+    const sticky = document.querySelector('.sticky-area');
+    const stickyH = sticky ? sticky.offsetHeight : 0;
+    const blockRect = block.getBoundingClientRect();
+    const colRect = col.getBoundingClientRect();
+    const target = col.scrollTop + (blockRect.top - colRect.top) - stickyH;
+    col.scrollTop = target;
+  };
+
+  if (sameDay) {
+    requestAnimationFrame(() => requestAnimationFrame(doJump));
+    return;
+  }
+
+  // 跨日切换：等所有 iframe load 完 + 内部图片都加载完，主动重算高度，再跳转
+  // 关键：判定 iframe 真正加载了 src（不是刚创建的 about:blank "伪 ready"）
+  // —— onFrameLoad 会给真正 load 完的 iframe 设置 dataset.loaded='1'
+  const isReady = () => {
+    const iframes = Array.from(document.querySelectorAll('.post-iframe'));
+    let targetIdx = -1;
+    for (let i = 0; i < iframes.length; i++) {
+      if (iframes[i].src.endsWith(file)) { targetIdx = i; break; }
+    }
+    if (targetIdx === -1) return false;
+    for (const f of iframes) {
+      if (f.dataset.loaded !== '1') return false;
+      try {
+        const doc = f.contentDocument;
+        if (!doc) return false;
+        const imgs = doc.querySelectorAll('img');
+        for (const img of imgs) {
+          if (!img.complete) return false;
+        }
+      } catch(e) {}
+    }
+    return true;
+  };
+
+  const startTime = Date.now();
+  const tick = () => {
+    const elapsed = Date.now() - startTime;
+    if (isReady() || elapsed > 1500) {
+      document.querySelectorAll('.post-iframe').forEach(f => {
+        try { autoHeight(f); } catch(e) {}
+      });
+      requestAnimationFrame(() => requestAnimationFrame(doJump));
+    } else {
+      requestAnimationFrame(tick);
+    }
+  };
+  requestAnimationFrame(tick);
 }
 
 /* ── 主题切换 ─────────────────────────────────────────── */

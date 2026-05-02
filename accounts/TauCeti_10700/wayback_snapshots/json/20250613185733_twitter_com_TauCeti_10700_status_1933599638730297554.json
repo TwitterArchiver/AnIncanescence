@@ -1,0 +1,255 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1933599631813808128"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1933582789544493411",
+    "created_at": "2025-06-13T18:57:33.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-13T19:57:33.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1933599638730297554"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 13,
+          "end": 36,
+          "url": "https://t.co/YJowdigvx0",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1933599638730297554/photo/1",
+          "display_url": "pic.x.com/YJowdigvx0",
+          "media_key": "3_1933599631813808128"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1933599638730297554",
+    "in_reply_to_user_id": "1808933044545630208",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1933582789544493411"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "做完找到了。。很讨厌啊喂 https://t.co/YJowdigvx0"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 4032,
+        "media_key": "3_1933599631813808128",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GtWGntgWkAAXBJ_.jpg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "media_key": "3_1933582781268779008",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GtV3S4VWYAAsSaJ.jpg",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "media_key": "3_1933582781252018177",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GtV3S4RWoAEvAPt.jpg",
+        "width": 3024
+      },
+      {
+        "height": 266,
+        "media_key": "3_1933582781268795392",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GtV3S4VWoAAItU1.jpg",
+        "width": 1178
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 51,
+          "following_count": 27,
+          "tweet_count": 148,
+          "listed_count": 0,
+          "like_count": 156,
+          "media_count": 40
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1933599631813808128"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1933582789544493411",
+        "created_at": "2025-06-13T18:57:33.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-13T19:57:33.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1933599638730297554"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 13,
+              "end": 36,
+              "url": "https://t.co/YJowdigvx0",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1933599638730297554/photo/1",
+              "display_url": "pic.x.com/YJowdigvx0",
+              "media_key": "3_1933599631813808128"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1933599638730297554",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1933582789544493411"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "做完找到了。。很讨厌啊喂 https://t.co/YJowdigvx0"
+      },
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1933582781268779008",
+            "3_1933582781252018177",
+            "3_1933582781268795392"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696888568045569",
+              "name": "Food & Beverage Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+            }
+          }
+        ],
+        "conversation_id": "1933582789544493411",
+        "created_at": "2025-06-13T17:50:35.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-13T18:50:35.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1933582789544493411"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 62,
+              "end": 85,
+              "url": "https://t.co/PXFoYpFlhm",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1933582789544493411/photo/1",
+              "display_url": "pic.x.com/PXFoYpFlhm",
+              "media_key": "3_1933582781268779008"
+            },
+            {
+              "start": 62,
+              "end": 85,
+              "url": "https://t.co/PXFoYpFlhm",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1933582789544493411/photo/1",
+              "display_url": "pic.x.com/PXFoYpFlhm",
+              "media_key": "3_1933582781252018177"
+            },
+            {
+              "start": 62,
+              "end": 85,
+              "url": "https://t.co/PXFoYpFlhm",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1933582789544493411/photo/1",
+              "display_url": "pic.x.com/PXFoYpFlhm",
+              "media_key": "3_1933582781268795392"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1933582789544493411",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 22
+        },
+        "reply_settings": "everyone",
+        "text": "我真的受不了这袋糖剪的口子了！它又双叒叕加了致死量进去\n...好嘛，有没有秤根本不重要，多这一步或许只是防止一下子倒很多的 https://t.co/PXFoYpFlhm"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

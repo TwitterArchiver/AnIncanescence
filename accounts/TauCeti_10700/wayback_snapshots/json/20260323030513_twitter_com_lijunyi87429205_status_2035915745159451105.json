@@ -1,0 +1,166 @@
+{
+  "data": {
+    "conversation_id": "2035900587263537577",
+    "lang": "zh",
+    "reply_settings": "everyone",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2035900587263537577"
+      }
+    ],
+    "in_reply_to_user_id": "1808933044545630208",
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 3,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 37
+    },
+    "edit_history_tweet_ids": [
+      "2035915745159451105"
+    ],
+    "text": "@TauCeti_10700 想要获得更多的关注和推流，但是如果像表演一样作出另一幅面孔，对认识的新朋友而言，是一种诈骗呢",
+    "created_at": "2026-03-23T03:05:13.000Z",
+    "id": "2035915745159451105",
+    "author_id": "1498354035854053377",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-23T04:05:13.000Z"
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2004661650092359680/DqSlreCz_normal.jpg",
+        "id": "1849043039496617984",
+        "username": "Rinko_zero8964",
+        "name": "Rinko",
+        "location": "Ask me any u want→",
+        "url": "https://t.co/zWqK1n9RJg",
+        "public_metrics": {
+          "followers_count": 689,
+          "following_count": 676,
+          "tweet_count": 8453,
+          "listed_count": 1,
+          "like_count": 17352,
+          "media_count": 174
+        },
+        "protected": false,
+        "description": "我思う、ゆえに我あり｜ 我是林子｜性别为无、｜寒くなってきたね……もう少しだけ、いい？｜intp-t｜ASD/OCD/焦虑障碍｜🧬今日也想成为biohacker｜好妈妈们@Misaki11137 @loveforeversfy|bro @BelovedUren8964",
+        "created_at": "2024-10-23T10:59:58.000Z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zWqK1n9RJg",
+                "expanded_url": "https://ngl.link/wakaba_rinko",
+                "display_url": "ngl.link/wakaba_rinko"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 85,
+                "end": 97,
+                "username": "Misaki11137"
+              },
+              {
+                "start": 98,
+                "end": 113,
+                "username": "loveforeversfy"
+              },
+              {
+                "start": 118,
+                "end": 134,
+                "username": "BelovedUren8964"
+              }
+            ]
+          }
+        },
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "id": "1808933044545630208",
+        "username": "TauCeti_10700",
+        "name": "Pale Fire",
+        "location": "0°00′N 260°00′E Mars",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "protected": true,
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1985989837124771840/l4HMeC3K_normal.jpg",
+        "id": "1081115542109380608",
+        "username": "damniwokeup",
+        "name": "RyougiShiki",
+        "location": "Freetaxland",
+        "public_metrics": {
+          "followers_count": 17,
+          "following_count": 185,
+          "tweet_count": 1405,
+          "listed_count": 0,
+          "like_count": 8458,
+          "media_count": 10
+        },
+        "protected": false,
+        "description": "Per aspera ad astra",
+        "created_at": "2019-01-04T09:10:06.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "id": "1498354035854053377",
+        "username": "lijunyi87429205",
+        "name": "意之意",
+        "location": "Elysium",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "protected": false,
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "verified": false
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2035900587263537577",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:47Z"
+  }
+}

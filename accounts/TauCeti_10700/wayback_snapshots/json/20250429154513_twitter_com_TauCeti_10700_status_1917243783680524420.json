@@ -1,0 +1,300 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1917215299868451324",
+    "created_at": "2025-04-29T15:45:13.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-04-29T16:45:13.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1917243783680524420"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "KagurazakaLorna",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1917243783680524420",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1917217103129837936"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@KagurazakaLorna 可是我暂时不能得知碎掉的是什么..."
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 45,
+          "following_count": 23,
+          "tweet_count": 99,
+          "listed_count": 0,
+          "like_count": 98,
+          "media_count": 23
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "登上舞台以前，我撕掉了剧本。",
+        "id": "1902145766002769920",
+        "location": "那里有一口深井，谁也找不着，那是我葬身之地",
+        "name": "KagurazakaLorna",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 11,
+          "following_count": 18,
+          "tweet_count": 287,
+          "listed_count": 0,
+          "like_count": 648,
+          "media_count": 6
+        },
+        "username": "KagurazakaLorna",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1917215299868451324",
+        "created_at": "2025-04-29T15:45:13.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-04-29T16:45:13.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1917243783680524420"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "KagurazakaLorna",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1917243783680524420",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1917217103129837936"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@KagurazakaLorna 可是我暂时不能得知碎掉的是什么..."
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1917215299868451324",
+        "created_at": "2025-04-29T13:59:12.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-04-29T14:59:12.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1917217103129837936"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1917217103129837936",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 25
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1917215299868451324"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 我可以把你拼好嚒？破碎也没关系的。"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1917215299868451324": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1917215299868451324",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1917215299868451324",
+                "created_at": "2025-04-29T13:52:02.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-04-29T14:52:02.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1917215299868451324"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1917215299868451324",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "什么东西在慢慢崩塌的声音，有什么东西正在消失。\n\n空岛和沙漏\n短袖。\n因为在收拾用品，不得不回忆那个房间里都有些什么以及我需要带什么\n\n仓库，行李寄存处。\n关在那几个拥挤的纸箱里的可能不只有物品，还有我的一部分记忆"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 45,
+                      "following_count": 23,
+                      "tweet_count": 98,
+                      "listed_count": 0,
+                      "like_count": 97,
+                      "media_count": 23
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1917215299868451324",
+                    "created_at": "2025-04-29T13:52:02.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-04-29T14:52:02.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1917215299868451324"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1917215299868451324",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "什么东西在慢慢崩塌的声音，有什么东西正在消失。\n\n空岛和沙漏\n短袖。\n因为在收拾用品，不得不回忆那个房间里都有些什么以及我需要带什么\n\n仓库，行李寄存处。\n关在那几个拥挤的纸箱里的可能不只有物品，还有我的一部分记忆"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1986479068754182455",
+    "created_at": "2025-11-07T17:16:30.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-11-07T18:16:30.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1986845227986919662"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 11,
+          "username": "TaiSui1255",
+          "id": "1961009347443761152"
+        },
+        {
+          "start": 12,
+          "end": 22,
+          "username": "nejamais1",
+          "id": "1347140950095613953"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1986845227986919662",
+    "in_reply_to_user_id": "1961009347443761152",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1986681433772204039"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@TaiSui1255 @nejamais1 不会的"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 75,
+          "following_count": 46,
+          "tweet_count": 263,
+          "listed_count": 1,
+          "like_count": 318,
+          "media_count": 63
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-08-28T10:14:33.000Z",
+        "description": "会变成洞的镜子",
+        "id": "1961009347443761152",
+        "name": "太岁",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1961010941375688704/gqvZtYME_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 12,
+          "following_count": 18,
+          "tweet_count": 257,
+          "listed_count": 0,
+          "like_count": 1825,
+          "media_count": 14
+        },
+        "username": "TaiSui1255",
+        "verified": false
+      },
+      {
+        "created_at": "2021-01-07T11:22:13.000Z",
+        "description": "男的 | 可以叫我小天 | 水仙 | 钱性恋 | 无性恋",
+        "id": "1347140950095613953",
+        "name": "P01arstern",
+        "pinned_tweet_id": "1978152592254353797",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1896590731726528512/1xlvoAx9_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 177,
+          "following_count": 322,
+          "tweet_count": 7302,
+          "listed_count": 2,
+          "like_count": 9020,
+          "media_count": 380
+        },
+        "username": "nejamais1",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1986479068754182455",
+        "created_at": "2025-11-07T17:16:30.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-11-07T18:16:30.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1986845227986919662"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 11,
+              "username": "TaiSui1255",
+              "id": "1961009347443761152"
+            },
+            {
+              "start": 12,
+              "end": 22,
+              "username": "nejamais1",
+              "id": "1347140950095613953"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1986845227986919662",
+        "in_reply_to_user_id": "1961009347443761152",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1986681433772204039"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TaiSui1255 @nejamais1 不会的"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1961009347443761152",
+        "conversation_id": "1986479068754182455",
+        "created_at": "2025-11-07T06:25:39.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-11-07T07:25:39.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1986681433772204039"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 10,
+              "username": "nejamais1",
+              "id": "1347140950095613953"
+            },
+            {
+              "start": 11,
+              "end": 25,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1986681433772204039",
+        "in_reply_to_user_id": "1347140950095613953",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 35
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1986556651978248394"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@nejamais1 @TauCeti_10700 我肯定下地狱哈哈哈"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1986556651978248394": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:25:41Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1986479068754182455",
+            "source": "conversation_recovery:local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1986479068754182455",
+                "created_at": "2025-11-06T17:01:31.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-11-06T18:01:31.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1986479068754182455"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1986479068754182455",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "拜托告诉我死后什么都没有好吗不要再捏造地狱或另一个世界来了"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 72,
+                      "following_count": 46,
+                      "tweet_count": 260,
+                      "listed_count": 1,
+                      "like_count": 313,
+                      "media_count": 63
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1986479068754182455",
+                    "created_at": "2025-11-06T17:01:31.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-11-06T18:01:31.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1986479068754182455"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1986479068754182455",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "拜托告诉我死后什么都没有好吗不要再捏造地狱或另一个世界来了"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        "terminal_error": {
+          "id": "1986556651978248394",
+          "message": "env.pale-fire: Sorry, you are not authorized to see the Tweet with id: [1986556651978248394]. .env: Sorry, you are not authorized to see the Tweet with id: [1986556651978248394]. Wayback fallback: Wayback fallback did not find archived JSON for tweet id 1986556651978248394."
+        },
+        "recovery": {
+          "method": "conversation_id_timestamp",
+          "missing_id": "1986556651978248394"
+        }
+      }
+    }
+  }
+}

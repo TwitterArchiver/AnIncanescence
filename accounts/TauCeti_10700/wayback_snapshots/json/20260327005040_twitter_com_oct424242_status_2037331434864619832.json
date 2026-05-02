@@ -1,0 +1,141 @@
+{
+  "data": {
+    "author_id": "1761821960978460672",
+    "created_at": "2026-03-27T00:50:40.000Z",
+    "edit_history_tweet_ids": [
+      "2037331434864619832"
+    ],
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2037292504123330830"
+      }
+    ],
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 23
+    },
+    "text": "@TauCeti_10700 好喜欢这个效果！！",
+    "possibly_sensitive": false,
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "id": "2037331434864619832",
+    "in_reply_to_user_id": "1808933044545630208",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-27T01:50:40.000Z"
+    },
+    "conversation_id": "2037292504123330830",
+    "reply_settings": "everyone",
+    "lang": "zh"
+  },
+  "includes": {
+    "users": [
+      {
+        "id": "1637972200371224577",
+        "username": "P0larstern",
+        "public_metrics": {
+          "followers_count": 77,
+          "following_count": 81,
+          "tweet_count": 1075,
+          "listed_count": 0,
+          "like_count": 1587,
+          "media_count": 46
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2014033112875798528/fzYQKz3U_normal.jpg",
+        "protected": false,
+        "name": "P0larstern",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 2,
+                "end": 12,
+                "username": "nejamais1"
+              }
+            ]
+          }
+        },
+        "description": "前世@nejamais1 | 男的 | 可以叫我小天 | 水仙 | 双相",
+        "created_at": "2023-03-21T00:19:55.000Z",
+        "verified": false
+      },
+      {
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "username": "TauCeti_10700",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": true,
+        "name": "Pale Fire",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "verified": false
+      },
+      {
+        "id": "1761821960978460672",
+        "username": "oct424242",
+        "public_metrics": {
+          "followers_count": 142,
+          "following_count": 212,
+          "tweet_count": 1273,
+          "listed_count": 1,
+          "like_count": 2036,
+          "media_count": 58
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025827248633171968/d7BX3Lk3_normal.jpg",
+        "protected": false,
+        "name": "🌌",
+        "description": "they/them🏳️‍🌈🏳️‍⚧️ 务虚",
+        "created_at": "2024-02-25T18:34:37.000Z",
+        "verified": false
+      },
+      {
+        "id": "2025193723693596676",
+        "username": "miaomeow_cat",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "protected": false,
+        "name": "碎夏",
+        "description": "没有锚点的存在该如何生存",
+        "created_at": "2026-02-21T13:00:03.000Z",
+        "verified": false
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2037292504123330830",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:58Z"
+  }
+}

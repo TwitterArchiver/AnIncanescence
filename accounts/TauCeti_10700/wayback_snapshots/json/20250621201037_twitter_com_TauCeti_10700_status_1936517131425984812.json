@@ -1,0 +1,481 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1935819735976812909",
+    "created_at": "2025-06-21T20:10:37.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-21T21:10:37.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1936517131425984812"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1936517131425984812",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1936381755684278345"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ 喜欢她的歌！（不过关注点竟然是这个）"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 51,
+          "following_count": 39,
+          "tweet_count": 185,
+          "listed_count": 0,
+          "like_count": 217,
+          "media_count": 45
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destined Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 28,
+          "following_count": 23,
+          "tweet_count": 807,
+          "listed_count": 0,
+          "like_count": 2588,
+          "media_count": 27
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1935819735976812909",
+        "created_at": "2025-06-21T20:10:37.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-21T21:10:37.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1936517131425984812"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1936517131425984812",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1936381755684278345"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ 喜欢她的歌！（不过关注点竟然是这个）"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696802391859201",
+              "name": "Entertainment & Leisure Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to movies, music, television, franchises, venues, theme parks, toys, tourism, hotels"
+            }
+          },
+          {
+            "domain": {
+              "id": "55",
+              "name": "Music Genre",
+              "description": "A category for a musical style, like Pop, Rock, or Rap"
+            },
+            "entity": {
+              "id": "810937888334487552",
+              "name": "Rap",
+              "description": "Hip-Hop/Rap"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "810937888334487552",
+              "name": "Rap",
+              "description": "Hip-Hop/Rap"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "847524658970636288",
+              "name": "Music",
+              "description": "Music and radio"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1291184917221535744",
+              "name": "Hip hop"
+            }
+          }
+        ],
+        "conversation_id": "1935819735976812909",
+        "created_at": "2025-06-21T11:12:41.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-21T12:12:41.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1936381755684278345"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1936381755684278345",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 19
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1935819735976812909"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 Bo peep的flow好丝滑，关注了🙌🏻\n宝藏rapper！"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1935819735976812909": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1935819735976812909",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1935819735976812909",
+                "created_at": "2025-06-19T22:02:26.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-19T23:02:26.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1935820494000849003"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1935820494000849003",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1935819735976812909"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "那本相册最终还在我手里吗..？想不起来\n但是她活下来这就够了。一起在泥沼里挣扎吧，满足我自私的愿望"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "duration_ms": 33800,
+                    "height": 720,
+                    "media_key": "13_1935819669149028352",
+                    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/1935819669149028352/img/Q4bz2KhLtU1ybH2j.jpg",
+                    "public_metrics": {
+                      "view_count": 2
+                    },
+                    "type": "video",
+                    "variants": [
+                      {
+                        "bit_rate": 256000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1935819669149028352/vid/avc1/388x270/jaMufWWNfFLugUmE.mp4"
+                      },
+                      {
+                        "bit_rate": 832000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1935819669149028352/vid/avc1/518x360/KaX_D42QQIs55vQz.mp4"
+                      },
+                      {
+                        "bit_rate": 2176000,
+                        "content_type": "video/mp4",
+                        "url": "https://video.twimg.com/amplify_video/1935819669149028352/vid/avc1/1038x720/S7oJnvP1QTV0rntl.mp4"
+                      },
+                      {
+                        "content_type": "application/x-mpegURL",
+                        "url": "https://video.twimg.com/amplify_video/1935819669149028352/pl/PSAGnvE4bcFQYCmV.m3u8"
+                      }
+                    ],
+                    "width": 1038
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 50,
+                      "following_count": 38,
+                      "tweet_count": 178,
+                      "listed_count": 0,
+                      "like_count": 208,
+                      "media_count": 44
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935819735976812909",
+                    "created_at": "2025-06-19T22:02:26.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-19T23:02:26.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935820494000849003"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1935820494000849003",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1935819735976812909"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "那本相册最终还在我手里吗..？想不起来\n但是她活下来这就够了。一起在泥沼里挣扎吧，满足我自私的愿望"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "13_1935819669149028352"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935819735976812909",
+                    "created_at": "2025-06-19T21:59:25.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-19T22:59:25.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935819735976812909"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 145,
+                          "end": 168,
+                          "url": "https://t.co/jn2AsZum37",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1935819735976812909/video/1",
+                          "display_url": "pic.x.com/jn2AsZum37",
+                          "media_key": "13_1935819669149028352"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1935819735976812909",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 11
+                    },
+                    "reply_settings": "everyone",
+                    "text": "她差一点点就永远离开了\n躺在一起循环了整晚上这首歌，我以为这是相处最后的时光，快到早上的时候还是撑不住睡着了，她说叫不醒我后面只好自己走了...\n七点多的时候我惊醒看到房间里没人只有她留下的相册和相机，不知道是什么状态下带着拍立得赶去高铁站找她说这个你拿着...相册等我们下次见面还给你吧 https://t.co/jn2AsZum37"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

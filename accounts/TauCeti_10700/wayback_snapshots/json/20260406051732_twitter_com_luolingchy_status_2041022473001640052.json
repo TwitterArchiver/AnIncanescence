@@ -1,0 +1,359 @@
+{
+  "data": {
+    "conversation_id": "2041013008609239429",
+    "lang": "zh",
+    "reply_settings": "everyone",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2041021413969268935"
+      }
+    ],
+    "in_reply_to_user_id": "1595415869689044992",
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 2,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 29
+    },
+    "edit_history_tweet_ids": [
+      "2041022473001640052"
+    ],
+    "text": "@TauCeti_10700 所谓协助就是给号封掉真实有够讽刺的",
+    "created_at": "2026-04-06T05:17:32.000Z",
+    "id": "2041022473001640052",
+    "author_id": "1595415869689044992",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-06T06:17:32.000Z"
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1916186524884078594/dGmyKGAr_normal.jpg",
+        "id": "1619698674917068801",
+        "username": "InfiniteTritium",
+        "name": "mono氚",
+        "location": "NewMap",
+        "public_metrics": {
+          "followers_count": 20,
+          "following_count": 150,
+          "tweet_count": 443,
+          "listed_count": 0,
+          "like_count": 542,
+          "media_count": 75
+        },
+        "protected": false,
+        "description": "UnrealEngine地编师（学 接 私）｜艺术｜形而上｜理想国｜棱镜｜身外的世界总是模糊的…\n我想休息一下 在一个只有我的世界里。",
+        "created_at": "2023-01-29T14:08:10.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "id": "1808933044545630208",
+        "username": "TauCeti_10700",
+        "name": "Pale Fire",
+        "location": "0°00′N 260°00′E Mars",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "protected": true,
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "id": "1498354035854053377",
+        "username": "lijunyi87429205",
+        "name": "意之意",
+        "location": "Elysium",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "protected": false,
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1920311707546644480/0Ve3MZpc_normal.jpg",
+        "id": "1595415869689044992",
+        "username": "luolingchy",
+        "name": "洛灵",
+        "public_metrics": {
+          "followers_count": 104,
+          "following_count": 48,
+          "tweet_count": 213,
+          "listed_count": 1,
+          "like_count": 217,
+          "media_count": 8
+        },
+        "protected": false,
+        "description": "",
+        "created_at": "2022-11-23T13:56:16.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1739460199323435008/cSDInbKL_normal.jpg",
+        "id": "1481172876589821952",
+        "username": "pyke2076",
+        "name": "bunny",
+        "location": "地狱 ",
+        "url": "https://t.co/ea8GmOUClU",
+        "public_metrics": {
+          "followers_count": 8165,
+          "following_count": 1192,
+          "tweet_count": 18333,
+          "listed_count": 8,
+          "like_count": 64691,
+          "media_count": 3012
+        },
+        "protected": false,
+        "description": "Don't let it be the day",
+        "created_at": "2022-01-12T07:55:43.000Z",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/ea8GmOUClU",
+                "expanded_url": "https://ngl.link/bunny2076",
+                "display_url": "ngl.link/bunny2076"
+              }
+            ]
+          }
+        },
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "id": "2025193723693596676",
+        "username": "miaomeow_cat",
+        "name": "碎夏",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "protected": false,
+        "description": "没有锚点的存在该如何生存",
+        "created_at": "2026-02-21T13:00:03.000Z",
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1807176546215768064/SgBCkgp3_normal.jpg",
+        "id": "4736358500",
+        "username": "wind_dmr",
+        "name": "𝖘𝖍𝖎𝖒𝖔𝖐𝖆𝖟𝖊|しもかぜ | ShimoKaze",
+        "location": "天堂",
+        "public_metrics": {
+          "followers_count": 2444,
+          "following_count": 841,
+          "tweet_count": 24573,
+          "listed_count": 8,
+          "like_count": 126823,
+          "media_count": 2942
+        },
+        "protected": false,
+        "description": "一般路过猫娘｜Human To Catgirl｜INFP｜舞萌｜🚪128｜BPD+BD ADHD+ASD GD｜#FF14 鸟区｜业余无线电｜EE在读｜全栈｜傻逼｜ 胶片摄影｜#MTG #WH40K｜lasciate ogni speranza, voi ch'entrate",
+        "created_at": "2016-01-10T03:31:46.000Z",
+        "entities": {
+          "description": {
+            "hashtags": [
+              {
+                "start": 56,
+                "end": 61,
+                "tag": "FF14"
+              },
+              {
+                "start": 88,
+                "end": 92,
+                "tag": "MTG"
+              },
+              {
+                "start": 93,
+                "end": 99,
+                "tag": "WH40K"
+              }
+            ]
+          }
+        },
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2014033112875798528/fzYQKz3U_normal.jpg",
+        "id": "1637972200371224577",
+        "username": "P0larstern",
+        "name": "P0larstern",
+        "public_metrics": {
+          "followers_count": 77,
+          "following_count": 81,
+          "tweet_count": 1075,
+          "listed_count": 0,
+          "like_count": 1587,
+          "media_count": 46
+        },
+        "protected": false,
+        "description": "前世@nejamais1 | 男的 | 可以叫我小天 | 水仙 | 双相",
+        "created_at": "2023-03-21T00:19:55.000Z",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 2,
+                "end": 12,
+                "username": "nejamais1"
+              }
+            ]
+          }
+        },
+        "verified": false
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2021590169326067712/p1mtNJJY_normal.jpg",
+        "id": "1763381254035251200",
+        "username": "wormsarelegends",
+        "name": "Doin' The Cockroach",
+        "location": "古老的爬虫脑",
+        "public_metrics": {
+          "followers_count": 424,
+          "following_count": 556,
+          "tweet_count": 4642,
+          "listed_count": 2,
+          "like_count": 45986,
+          "media_count": 174
+        },
+        "protected": false,
+        "description": "“何物会失去？”我切切想望。这皆是混沌所经之路，路上映出斑驳阴影。Oh, my mind is all made up, So I'll have to sleep in it.我已经沉入那种惬意的麻木之中了。｜叫我蟑螂，旧名号已弃用。没回fo私信提醒我",
+        "created_at": "2024-03-01T01:50:39.000Z",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "conversation_id": "2041013008609239429",
+        "lang": "zh",
+        "reply_settings": "everyone",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2041021413969268935"
+          }
+        ],
+        "in_reply_to_user_id": "1595415869689044992",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 29
+        },
+        "edit_history_tweet_ids": [
+          "2041022473001640052"
+        ],
+        "text": "@TauCeti_10700 所谓协助就是给号封掉真实有够讽刺的",
+        "created_at": "2026-04-06T05:17:32.000Z",
+        "id": "2041022473001640052",
+        "author_id": "1595415869689044992",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-06T06:17:32.000Z"
+        }
+      },
+      {
+        "conversation_id": "2041013008609239429",
+        "lang": "zh",
+        "reply_settings": "everyone",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2041013008609239429"
+          }
+        ],
+        "in_reply_to_user_id": "1808933044545630208",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 59
+        },
+        "edit_history_tweet_ids": [
+          "2041021413969268935"
+        ],
+        "text": "@TauCeti_10700 所以说号还有救吗",
+        "created_at": "2026-04-06T05:13:20.000Z",
+        "id": "2041021413969268935",
+        "author_id": "1595415869689044992",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-06T06:13:20.000Z"
+        }
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2041013008609239429",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:09Z"
+  }
+}

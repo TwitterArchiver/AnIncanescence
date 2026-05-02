@@ -1,0 +1,136 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1909667415686053888"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1909667422971609330",
+    "created_at": "2025-04-08T17:59:28.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-04-08T18:59:28.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1909667422971609330"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 9,
+          "end": 32,
+          "url": "https://t.co/FCg60Kcq43",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1909667422971609330/photo/1",
+          "display_url": "pic.x.com/FCg60Kcq43",
+          "media_key": "3_1909667415686053888"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1909667422971609330",
+    "lang": "ja",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "睡前神秘小仪式x https://t.co/FCg60Kcq43"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1920,
+        "media_key": "3_1909667415686053888",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GoCAZY8bAAAhZlm.jpg",
+        "width": 1080
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 24,
+          "following_count": 15,
+          "tweet_count": 63,
+          "listed_count": 0,
+          "like_count": 51,
+          "media_count": 12
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1909667415686053888"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1909667422971609330",
+        "created_at": "2025-04-08T17:59:28.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-04-08T18:59:28.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1909667422971609330"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 9,
+              "end": 32,
+              "url": "https://t.co/FCg60Kcq43",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1909667422971609330/photo/1",
+              "display_url": "pic.x.com/FCg60Kcq43",
+              "media_key": "3_1909667415686053888"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1909667422971609330",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "睡前神秘小仪式x https://t.co/FCg60Kcq43"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

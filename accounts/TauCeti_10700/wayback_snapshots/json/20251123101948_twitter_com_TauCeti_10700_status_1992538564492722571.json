@@ -1,0 +1,148 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1992538547174473728"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1992538564492722571",
+    "created_at": "2025-11-23T10:19:48.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-11-23T11:19:48.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1992538564492722571"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 76,
+          "end": 99,
+          "url": "https://t.co/ERXceKJyHz",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1992538564492722571/photo/1",
+          "display_url": "pic.x.com/ERXceKJyHz",
+          "media_key": "3_1992538547174473728"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1992538564492722571",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "翻出来了十几年前的话筒在浴室唱歌（）但是不知道是话筒的问题还是音响的问题，连接很差，而且音响也不是k歌用的，丝毫没有混响还总是炸，尽管如此还是唱了半天 https://t.co/ERXceKJyHz"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 4032,
+        "media_key": "3_1992538547174473728",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G6brQHGbgAAjPvj.jpg",
+        "width": 3024
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 74,
+          "following_count": 46,
+          "tweet_count": 270,
+          "listed_count": 1,
+          "like_count": 325,
+          "media_count": 68
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1992538547174473728"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1992538564492722571",
+        "created_at": "2025-11-23T10:19:48.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-11-23T11:19:48.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1992538564492722571"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 76,
+              "end": 99,
+              "url": "https://t.co/ERXceKJyHz",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1992538564492722571/photo/1",
+              "display_url": "pic.x.com/ERXceKJyHz",
+              "media_key": "3_1992538547174473728"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1992538564492722571",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "翻出来了十几年前的话筒在浴室唱歌（）但是不知道是话筒的问题还是音响的问题，连接很差，而且音响也不是k歌用的，丝毫没有混响还总是炸，尽管如此还是唱了半天 https://t.co/ERXceKJyHz"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

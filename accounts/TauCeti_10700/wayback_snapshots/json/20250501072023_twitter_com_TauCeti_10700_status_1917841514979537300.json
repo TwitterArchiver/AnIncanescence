@@ -1,0 +1,214 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1917800156449182131",
+    "created_at": "2025-05-01T07:20:23.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-05-01T08:20:23.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1917841514979537300"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "PaitangOfficial",
+          "id": "1272405078683430913"
+        },
+        {
+          "start": 17,
+          "end": 32,
+          "username": "suk1202xwast3d",
+          "id": "1909859675530797056"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1917841514979537300",
+    "in_reply_to_user_id": "1272405078683430913",
+    "lang": "ja",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1917800156449182131"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@PaitangOfficial @suk1202xwast3d 羡慕🥺"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 45,
+          "following_count": 23,
+          "tweet_count": 102,
+          "listed_count": 0,
+          "like_count": 101,
+          "media_count": 23
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2020-06-15T05:46:41.000Z",
+        "description": "退推。",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/r6ojtqN78M",
+                "expanded_url": "https://t.me/paitangcuzhi",
+                "display_url": "t.me/paitangcuzhi"
+              }
+            ]
+          }
+        },
+        "id": "1272405078683430913",
+        "location": "生物工程从业者，从事逆转衰老、干细胞和基因治疗研发",
+        "name": "☯️🧬無極",
+        "pinned_tweet_id": "1917519795584446560",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1917519720225394688/2jVCu-Iq_normal.jpg",
+        "protected": true,
+        "public_metrics": {
+          "followers_count": 9065,
+          "following_count": 351,
+          "tweet_count": 12118,
+          "listed_count": 26,
+          "like_count": 7154,
+          "media_count": 1499
+        },
+        "url": "https://t.co/r6ojtqN78M",
+        "username": "PaitangOfficial",
+        "verified": false
+      },
+      {
+        "created_at": "2025-04-09T06:43:41.000Z",
+        "description": "",
+        "id": "1909859675530797056",
+        "name": ".",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909861142387998720/PLVZSOB0_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 277,
+          "following_count": 193,
+          "tweet_count": 264,
+          "listed_count": 0,
+          "like_count": 970,
+          "media_count": 16
+        },
+        "username": "suk1202xwast3d",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1917800156449182131",
+        "created_at": "2025-05-01T07:20:23.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-01T08:20:23.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1917841514979537300"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "PaitangOfficial",
+              "id": "1272405078683430913"
+            },
+            {
+              "start": 17,
+              "end": 32,
+              "username": "suk1202xwast3d",
+              "id": "1909859675530797056"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1917841514979537300",
+        "in_reply_to_user_id": "1272405078683430913",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1917800156449182131"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@PaitangOfficial @suk1202xwast3d 羡慕🥺"
+      }
+    ]
+  },
+  "errors": [
+    {
+      "resource_id": "1917800156449182131",
+      "parameter": "referenced_tweets.id",
+      "resource_type": "tweet",
+      "section": "includes",
+      "title": "Authorization Error",
+      "value": "1917800156449182131",
+      "detail": "Sorry, you are not authorized to see the Tweet with referenced_tweets.id: [1917800156449182131].",
+      "type": "https://api.twitter.com/2/problems/not-authorized-for-resource"
+    }
+  ],
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1917800156449182131": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:25:40Z",
+        "max_depth": 32,
+        "posts": [],
+        "terminal_error": {
+          "id": "1917800156449182131",
+          "message": "env.pale-fire: Sorry, you are not authorized to see the Tweet with id: [1917800156449182131]. .env: Sorry, you are not authorized to see the Tweet with id: [1917800156449182131]. Wayback fallback: Wayback fallback did not find archived JSON for tweet id 1917800156449182131."
+        }
+      }
+    }
+  }
+}

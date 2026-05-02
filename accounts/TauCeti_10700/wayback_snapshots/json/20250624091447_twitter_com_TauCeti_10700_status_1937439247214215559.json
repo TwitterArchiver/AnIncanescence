@@ -1,0 +1,744 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1937428333161062873",
+    "created_at": "2025-06-24T09:14:47.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-24T10:14:47.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1937439247214215559"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        },
+        {
+          "start": 15,
+          "end": 30,
+          "username": "Yesmynamehaer1",
+          "id": "1176077981099446272"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1937439247214215559",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "ja",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1937437327804203338"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ @Yesmynamehaer1 等..等什么？"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 52,
+          "following_count": 40,
+          "tweet_count": 189,
+          "listed_count": 0,
+          "like_count": 232,
+          "media_count": 46
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destined Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 28,
+          "following_count": 23,
+          "tweet_count": 813,
+          "listed_count": 0,
+          "like_count": 2624,
+          "media_count": 27
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      },
+      {
+        "created_at": "2019-09-23T10:17:06.000Z",
+        "description": "白鳥/白鳥形人。\n中立友善单位，幻想生物与死去的人。\n学习，药物，酒，电子，嘻哈，文学，精神分析，自由主义 ——\n「Liberty/Freedom/Power」。\nFTX /Unitarian Universalists。\n@Coccus_Swamer /@Hawthor20853776 。",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 112,
+                "end": 126,
+                "username": "Coccus_Swamer"
+              },
+              {
+                "start": 128,
+                "end": 144,
+                "username": "Hawthor20853776"
+              }
+            ]
+          }
+        },
+        "id": "1176077981099446272",
+        "location": "Seoul, Republic of Korea",
+        "name": "Hereditarystupidity",
+        "pinned_tweet_id": "1929155582314881086",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1931325598825066497/3GFmpIUV_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 271,
+          "following_count": 533,
+          "tweet_count": 2504,
+          "listed_count": 1,
+          "like_count": 23208,
+          "media_count": 99
+        },
+        "username": "Yesmynamehaer1",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1937428333161062873",
+        "created_at": "2025-06-24T09:14:47.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-24T10:14:47.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1937439247214215559"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            },
+            {
+              "start": 15,
+              "end": 30,
+              "username": "Yesmynamehaer1",
+              "id": "1176077981099446272"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1937439247214215559",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1937437327804203338"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ @Yesmynamehaer1 等..等什么？"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1937428333161062873",
+        "created_at": "2025-06-24T09:07:09.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-24T10:07:09.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1937437327804203338"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 15,
+              "username": "Yesmynamehaer1",
+              "id": "1176077981099446272"
+            },
+            {
+              "start": 16,
+              "end": 30,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1937437327804203338",
+        "in_reply_to_user_id": "1176077981099446272",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1937433723034534225"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@Yesmynamehaer1 @TauCeti_10700 😡等我煎熟了分你一半😋😋"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1937433723034534225": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:58Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1937433723034534225",
+            "source": "x_api_oauth1:env.pale-fire",
+            "payload": {
+              "data": {
+                "created_at": "2025-06-24T08:52:50.000Z",
+                "possibly_sensitive": false,
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-24T09:52:50.000Z"
+                },
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 1,
+                  "like_count": 2,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 61
+                },
+                "id": "1937433723034534225",
+                "author_id": "1176077981099446272",
+                "edit_history_tweet_ids": [
+                  "1937433723034534225"
+                ],
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 14,
+                      "username": "lignedefuite_",
+                      "id": "1902145766002769920"
+                    },
+                    {
+                      "start": 15,
+                      "end": 29,
+                      "username": "TauCeti_10700",
+                      "id": "1808933044545630208"
+                    }
+                  ]
+                },
+                "conversation_id": "1937428333161062873",
+                "text": "@lignedefuite_ @TauCeti_10700 不许跟我抢",
+                "in_reply_to_user_id": "1902145766002769920",
+                "reply_settings": "everyone",
+                "lang": "zh",
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1937428712036958422"
+                  }
+                ]
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2019-09-23T10:17:06.000Z",
+                    "verified": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/2039233305284091904/hdxfbjXg_normal.jpg",
+                    "name": "Hereditarystupidity #鬼宿三",
+                    "description": "我想",
+                    "location": "白鳥形人",
+                    "id": "1176077981099446272",
+                    "username": "Yesmynamehaer1",
+                    "public_metrics": {
+                      "followers_count": 416,
+                      "following_count": 795,
+                      "tweet_count": 2955,
+                      "listed_count": 3,
+                      "like_count": 31911,
+                      "media_count": 83
+                    },
+                    "protected": false,
+                    "entities": {
+                      "url": {
+                        "urls": [
+                          {
+                            "start": 0,
+                            "end": 23,
+                            "url": "https://t.co/or4sXmhPOG",
+                            "expanded_url": "https://y.music.163.com/m/user?id=1349815486",
+                            "display_url": "y.music.163.com/m/user?id=1349…"
+                          }
+                        ]
+                      }
+                    },
+                    "url": "https://t.co/or4sXmhPOG"
+                  },
+                  {
+                    "created_at": "2025-03-18T23:51:20.000Z",
+                    "verified": false,
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+                    "name": "ligne de fuite",
+                    "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗歌｜落笔皆是不值得的故事｜我要去往的不是未来，而是我未能实现的过去",
+                    "location": "Death of destiny ",
+                    "id": "1902145766002769920",
+                    "username": "lignedefuite_",
+                    "public_metrics": {
+                      "followers_count": 52,
+                      "following_count": 20,
+                      "tweet_count": 905,
+                      "listed_count": 1,
+                      "like_count": 2787,
+                      "media_count": 36
+                    },
+                    "protected": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "created_at": "2025-06-24T08:32:55.000Z",
+                    "possibly_sensitive": false,
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-24T09:32:55.000Z"
+                    },
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 2,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 77
+                    },
+                    "id": "1937428712036958422",
+                    "author_id": "1902145766002769920",
+                    "edit_history_tweet_ids": [
+                      "1937428712036958422"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 14,
+                          "username": "TauCeti_10700",
+                          "id": "1808933044545630208"
+                        }
+                      ]
+                    },
+                    "conversation_id": "1937428333161062873",
+                    "text": "@TauCeti_10700 家人们，⬆️这就是我素未谋面的老婆啊🤓🤓🤓",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "reply_settings": "everyone",
+                    "lang": "zh",
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1937428333161062873"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1937428712036958422",
+            "source": "x_api_oauth1:env.pale-fire",
+            "payload": {
+              "data": {
+                "edit_history_tweet_ids": [
+                  "1937428712036958422"
+                ],
+                "conversation_id": "1937428333161062873",
+                "text": "@TauCeti_10700 家人们，⬆️这就是我素未谋面的老婆啊🤓🤓🤓",
+                "author_id": "1902145766002769920",
+                "possibly_sensitive": false,
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 14,
+                      "username": "TauCeti_10700",
+                      "id": "1808933044545630208"
+                    }
+                  ]
+                },
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 1,
+                  "like_count": 2,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 77
+                },
+                "id": "1937428712036958422",
+                "reply_settings": "everyone",
+                "created_at": "2025-06-24T08:32:55.000Z",
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1937428333161062873"
+                  }
+                ],
+                "lang": "zh",
+                "in_reply_to_user_id": "1808933044545630208",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-24T09:32:55.000Z"
+                }
+              },
+              "includes": {
+                "users": [
+                  {
+                    "public_metrics": {
+                      "followers_count": 52,
+                      "following_count": 20,
+                      "tweet_count": 905,
+                      "listed_count": 1,
+                      "like_count": 2787,
+                      "media_count": 36
+                    },
+                    "name": "ligne de fuite",
+                    "username": "lignedefuite_",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+                    "id": "1902145766002769920",
+                    "created_at": "2025-03-18T23:51:20.000Z",
+                    "location": "Death of destiny ",
+                    "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗歌｜落笔皆是不值得的故事｜我要去往的不是未来，而是我未能实现的过去",
+                    "verified": false,
+                    "protected": false
+                  },
+                  {
+                    "public_metrics": {
+                      "followers_count": 133,
+                      "following_count": 67,
+                      "tweet_count": 578,
+                      "listed_count": 1,
+                      "like_count": 702,
+                      "media_count": 148
+                    },
+                    "name": "Pale Fire",
+                    "username": "TauCeti_10700",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "id": "1808933044545630208",
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "location": "0°00′N 260°00′E Mars",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "verified": false,
+                    "protected": true
+                  }
+                ],
+                "tweets": [
+                  {
+                    "edit_history_tweet_ids": [
+                      "1937428333161062873"
+                    ],
+                    "conversation_id": "1937428333161062873",
+                    "text": "https://t.co/7hHjj82FO0",
+                    "author_id": "1808933044545630208",
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 4,
+                      "like_count": 5,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 364
+                    },
+                    "id": "1937428333161062873",
+                    "reply_settings": "everyone",
+                    "created_at": "2025-06-24T08:31:24.000Z",
+                    "attachments": {
+                      "media_keys": [
+                        "3_1937428326471155712"
+                      ]
+                    },
+                    "lang": "zxx",
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 0,
+                          "end": 23,
+                          "url": "https://t.co/7hHjj82FO0",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1937428333161062873/photo/1",
+                          "display_url": "pic.x.com/7hHjj82FO0",
+                          "media_key": "3_1937428326471155712"
+                        }
+                      ]
+                    },
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-24T09:31:24.000Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1937428333161062873",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1937428333161062873",
+                "created_at": "2025-06-24T09:15:41.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-24T10:15:41.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1937439474344165888"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1937439474344165888",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1937428333161062873"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "每天洗完澡吹完头，感觉自己像那个热带雨林里的蓝色金刚鹦鹉（）"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 2048,
+                    "media_key": "3_1937428326471155712",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/GuMgzEkXwAAawQk.jpg",
+                    "width": 1598
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 52,
+                      "following_count": 40,
+                      "tweet_count": 190,
+                      "listed_count": 0,
+                      "like_count": 232,
+                      "media_count": 46
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1937428333161062873",
+                    "created_at": "2025-06-24T09:15:41.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-24T10:15:41.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1937439474344165888"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1937439474344165888",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1937428333161062873"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "每天洗完澡吹完头，感觉自己像那个热带雨林里的蓝色金刚鹦鹉（）"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_1937428326471155712"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1937428333161062873",
+                    "created_at": "2025-06-24T08:31:24.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-24T09:31:24.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1937428333161062873"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 0,
+                          "end": 23,
+                          "url": "https://t.co/7hHjj82FO0",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1937428333161062873/photo/1",
+                          "display_url": "pic.x.com/7hHjj82FO0",
+                          "media_key": "3_1937428326471155712"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1937428333161062873",
+                    "lang": "zxx",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 3,
+                      "like_count": 3,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 19
+                    },
+                    "reply_settings": "everyone",
+                    "text": "https://t.co/7hHjj82FO0"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

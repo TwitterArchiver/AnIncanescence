@@ -1,0 +1,392 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "2012076280955682948",
+    "created_at": "2026-01-16T13:59:15.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-01-16T14:59:15.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2012162738924249557"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "lijunyi87429205",
+          "id": "1498354035854053377"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2012162738924249557",
+    "in_reply_to_user_id": "1498354035854053377",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2012157074239877488"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lijunyi87429205 我没有能成为一个优秀的人🥹但即使是这样也有你们在身边....太幸运了"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 73,
+          "following_count": 45,
+          "tweet_count": 325,
+          "listed_count": 1,
+          "like_count": 366,
+          "media_count": 82
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "id": "1498354035854053377",
+        "location": "Elysium",
+        "name": "意之意",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 89,
+          "following_count": 398,
+          "tweet_count": 967,
+          "listed_count": 8,
+          "like_count": 50512,
+          "media_count": 26
+        },
+        "username": "lijunyi87429205",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "2012076280955682948",
+        "created_at": "2026-01-16T13:59:15.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-16T14:59:15.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2012162738924249557"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "lijunyi87429205",
+              "id": "1498354035854053377"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2012162738924249557",
+        "in_reply_to_user_id": "1498354035854053377",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2012157074239877488"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lijunyi87429205 我没有能成为一个优秀的人🥹但即使是这样也有你们在身边....太幸运了"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1498354035854053377",
+        "conversation_id": "2012076280955682948",
+        "created_at": "2026-01-16T13:36:45.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-16T14:36:45.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2012157074239877488"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2012157074239877488",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2012076280955682948"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 勇敢也是一种需要培养的品质，如果乖巧换来的只是进一步的不尊重...会有巨大的失望和积怨。炽背负着这些，还变得那么优秀，肯定也很辛苦..."
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "2012076280955682948": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "2012076280955682948",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "2012076280955682948",
+                "created_at": "2026-01-16T17:47:30.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2026-01-16T18:47:30.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "2012220177509765188"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "2012220177509765188",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "2012076280955682948"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "“你未来一定会感谢我的”\n直到我确诊抑郁之后她才没有继续坚持这个观点，在这之前无比自信。世界太奇怪了"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 2494,
+                    "media_key": "3_2012076258268758017",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-xUsksbQAENAdJ.jpg",
+                    "width": 1206
+                  },
+                  {
+                    "height": 1206,
+                    "media_key": "3_2012076258247786499",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-xUsknbQAMZbzt.jpg",
+                    "width": 1206
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 73,
+                      "following_count": 45,
+                      "tweet_count": 328,
+                      "listed_count": 1,
+                      "like_count": 368,
+                      "media_count": 82
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "2012076280955682948",
+                    "created_at": "2026-01-16T17:47:30.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2026-01-16T18:47:30.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "2012220177509765188"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "2012220177509765188",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "2012076280955682948"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "“你未来一定会感谢我的”\n直到我确诊抑郁之后她才没有继续坚持这个观点，在这之前无比自信。世界太奇怪了"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_2012076258268758017",
+                        "3_2012076258247786499"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "2012076280955682948",
+                    "created_at": "2026-01-16T08:15:42.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2026-01-16T09:15:42.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "2012076280955682948"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 3,
+                          "end": 26,
+                          "url": "https://t.co/uw5wAUNreI",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012076280955682948/photo/1",
+                          "display_url": "pic.x.com/uw5wAUNreI",
+                          "media_key": "3_2012076258268758017"
+                        },
+                        {
+                          "start": 3,
+                          "end": 26,
+                          "url": "https://t.co/uw5wAUNreI",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012076280955682948/photo/1",
+                          "display_url": "pic.x.com/uw5wAUNreI",
+                          "media_key": "3_2012076258247786499"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "2012076280955682948",
+                    "lang": "ja",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 2,
+                      "like_count": 4,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 61
+                    },
+                    "reply_settings": "everyone",
+                    "text": "黑火 https://t.co/uw5wAUNreI"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

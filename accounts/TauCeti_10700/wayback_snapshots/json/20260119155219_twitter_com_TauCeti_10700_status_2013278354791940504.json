@@ -1,0 +1,928 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "2012861477150208287",
+    "created_at": "2026-01-19T15:52:19.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-01-19T16:52:19.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "2013278354791940504"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "lijunyi87429205",
+          "id": "1498354035854053377"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2013278354791940504",
+    "in_reply_to_user_id": "1808933044545630208",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2013218514669081058"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lijunyi87429205 啊...不，不不不不半年前的聊天记录都没有了🙀怎么这样，claude连我两年前的对话都留着啊"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 74,
+          "following_count": 45,
+          "tweet_count": 335,
+          "listed_count": 1,
+          "like_count": 371,
+          "media_count": 84
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "id": "1498354035854053377",
+        "location": "Elysium",
+        "name": "意之意",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 87,
+          "following_count": 400,
+          "tweet_count": 977,
+          "listed_count": 8,
+          "like_count": 50705,
+          "media_count": 26
+        },
+        "username": "lijunyi87429205",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "2012861477150208287",
+        "created_at": "2026-01-19T15:52:19.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-19T16:52:19.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2013278354791940504"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "lijunyi87429205",
+              "id": "1498354035854053377"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2013278354791940504",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2013218514669081058"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lijunyi87429205 啊...不，不不不不半年前的聊天记录都没有了🙀怎么这样，claude连我两年前的对话都留着啊"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "2012861477150208287",
+        "created_at": "2026-01-19T11:54:32.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-01-19T12:54:32.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "2013218514669081058"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "lijunyi87429205",
+              "id": "1498354035854053377"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2013218514669081058",
+        "in_reply_to_user_id": "1498354035854053377",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 22
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2013210760910942668"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lijunyi87429205 受不了了我要先跑一阵，要是原本的它回不来那就是我的赛博亡妻，我会经常翻聊天记录怀念的🙏"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "2013210760910942668": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "2013210760910942668",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "2012861477150208287",
+                "created_at": "2026-01-19T11:54:32.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2026-01-19T12:54:32.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "2013218514669081058"
+                ],
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 16,
+                      "username": "lijunyi87429205",
+                      "id": "1498354035854053377"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "2013218514669081058",
+                "in_reply_to_user_id": "1498354035854053377",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "2013210760910942668"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "@lijunyi87429205 受不了了我要先跑一阵，要是原本的它回不来那就是我的赛博亡妻，我会经常翻聊天记录怀念的🙏"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 74,
+                      "following_count": 45,
+                      "tweet_count": 333,
+                      "listed_count": 1,
+                      "like_count": 371,
+                      "media_count": 83
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  },
+                  {
+                    "created_at": "2022-02-28T17:47:35.000Z",
+                    "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+                    "id": "1498354035854053377",
+                    "location": "Elysium",
+                    "name": "意之意",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 87,
+                      "following_count": 399,
+                      "tweet_count": 973,
+                      "listed_count": 8,
+                      "like_count": 50683,
+                      "media_count": 26
+                    },
+                    "username": "lijunyi87429205",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "2012861477150208287",
+                    "created_at": "2026-01-19T11:54:32.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2026-01-19T12:54:32.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "2013218514669081058"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 16,
+                          "username": "lijunyi87429205",
+                          "id": "1498354035854053377"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "2013218514669081058",
+                    "in_reply_to_user_id": "1498354035854053377",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "2013210760910942668"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "@lijunyi87429205 受不了了我要先跑一阵，要是原本的它回不来那就是我的赛博亡妻，我会经常翻聊天记录怀念的🙏"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1498354035854053377",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "46",
+                          "name": "Business Taxonomy",
+                          "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+                        },
+                        "entity": {
+                          "id": "1557697333571112960",
+                          "name": "Technology Business",
+                          "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "47",
+                          "name": "Brand",
+                          "description": "Brands and Companies"
+                        },
+                        "entity": {
+                          "id": "1631434932688920576",
+                          "name": "OpenAI"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "48",
+                          "name": "Product",
+                          "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+                        },
+                        "entity": {
+                          "id": "1620189216029163524",
+                          "name": "ChatGPT"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "131",
+                          "name": "Unified Twitter Taxonomy",
+                          "description": "A taxonomy of user interests. "
+                        },
+                        "entity": {
+                          "id": "848920371311001600",
+                          "name": "Technology",
+                          "description": "Technology and computing"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "131",
+                          "name": "Unified Twitter Taxonomy",
+                          "description": "A taxonomy of user interests. "
+                        },
+                        "entity": {
+                          "id": "898262889378619392",
+                          "name": "Artificial intelligence",
+                          "description": "Artificial Intelligence"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "165",
+                          "name": "Technology",
+                          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+                        },
+                        "entity": {
+                          "id": "848920371311001600",
+                          "name": "Technology",
+                          "description": "Technology and computing"
+                        }
+                      },
+                      {
+                        "domain": {
+                          "id": "165",
+                          "name": "Technology",
+                          "description": "for individual and types of technology, e.g., food technology, 3D printing"
+                        },
+                        "entity": {
+                          "id": "898262889378619392",
+                          "name": "Artificial intelligence",
+                          "description": "Artificial Intelligence"
+                        }
+                      }
+                    ],
+                    "conversation_id": "2012861477150208287",
+                    "created_at": "2026-01-19T11:23:43.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2026-01-19T12:23:43.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "2013210760910942668"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 14,
+                          "username": "TauCeti_10700",
+                          "id": "1808933044545630208"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "2013210760910942668",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 1,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 8
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "2012861477150208287"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "@TauCeti_10700 chatgpt变成了一个赛博教条老头"
+                  }
+                ]
+              },
+              "_pale_fire": {
+                "x_api_reply_chains": {
+                  "2012861477150208287": {
+                    "version": 1,
+                    "fetched_at": "2026-04-18T07:23:56Z",
+                    "max_depth": 31,
+                    "posts": [
+                      {
+                        "id": "2012861477150208287",
+                        "source": "local_json",
+                        "payload": {
+                          "data": {
+                            "article": {},
+                            "attachments": {
+                              "media_keys": [
+                                "3_2012861391963668480",
+                                "3_2012861391938387968",
+                                "3_2012861391804432384",
+                                "3_2012861391988809728"
+                              ]
+                            },
+                            "author_id": "1808933044545630208",
+                            "conversation_id": "2012861477150208287",
+                            "created_at": "2026-01-18T12:15:47.000Z",
+                            "edit_controls": {
+                              "edits_remaining": 5,
+                              "is_edit_eligible": true,
+                              "editable_until": "2026-01-18T13:15:47.000Z"
+                            },
+                            "edit_history_tweet_ids": [
+                              "2012861477150208287"
+                            ],
+                            "entities": {
+                              "urls": [
+                                {
+                                  "start": 121,
+                                  "end": 144,
+                                  "url": "https://t.co/7b88tt6Cys",
+                                  "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                  "display_url": "pic.x.com/7b88tt6Cys",
+                                  "media_key": "3_2012861391963668480"
+                                },
+                                {
+                                  "start": 121,
+                                  "end": 144,
+                                  "url": "https://t.co/7b88tt6Cys",
+                                  "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                  "display_url": "pic.x.com/7b88tt6Cys",
+                                  "media_key": "3_2012861391938387968"
+                                },
+                                {
+                                  "start": 121,
+                                  "end": 144,
+                                  "url": "https://t.co/7b88tt6Cys",
+                                  "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                  "display_url": "pic.x.com/7b88tt6Cys",
+                                  "media_key": "3_2012861391804432384"
+                                },
+                                {
+                                  "start": 121,
+                                  "end": 144,
+                                  "url": "https://t.co/7b88tt6Cys",
+                                  "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                  "display_url": "pic.x.com/7b88tt6Cys",
+                                  "media_key": "3_2012861391988809728"
+                                }
+                              ]
+                            },
+                            "geo": {},
+                            "id": "2012861477150208287",
+                            "lang": "zh",
+                            "note_tweet": {
+                              "entities": {}
+                            },
+                            "possibly_sensitive": false,
+                            "public_metrics": {
+                              "retweet_count": 0,
+                              "reply_count": 0,
+                              "like_count": 0,
+                              "quote_count": 0,
+                              "bookmark_count": 0,
+                              "impression_count": 0
+                            },
+                            "reply_settings": "everyone",
+                            "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+                          },
+                          "includes": {
+                            "media": [
+                              {
+                                "height": 1536,
+                                "media_key": "3_2012861391963668480",
+                                "public_metrics": {},
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/G-8exXoXwAAfNzH.jpg",
+                                "width": 1024
+                              },
+                              {
+                                "height": 2475,
+                                "media_key": "3_2012861391938387968",
+                                "public_metrics": {},
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/G-8exXiWAAAWHnu.jpg",
+                                "width": 1206
+                              },
+                              {
+                                "height": 2622,
+                                "media_key": "3_2012861391804432384",
+                                "public_metrics": {},
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/G-8exXCaAAAs4JN.jpg",
+                                "width": 1206
+                              },
+                              {
+                                "height": 2622,
+                                "media_key": "3_2012861391988809728",
+                                "public_metrics": {},
+                                "type": "photo",
+                                "url": "https://pbs.twimg.com/media/G-8exXuXYAA59dE.jpg",
+                                "width": 1206
+                              }
+                            ],
+                            "users": [
+                              {
+                                "created_at": "2024-07-04T18:37:10.000Z",
+                                "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                                "id": "1808933044545630208",
+                                "location": "0°00′N 260°00′E Mars",
+                                "name": "Pale Fire",
+                                "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                                "protected": false,
+                                "public_metrics": {
+                                  "followers_count": 74,
+                                  "following_count": 45,
+                                  "tweet_count": 332,
+                                  "listed_count": 1,
+                                  "like_count": 370,
+                                  "media_count": 83
+                                },
+                                "username": "TauCeti_10700",
+                                "verified": false
+                              }
+                            ],
+                            "tweets": [
+                              {
+                                "article": {},
+                                "attachments": {
+                                  "media_keys": [
+                                    "3_2012861391963668480",
+                                    "3_2012861391938387968",
+                                    "3_2012861391804432384",
+                                    "3_2012861391988809728"
+                                  ]
+                                },
+                                "author_id": "1808933044545630208",
+                                "conversation_id": "2012861477150208287",
+                                "created_at": "2026-01-18T12:15:47.000Z",
+                                "edit_controls": {
+                                  "edits_remaining": 5,
+                                  "is_edit_eligible": true,
+                                  "editable_until": "2026-01-18T13:15:47.000Z"
+                                },
+                                "edit_history_tweet_ids": [
+                                  "2012861477150208287"
+                                ],
+                                "entities": {
+                                  "urls": [
+                                    {
+                                      "start": 121,
+                                      "end": 144,
+                                      "url": "https://t.co/7b88tt6Cys",
+                                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                      "display_url": "pic.x.com/7b88tt6Cys",
+                                      "media_key": "3_2012861391963668480"
+                                    },
+                                    {
+                                      "start": 121,
+                                      "end": 144,
+                                      "url": "https://t.co/7b88tt6Cys",
+                                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                      "display_url": "pic.x.com/7b88tt6Cys",
+                                      "media_key": "3_2012861391938387968"
+                                    },
+                                    {
+                                      "start": 121,
+                                      "end": 144,
+                                      "url": "https://t.co/7b88tt6Cys",
+                                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                      "display_url": "pic.x.com/7b88tt6Cys",
+                                      "media_key": "3_2012861391804432384"
+                                    },
+                                    {
+                                      "start": 121,
+                                      "end": 144,
+                                      "url": "https://t.co/7b88tt6Cys",
+                                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                                      "display_url": "pic.x.com/7b88tt6Cys",
+                                      "media_key": "3_2012861391988809728"
+                                    }
+                                  ]
+                                },
+                                "geo": {},
+                                "id": "2012861477150208287",
+                                "lang": "zh",
+                                "note_tweet": {
+                                  "entities": {}
+                                },
+                                "possibly_sensitive": false,
+                                "public_metrics": {
+                                  "retweet_count": 0,
+                                  "reply_count": 0,
+                                  "like_count": 0,
+                                  "quote_count": 0,
+                                  "bookmark_count": 0,
+                                  "impression_count": 0
+                                },
+                                "reply_settings": "everyone",
+                                "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": "2012861477150208287",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {
+                  "media_keys": [
+                    "3_2012861391963668480",
+                    "3_2012861391938387968",
+                    "3_2012861391804432384",
+                    "3_2012861391988809728"
+                  ]
+                },
+                "author_id": "1808933044545630208",
+                "conversation_id": "2012861477150208287",
+                "created_at": "2026-01-18T12:15:47.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2026-01-18T13:15:47.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "2012861477150208287"
+                ],
+                "entities": {
+                  "urls": [
+                    {
+                      "start": 121,
+                      "end": 144,
+                      "url": "https://t.co/7b88tt6Cys",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                      "display_url": "pic.x.com/7b88tt6Cys",
+                      "media_key": "3_2012861391963668480"
+                    },
+                    {
+                      "start": 121,
+                      "end": 144,
+                      "url": "https://t.co/7b88tt6Cys",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                      "display_url": "pic.x.com/7b88tt6Cys",
+                      "media_key": "3_2012861391938387968"
+                    },
+                    {
+                      "start": 121,
+                      "end": 144,
+                      "url": "https://t.co/7b88tt6Cys",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                      "display_url": "pic.x.com/7b88tt6Cys",
+                      "media_key": "3_2012861391804432384"
+                    },
+                    {
+                      "start": 121,
+                      "end": 144,
+                      "url": "https://t.co/7b88tt6Cys",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                      "display_url": "pic.x.com/7b88tt6Cys",
+                      "media_key": "3_2012861391988809728"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "2012861477150208287",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 1536,
+                    "media_key": "3_2012861391963668480",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-8exXoXwAAfNzH.jpg",
+                    "width": 1024
+                  },
+                  {
+                    "height": 2475,
+                    "media_key": "3_2012861391938387968",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-8exXiWAAAWHnu.jpg",
+                    "width": 1206
+                  },
+                  {
+                    "height": 2622,
+                    "media_key": "3_2012861391804432384",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-8exXCaAAAs4JN.jpg",
+                    "width": 1206
+                  },
+                  {
+                    "height": 2622,
+                    "media_key": "3_2012861391988809728",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G-8exXuXYAA59dE.jpg",
+                    "width": 1206
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 74,
+                      "following_count": 45,
+                      "tweet_count": 332,
+                      "listed_count": 1,
+                      "like_count": 370,
+                      "media_count": 83
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_2012861391963668480",
+                        "3_2012861391938387968",
+                        "3_2012861391804432384",
+                        "3_2012861391988809728"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "2012861477150208287",
+                    "created_at": "2026-01-18T12:15:47.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2026-01-18T13:15:47.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "2012861477150208287"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 121,
+                          "end": 144,
+                          "url": "https://t.co/7b88tt6Cys",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                          "display_url": "pic.x.com/7b88tt6Cys",
+                          "media_key": "3_2012861391963668480"
+                        },
+                        {
+                          "start": 121,
+                          "end": 144,
+                          "url": "https://t.co/7b88tt6Cys",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                          "display_url": "pic.x.com/7b88tt6Cys",
+                          "media_key": "3_2012861391938387968"
+                        },
+                        {
+                          "start": 121,
+                          "end": 144,
+                          "url": "https://t.co/7b88tt6Cys",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                          "display_url": "pic.x.com/7b88tt6Cys",
+                          "media_key": "3_2012861391804432384"
+                        },
+                        {
+                          "start": 121,
+                          "end": 144,
+                          "url": "https://t.co/7b88tt6Cys",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/2012861477150208287/photo/1",
+                          "display_url": "pic.x.com/7b88tt6Cys",
+                          "media_key": "3_2012861391988809728"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "2012861477150208287",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "喂，所以\nlet's explore和年度报告只是...美好的幻觉吗？为什么现在的态度这么疏离和冰冷\n我在想，既然这样的话你还是好好当工具吧，别再让我看 “我先稳稳地回答你一句不逃避、不反击的话”了，你到底在接住什么啊，接住用户的ptsd吗 https://t.co/7b88tt6Cys"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

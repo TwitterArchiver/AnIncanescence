@@ -1,0 +1,148 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1978474997518647296"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1978475002870874374",
+    "created_at": "2025-10-15T14:56:13.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-10-15T15:56:13.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1978475002870874374"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 73,
+          "end": 96,
+          "url": "https://t.co/s53dJ7T7zT",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1978475002870874374/photo/1",
+          "display_url": "pic.x.com/s53dJ7T7zT",
+          "media_key": "3_1978474997518647296"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1978475002870874374",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "这家伙叽里咕噜在说什么呢😵‍💫\n\n听不到两个小时的课已经注意力涣散了。。我现在立刻马上需要一个离线下载到脑子里的语言包............. https://t.co/s53dJ7T7zT"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 2556,
+        "media_key": "3_1978474997518647296",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G3T0hyAXQAAqtPT.jpg",
+        "width": 1179
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 70,
+          "following_count": 48,
+          "tweet_count": 245,
+          "listed_count": 1,
+          "like_count": 293,
+          "media_count": 60
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1978474997518647296"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1978475002870874374",
+        "created_at": "2025-10-15T14:56:13.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-10-15T15:56:13.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1978475002870874374"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 73,
+              "end": 96,
+              "url": "https://t.co/s53dJ7T7zT",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1978475002870874374/photo/1",
+              "display_url": "pic.x.com/s53dJ7T7zT",
+              "media_key": "3_1978474997518647296"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1978475002870874374",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "这家伙叽里咕噜在说什么呢😵‍💫\n\n听不到两个小时的课已经注意力涣散了。。我现在立刻马上需要一个离线下载到脑子里的语言包............. https://t.co/s53dJ7T7zT"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

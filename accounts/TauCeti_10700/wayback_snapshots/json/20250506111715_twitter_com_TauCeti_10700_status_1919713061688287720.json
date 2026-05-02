@@ -1,0 +1,521 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1915820955156574251",
+    "created_at": "2025-05-06T11:17:15.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-05-06T12:17:15.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1919713061688287720"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "KagurazakaLorna",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1919713061688287720",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1919712055617049020"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@KagurazakaLorna 🥺肯定是你忘记了"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 49,
+          "following_count": 24,
+          "tweet_count": 110,
+          "listed_count": 0,
+          "like_count": 119,
+          "media_count": 25
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "登上舞台以前，我撕掉了剧本。",
+        "id": "1902145766002769920",
+        "location": "Destinied Death",
+        "name": "KagurazakaLorna",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 14,
+          "following_count": 20,
+          "tweet_count": 369,
+          "listed_count": 0,
+          "like_count": 954,
+          "media_count": 11
+        },
+        "username": "KagurazakaLorna",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1915820955156574251",
+        "created_at": "2025-05-06T11:17:15.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-06T12:17:15.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1919713061688287720"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "KagurazakaLorna",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1919713061688287720",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1919712055617049020"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@KagurazakaLorna 🥺肯定是你忘记了"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1915820955156574251",
+        "created_at": "2025-05-06T11:13:15.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-06T12:13:15.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1919712055617049020"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1919712055617049020",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 5
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1919707092048351497"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 还好没做过好梦😘。"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1919707092048351497": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1919707092048351497",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1915820955156574251",
+                "created_at": "2025-05-06T10:53:31.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-05-06T11:53:31.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1919707092048351497"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1919707092048351497",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1915820955156574251"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "好梦会忘掉，坏梦会接上，不公平啊——"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 49,
+                      "following_count": 24,
+                      "tweet_count": 109,
+                      "listed_count": 0,
+                      "like_count": 117,
+                      "media_count": 25
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1915820955156574251",
+                    "created_at": "2025-05-06T10:53:31.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-05-06T11:53:31.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1919707092048351497"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1919707092048351497",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1915820955156574251"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "好梦会忘掉，坏梦会接上，不公平啊——"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "131",
+                          "name": "Unified Twitter Taxonomy",
+                          "description": "A taxonomy of user interests. "
+                        },
+                        "entity": {
+                          "id": "854692455005921281",
+                          "name": "Science",
+                          "description": "Science"
+                        }
+                      }
+                    ],
+                    "conversation_id": "1915820955156574251",
+                    "created_at": "2025-04-25T17:31:24.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-04-25T18:31:24.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1915820955156574251"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1915820955156574251",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 2,
+                      "like_count": 4,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 148
+                    },
+                    "reply_settings": "everyone",
+                    "text": "昨天做了一个很幸福的梦，醒来之后又贪心地睡下去，等到再次睁开眼睛已经被下一段REM的记忆覆盖掉了\n但是我仍然记得那种残留的感觉...作为“梦”它是真实发生过的，没有依靠任何外来的化学物质，这很少见\n于是会开始守望下一段梦境，一点点也好，再多让我看见一点点吧"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1915820955156574251",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1915820955156574251",
+                "created_at": "2025-05-06T10:53:31.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-05-06T11:53:31.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1919707092048351497"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1919707092048351497",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1915820955156574251"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "好梦会忘掉，坏梦会接上，不公平啊——"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 49,
+                      "following_count": 24,
+                      "tweet_count": 109,
+                      "listed_count": 0,
+                      "like_count": 117,
+                      "media_count": 25
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1915820955156574251",
+                    "created_at": "2025-05-06T10:53:31.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-05-06T11:53:31.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1919707092048351497"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1919707092048351497",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1915820955156574251"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "好梦会忘掉，坏梦会接上，不公平啊——"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "context_annotations": [
+                      {
+                        "domain": {
+                          "id": "131",
+                          "name": "Unified Twitter Taxonomy",
+                          "description": "A taxonomy of user interests. "
+                        },
+                        "entity": {
+                          "id": "854692455005921281",
+                          "name": "Science",
+                          "description": "Science"
+                        }
+                      }
+                    ],
+                    "conversation_id": "1915820955156574251",
+                    "created_at": "2025-04-25T17:31:24.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-04-25T18:31:24.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1915820955156574251"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1915820955156574251",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 2,
+                      "like_count": 4,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 148
+                    },
+                    "reply_settings": "everyone",
+                    "text": "昨天做了一个很幸福的梦，醒来之后又贪心地睡下去，等到再次睁开眼睛已经被下一段REM的记忆覆盖掉了\n但是我仍然记得那种残留的感觉...作为“梦”它是真实发生过的，没有依靠任何外来的化学物质，这很少见\n于是会开始守望下一段梦境，一点点也好，再多让我看见一点点吧"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

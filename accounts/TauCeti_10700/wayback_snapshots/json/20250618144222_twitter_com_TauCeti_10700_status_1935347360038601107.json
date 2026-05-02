@@ -1,0 +1,493 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1935329169237311537",
+    "created_at": "2025-06-18T14:42:22.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-06-18T15:42:22.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1935347360038601107"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1935347360038601107",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "qme",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1935337327854858538"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ 👾👾"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 50,
+          "following_count": 32,
+          "tweet_count": 163,
+          "listed_count": 0,
+          "like_count": 176,
+          "media_count": 41
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destinied Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 29,
+          "following_count": 23,
+          "tweet_count": 792,
+          "listed_count": 0,
+          "like_count": 2541,
+          "media_count": 27
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1935329169237311537",
+        "created_at": "2025-06-18T14:42:22.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-18T15:42:22.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1935347360038601107"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1935347360038601107",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "qme",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1935337327854858538"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ 👾👾"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1935329169237311537",
+        "created_at": "2025-06-18T14:02:30.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-18T15:02:30.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1935337327854858538"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1935337327854858538",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 3
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1935334097032777904"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 喵喵喵！"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1935334097032777904": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1935334097032777904",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1935329169237311537",
+                "created_at": "2025-06-18T13:49:40.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-18T14:49:40.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1935334097032777904"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1935334097032777904",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1935329169237311537"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "好不习惯....这么安静"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 50,
+                      "following_count": 27,
+                      "tweet_count": 163,
+                      "listed_count": 0,
+                      "like_count": 167,
+                      "media_count": 43
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935329169237311537",
+                    "created_at": "2025-06-18T13:49:40.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-18T14:49:40.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935334097032777904"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1935334097032777904",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1935329169237311537"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "好不习惯....这么安静"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935329169237311537",
+                    "created_at": "2025-06-18T13:30:05.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-18T14:30:05.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935329169237311537"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1935329169237311537",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 1,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 19
+                    },
+                    "reply_settings": "everyone",
+                    "text": "我可能会把大号停用一段时间，因为有敏感聊天记录\n此号仍然使用"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1935329169237311537",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1935329169237311537",
+                "created_at": "2025-06-18T13:49:40.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-06-18T14:49:40.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1935334097032777904"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1935334097032777904",
+                "in_reply_to_user_id": "1808933044545630208",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1935329169237311537"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "好不习惯....这么安静"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 50,
+                      "following_count": 27,
+                      "tweet_count": 163,
+                      "listed_count": 0,
+                      "like_count": 167,
+                      "media_count": 43
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935329169237311537",
+                    "created_at": "2025-06-18T13:49:40.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-18T14:49:40.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935334097032777904"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1935334097032777904",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1935329169237311537"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "好不习惯....这么安静"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1935329169237311537",
+                    "created_at": "2025-06-18T13:30:05.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-06-18T14:30:05.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1935329169237311537"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1935329169237311537",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 1,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 19
+                    },
+                    "reply_settings": "everyone",
+                    "text": "我可能会把大号停用一段时间，因为有敏感聊天记录\n此号仍然使用"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "data": {
+    "lang": "zh",
+    "conversation_id": "2041087550790738095",
+    "edit_history_tweet_ids": [
+      "2041087839165882689"
+    ],
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2041087550790738095"
+      }
+    ],
+    "id": "2041087839165882689",
+    "reply_settings": "everyone",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-06T10:37:17.000Z"
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 72
+    },
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "text": "@TauCeti_10700 找不回来了么？不要啊…",
+    "in_reply_to_user_id": "1808933044545630208",
+    "created_at": "2026-04-06T09:37:17.000Z",
+    "author_id": "1902145766002769920"
+  },
+  "includes": {
+    "users": [
+      {
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zWqK1n9RJg",
+                "expanded_url": "https://ngl.link/wakaba_rinko",
+                "display_url": "ngl.link/wakaba_rinko"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 85,
+                "end": 97,
+                "username": "Misaki11137"
+              },
+              {
+                "start": 98,
+                "end": 113,
+                "username": "loveforeversfy"
+              },
+              {
+                "start": 118,
+                "end": 134,
+                "username": "BelovedUren8964"
+              }
+            ]
+          }
+        },
+        "public_metrics": {
+          "followers_count": 689,
+          "following_count": 676,
+          "tweet_count": 8453,
+          "listed_count": 1,
+          "like_count": 17352,
+          "media_count": 174
+        },
+        "location": "Ask me any u want→",
+        "id": "1849043039496617984",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2004661650092359680/DqSlreCz_normal.jpg",
+        "url": "https://t.co/zWqK1n9RJg",
+        "description": "我思う、ゆえに我あり｜ 我是林子｜性别为无、｜寒くなってきたね……もう少しだけ、いい？｜intp-t｜ASD/OCD/焦虑障碍｜🧬今日也想成为biohacker｜好妈妈们@Misaki11137 @loveforeversfy|bro @BelovedUren8964",
+        "protected": false,
+        "created_at": "2024-10-23T10:59:58.000Z",
+        "name": "Rinko",
+        "username": "Rinko_zero8964"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "location": "0°00′N 260°00′E Mars",
+        "id": "1808933044545630208",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "protected": true,
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "name": "Pale Fire",
+        "username": "TauCeti_10700"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 170,
+          "following_count": 77,
+          "tweet_count": 1503,
+          "listed_count": 1,
+          "like_count": 4623,
+          "media_count": 138
+        },
+        "location": "挪威",
+        "id": "1431397782867169285",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2028562862462156800/jS-WTSjB_normal.jpg",
+        "description": "𝑪𝒂𝒍𝒍 𝒎𝒆 𝒃𝒚 𝒚𝒐𝒖𝒓 𝒏𝒂𝒎𝒆",
+        "protected": false,
+        "created_at": "2021-08-27T23:26:42.000Z",
+        "name": "伞",
+        "username": "NebLorne"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 20,
+          "following_count": 150,
+          "tweet_count": 443,
+          "listed_count": 0,
+          "like_count": 542,
+          "media_count": 75
+        },
+        "location": "NewMap",
+        "id": "1619698674917068801",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1916186524884078594/dGmyKGAr_normal.jpg",
+        "description": "UnrealEngine地编师（学 接 私）｜艺术｜形而上｜理想国｜棱镜｜身外的世界总是模糊的…\n我想休息一下 在一个只有我的世界里。",
+        "protected": false,
+        "created_at": "2023-01-29T14:08:10.000Z",
+        "name": "mono氚",
+        "username": "InfiniteTritium"
+      },
+      {
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 20,
+                "end": 32,
+                "username": "jellyfishci"
+              }
+            ]
+          }
+        },
+        "public_metrics": {
+          "followers_count": 1352,
+          "following_count": 96,
+          "tweet_count": 1863,
+          "listed_count": 5,
+          "like_count": 12555,
+          "media_count": 122
+        },
+        "location": "夢",
+        "id": "1805577098234675202",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1848133795993812992/Umfhgx41_normal.jpg",
+        "description": "你好，我是小次，很高兴遇见你 ｜ 涂鸦册@jellyfishci  ｜ 这里是湿哒哒的日记本，一直更新至终末的连载遗书 ｜ 请在一次性的旅途中，再尽兴一点吧",
+        "protected": false,
+        "created_at": "2024-06-25T12:21:56.000Z",
+        "name": "一次性",
+        "username": "yCxYP599"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 104,
+          "following_count": 48,
+          "tweet_count": 213,
+          "listed_count": 1,
+          "like_count": 217,
+          "media_count": 8
+        },
+        "id": "1595415869689044992",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1920311707546644480/0Ve3MZpc_normal.jpg",
+        "description": "",
+        "protected": false,
+        "created_at": "2022-11-23T13:56:16.000Z",
+        "name": "洛灵",
+        "username": "luolingchy"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 35,
+          "following_count": 118,
+          "tweet_count": 783,
+          "listed_count": 1,
+          "like_count": 12180,
+          "media_count": 27
+        },
+        "location": "America",
+        "id": "1760516990027079680",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1913673644250992640/lQq5jF67_normal.jpg",
+        "description": "我就是个见不得光的缺爱老鼠，但会友善对待所有人的",
+        "protected": false,
+        "created_at": "2024-02-22T04:09:11.000Z",
+        "name": "Alastor",
+        "username": "Alastor81049"
+      },
+      {
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/fYcghaPwHl",
+                "expanded_url": "https://ngl.link/island92218",
+                "display_url": "ngl.link/island92218"
+              }
+            ]
+          }
+        },
+        "public_metrics": {
+          "followers_count": 140,
+          "following_count": 125,
+          "tweet_count": 5462,
+          "listed_count": 0,
+          "like_count": 14911,
+          "media_count": 793
+        },
+        "location": "失乐园",
+        "id": "1951250095485444096",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2037709535708839936/Up51FlE0_normal.jpg",
+        "url": "https://t.co/fYcghaPwHl",
+        "description": "𝓃ℴ𝒷ℴ𝒹𝓎'𝓈 𝓅𝓇ℴ𝓂𝒾𝓈𝑒𝒹 𝓉ℴ𝓂ℴ𝓇𝓇ℴ𝓌, 𝓈ℴ 𝒾'𝓂𝒶 𝓁ℴ𝓋𝑒 𝓎ℴ𝓊 𝑒𝓋𝑒𝓇𝓎 𝓃𝒾𝑔𝒽𝓉 𝓁𝒾𝓀𝑒 𝒾𝓉'𝓈 𝓉𝒽𝑒 𝓁𝒶𝓈𝓉 𝓃𝒾𝑔𝒽𝓉.",
+        "protected": false,
+        "created_at": "2025-08-01T11:55:39.000Z",
+        "name": "Island404_",
+        "username": "fish1151004"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 52,
+          "following_count": 20,
+          "tweet_count": 905,
+          "listed_count": 1,
+          "like_count": 2787,
+          "media_count": 36
+        },
+        "location": "Death of destiny ",
+        "id": "1902145766002769920",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗歌｜落笔皆是不值得的故事｜我要去往的不是未来，而是我未能实现的过去",
+        "protected": false,
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "name": "ligne de fuite",
+        "username": "lignedefuite_"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2041087550790738095",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:11Z"
+  }
+}

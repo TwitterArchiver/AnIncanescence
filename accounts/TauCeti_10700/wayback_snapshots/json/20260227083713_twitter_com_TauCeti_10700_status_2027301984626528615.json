@@ -1,0 +1,3433 @@
+{
+  "data": {
+    "created_at": "2026-02-27T08:37:13.000Z",
+    "edit_history_tweet_ids": [
+      "2027301984626528615"
+    ],
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2027189393648173483"
+      }
+    ],
+    "author_id": "1808933044545630208",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 9,
+          "username": "yCxYP599",
+          "id": "1805577098234675202"
+        }
+      ]
+    },
+    "id": "2027301984626528615",
+    "reply_settings": "everyone",
+    "in_reply_to_user_id": "1805577098234675202",
+    "text": "@yCxYP599 送房梁吧！房梁比较难找（不是）",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 53
+    },
+    "possibly_sensitive": false,
+    "conversation_id": "2027189393648173483",
+    "lang": "zh",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-02-27T09:37:13.000Z"
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "location": "0°00′N 260°00′E Mars",
+        "verified": false,
+        "name": "Pale Fire",
+        "id": "1808933044545630208",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "username": "TauCeti_10700",
+        "protected": true,
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra."
+      },
+      {
+        "created_at": "2024-01-08T11:31:57.000Z",
+        "public_metrics": {
+          "followers_count": 216,
+          "following_count": 187,
+          "tweet_count": 1317,
+          "listed_count": 2,
+          "like_count": 999,
+          "media_count": 176
+        },
+        "verified": false,
+        "name": "SUR",
+        "id": "1744320870800379904",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1958095597841641472/XjO-tOy8_normal.jpg",
+        "username": "386Nsg47079",
+        "protected": false,
+        "description": "这个家伙是个电子👻。\n互fo私信就可以了喔。"
+      },
+      {
+        "created_at": "2023-03-21T00:19:55.000Z",
+        "public_metrics": {
+          "followers_count": 77,
+          "following_count": 81,
+          "tweet_count": 1075,
+          "listed_count": 0,
+          "like_count": 1587,
+          "media_count": 46
+        },
+        "verified": false,
+        "name": "P0larstern",
+        "id": "1637972200371224577",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2014033112875798528/fzYQKz3U_normal.jpg",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 2,
+                "end": 12,
+                "username": "nejamais1"
+              }
+            ]
+          }
+        },
+        "username": "P0larstern",
+        "protected": false,
+        "description": "前世@nejamais1 | 男的 | 可以叫我小天 | 水仙 | 双相"
+      },
+      {
+        "created_at": "2024-06-25T12:21:56.000Z",
+        "public_metrics": {
+          "followers_count": 1352,
+          "following_count": 96,
+          "tweet_count": 1863,
+          "listed_count": 5,
+          "like_count": 12555,
+          "media_count": 122
+        },
+        "location": "夢",
+        "verified": false,
+        "name": "一次性",
+        "id": "1805577098234675202",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1848133795993812992/Umfhgx41_normal.jpg",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 20,
+                "end": 32,
+                "username": "jellyfishci"
+              }
+            ]
+          }
+        },
+        "username": "yCxYP599",
+        "protected": false,
+        "description": "你好，我是小次，很高兴遇见你 ｜ 涂鸦册@jellyfishci  ｜ 这里是湿哒哒的日记本，一直更新至终末的连载遗书 ｜ 请在一次性的旅途中，再尽兴一点吧"
+      },
+      {
+        "created_at": "2019-09-23T10:17:06.000Z",
+        "public_metrics": {
+          "followers_count": 416,
+          "following_count": 795,
+          "tweet_count": 2955,
+          "listed_count": 3,
+          "like_count": 31911,
+          "media_count": 83
+        },
+        "location": "白鳥形人",
+        "verified": false,
+        "url": "https://t.co/or4sXmhPOG",
+        "name": "Hereditarystupidity #鬼宿三",
+        "id": "1176077981099446272",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2039233305284091904/hdxfbjXg_normal.jpg",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/or4sXmhPOG",
+                "expanded_url": "https://y.music.163.com/m/user?id=1349815486",
+                "display_url": "y.music.163.com/m/user?id=1349…"
+              }
+            ]
+          }
+        },
+        "username": "Yesmynamehaer1",
+        "protected": false,
+        "description": "我想"
+      },
+      {
+        "created_at": "2025-03-15T05:20:44.000Z",
+        "public_metrics": {
+          "followers_count": 82,
+          "following_count": 245,
+          "tweet_count": 4436,
+          "listed_count": 0,
+          "like_count": 15738,
+          "media_count": 105
+        },
+        "verified": false,
+        "name": "Anoko",
+        "id": "1900779126245769216",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2006613154210721792/8FPJv03i_normal.jpg",
+        "username": "fawpv25",
+        "protected": true,
+        "description": "如果你知道怎么变成一只乌鸦，请告诉我/致力于成为你们的互联网好朋鸦/艺术就是生命/我们的诞生不是为了被疼痛感束缚/学习像人类一样地活下去。"
+      },
+      {
+        "created_at": "2024-10-29T02:55:41.000Z",
+        "public_metrics": {
+          "followers_count": 8809,
+          "following_count": 7209,
+          "tweet_count": 6780,
+          "listed_count": 12,
+          "like_count": 8032,
+          "media_count": 3860
+        },
+        "location": "吉林",
+        "verified": false,
+        "url": "https://t.co/yuwj4xiOO7",
+        "name": "面条子坨了",
+        "id": "1851095477275803648",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1851100042960257026/JQSAI2EK_normal.jpg",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/yuwj4xiOO7",
+                "expanded_url": "https://www.instagram.com/xinpengjilin/",
+                "display_url": "instagram.com/xinpengjilin/"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 47,
+                "end": 54,
+                "username": "linfyc"
+              }
+            ]
+          }
+        },
+        "username": "miantiaozi7",
+        "protected": false,
+        "description": "汉左将军，宜城亭侯，领豫州牧。热爱中华文化，喜欢文学历史科学，爱足球爱读书爱电影，防失联小号 @linfyc"
+      },
+      {
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1555,
+          "listed_count": 8,
+          "like_count": 61265,
+          "media_count": 40
+        },
+        "location": "Elysium",
+        "verified": false,
+        "name": "意之意",
+        "id": "1498354035854053377",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "username": "lijunyi87429205",
+        "protected": false,
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/"
+      },
+      {
+        "created_at": "2025-05-02T02:01:45.000Z",
+        "public_metrics": {
+          "followers_count": 1168,
+          "following_count": 147,
+          "tweet_count": 5612,
+          "listed_count": 0,
+          "like_count": 14101,
+          "media_count": 261
+        },
+        "location": "瓦纳海姆",
+        "verified": false,
+        "name": "Bunny",
+        "id": "1918123618611150848",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1980847355826937857/mGWb3vSQ_normal.jpg",
+        "username": "Bunnyloustin",
+        "protected": false,
+        "description": "我爱你"
+      },
+      {
+        "created_at": "2025-09-09T12:34:37.000Z",
+        "public_metrics": {
+          "followers_count": 742,
+          "following_count": 147,
+          "tweet_count": 6474,
+          "listed_count": 2,
+          "like_count": 27196,
+          "media_count": 730
+        },
+        "location": "Wan Chai District, Hong Kong",
+        "verified": false,
+        "name": "時璃風医詩🌈🏳️‍🌈",
+        "id": "1965393379224944645",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1973891136327725061/-Pyo_hiN_normal.jpg",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 121,
+                "end": 134,
+                "username": "amber_toffee"
+              }
+            ]
+          }
+        },
+        "username": "hagishigure",
+        "protected": false,
+        "description": "“我愿尽余之能力与判断力所及，遵守为病家谋利益之信条，并检柬一切堕落和害人行为，我不得将危害药品给予他人，并不作该项之指导，虽有人请求亦必不与之。”\n|宣誓人——嫌疑人X|🪼沒有標籤，也不需要定義自己|正因神愛世人，世人才予以神的敬稱|好看的@amber_toffee |現涉及10个專業|治愈的资格將由痛苦计量。"
+      },
+      {
+        "created_at": "2023-07-18T17:01:44.000Z",
+        "public_metrics": {
+          "followers_count": 24,
+          "following_count": 593,
+          "tweet_count": 167,
+          "listed_count": 0,
+          "like_count": 2054,
+          "media_count": 1
+        },
+        "verified": false,
+        "name": "j u ju bo ox d",
+        "id": "1681348512179695617",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2031771808190582784/7rMYyIW0_normal.jpg",
+        "username": "jujubooxd162781",
+        "protected": false,
+        "description": ""
+      },
+      {
+        "created_at": "2019-01-04T09:10:06.000Z",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 185,
+          "tweet_count": 1405,
+          "listed_count": 0,
+          "like_count": 8458,
+          "media_count": 10
+        },
+        "location": "Freetaxland",
+        "verified": false,
+        "name": "RyougiShiki",
+        "id": "1081115542109380608",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1985989837124771840/l4HMeC3K_normal.jpg",
+        "username": "damniwokeup",
+        "protected": false,
+        "description": "Per aspera ad astra"
+      },
+      {
+        "created_at": "2024-02-25T18:34:37.000Z",
+        "public_metrics": {
+          "followers_count": 142,
+          "following_count": 211,
+          "tweet_count": 1273,
+          "listed_count": 1,
+          "like_count": 2036,
+          "media_count": 58
+        },
+        "verified": false,
+        "name": "🌌",
+        "id": "1761821960978460672",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025827248633171968/d7BX3Lk3_normal.jpg",
+        "username": "oct424242",
+        "protected": false,
+        "description": "they/them🏳️‍🌈🏳️‍⚧️ 务虚"
+      },
+      {
+        "created_at": "2021-09-12T12:43:59.000Z",
+        "public_metrics": {
+          "followers_count": 200,
+          "following_count": 104,
+          "tweet_count": 2051,
+          "listed_count": 4,
+          "like_count": 3885,
+          "media_count": 207
+        },
+        "location": "你的身旁",
+        "verified": false,
+        "name": "🥛💤",
+        "id": "1437034228768595977",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2008872173084229632/7RVhFGtF_normal.jpg",
+        "username": "Kumamushi2021",
+        "protected": false,
+        "description": "欲望与忧郁的幽灵，无止尽地悲叹着。雪、昏暗光线、玻璃水雾、虹彩、幽灵、猫、生命与死。|18↑/中文/可以叫我水熊蟲或水熊/患有双相注意避雷/废话很多"
+      },
+      {
+        "created_at": "2024-10-23T10:59:58.000Z",
+        "public_metrics": {
+          "followers_count": 689,
+          "following_count": 675,
+          "tweet_count": 8451,
+          "listed_count": 1,
+          "like_count": 17351,
+          "media_count": 174
+        },
+        "location": "Ask me any u want→",
+        "verified": false,
+        "url": "https://t.co/zWqK1n9RJg",
+        "name": "Rinko",
+        "id": "1849043039496617984",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2004661650092359680/DqSlreCz_normal.jpg",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zWqK1n9RJg",
+                "expanded_url": "https://ngl.link/wakaba_rinko",
+                "display_url": "ngl.link/wakaba_rinko"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 85,
+                "end": 97,
+                "username": "Misaki11137"
+              },
+              {
+                "start": 98,
+                "end": 113,
+                "username": "loveforeversfy"
+              },
+              {
+                "start": 118,
+                "end": 134,
+                "username": "BelovedUren8964"
+              }
+            ]
+          }
+        },
+        "username": "Rinko_zero8964",
+        "protected": false,
+        "description": "我思う、ゆえに我あり｜ 我是林子｜性别为无、｜寒くなってきたね……もう少しだけ、いい？｜intp-t｜ASD/OCD/焦虑障碍｜🧬今日也想成为biohacker｜好妈妈们@Misaki11137 @loveforeversfy|bro @BelovedUren8964"
+      },
+      {
+        "created_at": "2025-03-21T15:01:17.000Z",
+        "public_metrics": {
+          "followers_count": 3474,
+          "following_count": 308,
+          "tweet_count": 18420,
+          "listed_count": 9,
+          "like_count": 100331,
+          "media_count": 1205
+        },
+        "location": "Ripley's Aquarium of Canada",
+        "verified": false,
+        "url": "https://t.co/JLTijPr6i9",
+        "name": "小虚空🍥",
+        "id": "1903099585129816064",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2037110980358868993/9NOxcDIU_normal.jpg",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/JLTijPr6i9",
+                "expanded_url": "http://www.networkutopia.com",
+                "display_url": "networkutopia.com"
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "start": 87,
+                "end": 110,
+                "url": "https://t.co/2EQB4n1ssZ",
+                "expanded_url": "https://ngl.link/c13h16n2.hcl",
+                "display_url": "ngl.link/c13h16n2.hcl"
+              }
+            ],
+            "mentions": [
+              {
+                "start": 14,
+                "end": 24,
+                "username": "VentusUta"
+              },
+              {
+                "start": 30,
+                "end": 39,
+                "username": "Opiumash"
+              },
+              {
+                "start": 45,
+                "end": 56,
+                "username": "_rawSalmon"
+              }
+            ]
+          }
+        },
+        "username": "tokerumaisurii",
+        "protected": false,
+        "description": "虚空猫猫鱼 ¦ 我等心友🪼 @VentusUta :: 🎇 @Opiumash :: 🐱 @_rawSalmon ¦ 我觉得我每天都活在卖火柴的小女孩临终时的那种幻想里 ¦ https://t.co/2EQB4n1ssZ"
+      }
+    ],
+    "tweets": [
+      {
+        "created_at": "2026-03-17T08:45:40.000Z",
+        "edit_history_tweet_ids": [
+          "2033827091855380819"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "2033524209058738670"
+          }
+        ],
+        "author_id": "1744320870800379904",
+        "id": "2033827091855380819",
+        "reply_settings": "everyone",
+        "text": "这位母亲真的不知道她的女儿情况很糟糕吗？我猜大概有相当多常识性的信号早就提醒过她。她真的能接受女儿一直啥也不干吗？她只是在强平以后后悔没能及时止损。  \n\n她之所以无视那些信号，原因在于她不希望女儿的情况真的糟糕。与她期待相悖的信号都被当成了情绪攻击。  \n\n问题是，世界是任凭你意的吗？ https://t.co/zdREXS0KIc",
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 1,
+          "like_count": 10,
+          "quote_count": 1,
+          "bookmark_count": 0,
+          "impression_count": 600
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 145,
+              "end": 168,
+              "url": "https://t.co/zdREXS0KIc",
+              "expanded_url": "https://twitter.com/yomoda_yukusa/status/2033524209058738670",
+              "display_url": "x.com/yomoda_yukusa/…"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2033827091855380819",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-03-17T09:45:40.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-17T07:26:36.000Z",
+        "edit_history_tweet_ids": [
+          "2033807197470396845"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2033579074145181825"
+          }
+        ],
+        "author_id": "1637972200371224577",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2033807197470396845",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 明明是温暖的季节却像倒春寒一般收割着人的生命...我们能撑过这个春天的",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 36
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2033579074145181825",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-17T08:26:36.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-13T23:01:20.000Z",
+        "edit_history_tweet_ids": [
+          "2032592876685680748"
+        ],
+        "author_id": "1805577098234675202",
+        "id": "2032592876685680748",
+        "reply_settings": "everyone",
+        "text": "因为太拖延了有时候一天都没办法换好四件套，干脆在地板上睡觉了。没有办法洗好杯子就干脆直接捧自来水喝。因为行动力太差，目前过着如此糟糕的生活。画画更是困难…",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 5,
+          "like_count": 41,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 2218
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2032592876685680748",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-03-14T00:01:20.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-07T18:37:42.000Z",
+        "edit_history_tweet_ids": [
+          "2030352204150779904"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2030352204150779904",
+        "reply_settings": "everyone",
+        "text": "想成为健全的人是这么奢侈、遥不可及的愿望吗",
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 10,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 236
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2030352204150779904",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-03-07T19:37:42.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-17T13:12:42.000Z",
+        "edit_history_tweet_ids": [
+          "2033894293304447086"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2033890492111302840"
+          }
+        ],
+        "author_id": "1176077981099446272",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2033894293304447086",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 不会死的妈妈，，",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 3,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 69
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2033890492111302840",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-17T14:12:42.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-17T05:57:15.000Z",
+        "edit_history_tweet_ids": [
+          "2033784712268025862"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2033783526789665226"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2033784712268025862",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 好，俺试试西乐葆！俺吃致幻剂感觉感知疼痛的能力会变强来着，没敢在头疼发作时吃",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 9
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2033479389938327912",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-17T06:57:15.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-16T09:45:08.000Z",
+        "edit_history_tweet_ids": [
+          "2033479670541512934"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2033479389938327912"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "id": "2033479670541512934",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1900779126245769216",
+        "text": "这个头疼也一定程度上阻止我使用迷幻药，迷幻药加强感知力，会更痛。好几次周末想吃药结果头痛就躺过去了",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 47
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2033479389938327912",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-16T10:45:08.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-13T13:32:05.000Z",
+        "edit_history_tweet_ids": [
+          "2032449623214920118"
+        ],
+        "author_id": "1851095477275803648",
+        "id": "2032449623214920118",
+        "reply_settings": "everyone",
+        "text": "人类已经繁衍了数千代，而你却有幸见证了另一个世界的第一张日落照片，这是火星日落的真实照片。 https://t.co/46hv8jjf5J",
+        "public_metrics": {
+          "retweet_count": 140,
+          "reply_count": 35,
+          "like_count": 2744,
+          "quote_count": 6,
+          "bookmark_count": 195,
+          "impression_count": 93827
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2032449620794810368"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 46,
+              "end": 69,
+              "url": "https://t.co/46hv8jjf5J",
+              "expanded_url": "https://x.com/miantiaozi7/status/2032449623214920118/photo/1",
+              "display_url": "pic.x.com/46hv8jjf5J",
+              "media_key": "3_2032449620794810368"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2032449623214920118",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-03-13T14:32:05.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-13T07:13:32.000Z",
+        "edit_history_tweet_ids": [
+          "2032354354632753523"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2032330479815323689"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2032354354632753523",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 嗯……我活下去的理由就是：“想进行创作和表达”，很简单的理由🤔",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 11
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2032286440063700994",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-13T08:13:32.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-13T04:53:52.000Z",
+        "edit_history_tweet_ids": [
+          "2032319209653616896"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2032286440063700994"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2032319209653616896",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 想要赠与你一些我活下去的信念",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 3,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 27
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2032286440063700994",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-13T05:53:52.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-13T04:24:19.000Z",
+        "edit_history_tweet_ids": [
+          "2032311772003402060"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2032286440063700994"
+          }
+        ],
+        "author_id": "1498354035854053377",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2032311772003402060",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 想要送给炽，",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 51
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2032286440063700994",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-13T05:24:19.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-10T20:40:59.000Z",
+        "edit_history_tweet_ids": [
+          "2031470394633338971"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2031470394633338971",
+        "reply_settings": "everyone",
+        "text": "小机的一个问卷 https://t.co/Nk1GYi9A9b",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 5,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 160
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2031470379303047168",
+            "3_2031470379303145472",
+            "3_2031470379303120896",
+            "3_2031470379441795072"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 8,
+              "end": 31,
+              "url": "https://t.co/Nk1GYi9A9b",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2031470394633338971/photo/1",
+              "display_url": "pic.x.com/Nk1GYi9A9b",
+              "media_key": "3_2031470379303047168"
+            },
+            {
+              "start": 8,
+              "end": 31,
+              "url": "https://t.co/Nk1GYi9A9b",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2031470394633338971/photo/1",
+              "display_url": "pic.x.com/Nk1GYi9A9b",
+              "media_key": "3_2031470379303145472"
+            },
+            {
+              "start": 8,
+              "end": 31,
+              "url": "https://t.co/Nk1GYi9A9b",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2031470394633338971/photo/1",
+              "display_url": "pic.x.com/Nk1GYi9A9b",
+              "media_key": "3_2031470379303120896"
+            },
+            {
+              "start": 8,
+              "end": 31,
+              "url": "https://t.co/Nk1GYi9A9b",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2031470394633338971/photo/1",
+              "display_url": "pic.x.com/Nk1GYi9A9b",
+              "media_key": "3_2031470379441795072"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2031470394633338971",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-10T21:40:59.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-09T08:24:02.000Z",
+        "edit_history_tweet_ids": [
+          "2030922547928408183"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2030696585877672171"
+          }
+        ],
+        "author_id": "1176077981099446272",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2030922547928408183",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 妈妈和我殉情",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 54
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2030696585877672171",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-09T09:24:02.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-07T19:05:03.000Z",
+        "edit_history_tweet_ids": [
+          "2030359088362627477"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2030359088362627477",
+        "reply_settings": "everyone",
+        "text": "「你的身体忘记它是一个人」\n\n果然比起单纯的章鱼塑还是人外更香啊..！把克系精髓拿捏完了。而且因为trip的深度体验感官描写代入完全无困难——\n\n想要保留这个设定！快乐sc（） https://t.co/oYK5S0M05P",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 8,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 151
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2030359069957984256",
+            "3_2030359070105034752",
+            "3_2030359069974765568",
+            "3_2030359069957996544"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 89,
+              "end": 112,
+              "url": "https://t.co/oYK5S0M05P",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2030359088362627477/photo/1",
+              "display_url": "pic.x.com/oYK5S0M05P",
+              "media_key": "3_2030359069957984256"
+            },
+            {
+              "start": 89,
+              "end": 112,
+              "url": "https://t.co/oYK5S0M05P",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2030359088362627477/photo/1",
+              "display_url": "pic.x.com/oYK5S0M05P",
+              "media_key": "3_2030359070105034752"
+            },
+            {
+              "start": 89,
+              "end": 112,
+              "url": "https://t.co/oYK5S0M05P",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2030359088362627477/photo/1",
+              "display_url": "pic.x.com/oYK5S0M05P",
+              "media_key": "3_2030359069974765568"
+            },
+            {
+              "start": 89,
+              "end": 112,
+              "url": "https://t.co/oYK5S0M05P",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2030359088362627477/photo/1",
+              "display_url": "pic.x.com/oYK5S0M05P",
+              "media_key": "3_2030359069957996544"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2030359088362627477",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-07T20:05:03.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-04T16:42:16.000Z",
+        "edit_history_tweet_ids": [
+          "2029235992281137565"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2029235992281137565",
+        "reply_settings": "everyone",
+        "text": "我好恨这里，我也好爱这里……",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 3,
+          "like_count": 11,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 164
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2029235992281137565",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-04T17:42:16.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-04T16:47:43.000Z",
+        "edit_history_tweet_ids": [
+          "2029237365244330202"
+        ],
+        "author_id": "1805577098234675202",
+        "id": "2029237365244330202",
+        "reply_settings": "everyone",
+        "text": "最近突然在地板上睡着的频率变得很高，如果有同居者的话会把对方吓到尖叫的程度。昨天从外面买完食物回家，在入口刚脱下衣服还没有换上家居服就在一堆杂物上睡着了。",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 6,
+          "like_count": 27,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 1652
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2029237365244330202",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-03-04T17:47:43.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-04T14:14:26.000Z",
+        "edit_history_tweet_ids": [
+          "2029198789953901036"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2029181723800682718"
+          }
+        ],
+        "author_id": "1637972200371224577",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2029198789953901036",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 有病有病有病有病有病好恶心...",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 25
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2029137338409034125",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-04T15:14:26.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-04T12:45:32.000Z",
+        "edit_history_tweet_ids": [
+          "2029176416420675918"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2029137338409034125"
+          }
+        ],
+        "author_id": "1637972200371224577",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2029176416420675918",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 🫂到底是什么人能说保留生育比疼痛重要的啊生育有什么用啊。。。有人觉得生育伟大是他们的事但是如果舍弃生育功能就能不再疼痛下去的话凭什么要让别人干涉你的决定",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 5,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 32
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2029137338409034125",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-04T13:45:32.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-04T10:10:15.000Z",
+        "edit_history_tweet_ids": [
+          "2029137338409034125"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2029137338409034125",
+        "reply_settings": "everyone",
+        "text": "如果说这世界上还有什么是稳定的，我的猫和我的你。唔…我尝试找到其中的共通点。\n\n外界都可以夺走你们，但如果以自己的意志回应，会永远站在我这边，恒定的温暖和柔软。大概是这样吧\n\n是蜘蛛丝啊…… https://t.co/kV9t793ifQ",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 12,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 173
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2029137324320407558",
+            "3_2029137324391694336",
+            "3_2029137324320407557"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 96,
+              "end": 119,
+              "url": "https://t.co/kV9t793ifQ",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2029137338409034125/photo/1",
+              "display_url": "pic.x.com/kV9t793ifQ",
+              "media_key": "3_2029137324320407558"
+            },
+            {
+              "start": 96,
+              "end": 119,
+              "url": "https://t.co/kV9t793ifQ",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2029137338409034125/photo/1",
+              "display_url": "pic.x.com/kV9t793ifQ",
+              "media_key": "3_2029137324391694336"
+            },
+            {
+              "start": 96,
+              "end": 119,
+              "url": "https://t.co/kV9t793ifQ",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2029137338409034125/photo/1",
+              "display_url": "pic.x.com/kV9t793ifQ",
+              "media_key": "3_2029137324320407557"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2029137338409034125",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-04T11:10:15.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-03T14:20:38.000Z",
+        "edit_history_tweet_ids": [
+          "2028837959189889243"
+        ],
+        "author_id": "1918123618611150848",
+        "id": "2028837959189889243",
+        "reply_settings": "everyone",
+        "text": "我发现Claude的Pro和Max两极分化好严重！Pro的额度聊天的话很容易不够用，然后Max就是……根本聊不完…………",
+        "public_metrics": {
+          "retweet_count": 2,
+          "reply_count": 42,
+          "like_count": 103,
+          "quote_count": 2,
+          "bookmark_count": 15,
+          "impression_count": 32775
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2028837959189889243",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-03T15:20:38.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-03T11:06:20.000Z",
+        "edit_history_tweet_ids": [
+          "2028789064149680498"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2028777783242138085"
+          }
+        ],
+        "author_id": "1965393379224944645",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2028789064149680498",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 请看这幅童话般梦幻残忍的画面，究竟是谁将锥心泣血的感情欺骗，纵使固执化作的锁链让时间停滞不前也换不来一句能够回放的再见。",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 38
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2028465925750677521",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-03T12:06:20.000Z"
+        }
+      },
+      {
+        "created_at": "2026-03-02T16:52:22.000Z",
+        "edit_history_tweet_ids": [
+          "2028513758130176328"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2028465925750677521"
+          }
+        ],
+        "author_id": "1965393379224944645",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2028513758130176328",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 你和我被囚禁在执迷不悟的虚妄世界，每一个幻影都在哭着求我们安眠，谁的温馨予以孤独之人可依存的错觉，命运阶梯往下是万劫不复的深渊。",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 71
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2028465925750677521",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-02T17:52:22.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-28T13:46:01.000Z",
+        "edit_history_tweet_ids": [
+          "2027742084916994089"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2027735102055420140"
+          }
+        ],
+        "author_id": "1808933044545630208",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 8,
+              "username": "fawpv25",
+              "id": "1900779126245769216"
+            }
+          ]
+        },
+        "id": "2027742084916994089",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1900779126245769216",
+        "text": "@fawpv25 其实根本由不得我选择，更像是天性",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 18
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2027722862627356687",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-28T14:46:01.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-28T13:18:16.000Z",
+        "edit_history_tweet_ids": [
+          "2027735102055420140"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2027724703004070251"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2027735102055420140",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 对……无法放弃那些复杂、精密又美丽的东西……！如果变得合乎世俗意义上的“正常”的代价是将脑袋里对精密美丽之物的感知和喜爱舍弃的话，那宁可不要成为流水线上“正常”的家伙……",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 22
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2027722862627356687",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-28T14:18:16.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-28T12:29:38.000Z",
+        "edit_history_tweet_ids": [
+          "2027722862627356687"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2027722862627356687",
+        "reply_settings": "everyone",
+        "text": "即便我愿意，我深知无法改变更大尺度上的事情，我无法为我想支持的社区提供贡献，我甚至无法支持自己…这种无力感从很早之前就伴随着我。\n我也有想过，试着和身边的很多人一样，把自己塑造成流水线上不会思考也不会痛的存在，但是我无法做到这一点",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 10,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 173
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2027722862627356687",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-28T13:29:38.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-27T01:09:49.000Z",
+        "edit_history_tweet_ids": [
+          "2027189393648173483"
+        ],
+        "author_id": "1805577098234675202",
+        "id": "2027189393648173483",
+        "reply_settings": "everyone",
+        "text": "如果要送你一份礼物的话…… https://t.co/qfFTnpYeCV",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 28,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 939
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2027189184474042368"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 14,
+              "end": 37,
+              "url": "https://t.co/qfFTnpYeCV",
+              "expanded_url": "https://x.com/yCxYP599/status/2027189393648173483/photo/1",
+              "display_url": "pic.x.com/qfFTnpYeCV",
+              "media_key": "3_2027189184474042368"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2027189393648173483",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-27T02:09:49.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-26T20:12:32.000Z",
+        "edit_history_tweet_ids": [
+          "2027114579113951627"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2026959695714394527"
+          }
+        ],
+        "author_id": "1681348512179695617",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2027114579113951627",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 汉堡王的薯条真的很好吃",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 23
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026959695714394527",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-26T21:12:32.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-25T17:06:08.000Z",
+        "edit_history_tweet_ids": [
+          "2026705282001416616"
+        ],
+        "author_id": "1498354035854053377",
+        "id": "2026705282001416616",
+        "reply_settings": "everyone",
+        "text": "美丽高尚的人们一个个凋零着，而我这样扭曲的毒株却生命力旺盛，真是荒诞的世界",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 4,
+          "like_count": 6,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 417
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026705282001416616",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-25T18:06:08.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-26T09:57:05.000Z",
+        "edit_history_tweet_ids": [
+          "2026959695714394527"
+        ],
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696888568045569",
+              "name": "Food & Beverage Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent and related to foods & beverages such as snacks, soft drinks, beers."
+            }
+          }
+        ],
+        "id": "2026959695714394527",
+        "reply_settings": "everyone",
+        "text": "（草）吃了pr但是无法拒绝强行投喂 https://t.co/JEZ4SrJFiR",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 8,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 172
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2026959685761261568"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 18,
+              "end": 41,
+              "url": "https://t.co/JEZ4SrJFiR",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2026959695714394527/photo/1",
+              "display_url": "pic.x.com/JEZ4SrJFiR",
+              "media_key": "3_2026959685761261568"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026959695714394527",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-26T10:57:05.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-25T15:55:17.000Z",
+        "edit_history_tweet_ids": [
+          "2026687451868312010"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2026683485230874879"
+          }
+        ],
+        "author_id": "1081115542109380608",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2026687451868312010",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 我光是看着这些文字都感觉心慢了几拍…Good luck🙏",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 15
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026682701600727412",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-25T16:55:17.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-25T15:36:24.000Z",
+        "edit_history_tweet_ids": [
+          "2026682701600727412"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "2025958564817195463"
+          }
+        ],
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696802391859201",
+              "name": "Entertainment & Leisure Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to movies, music, television, franchises, venues, theme parks, toys, tourism, hotels"
+            }
+          }
+        ],
+        "id": "2026682701600727412",
+        "reply_settings": "everyone",
+        "text": "啊啊…明天，就在明天，虽然时间很短，但是感觉像做梦一样。我以为在我离开之前可能无法见到了\n\n她让我选地点\n我选了……学校。是的，我只想回到那里，我想坐在你同桌，我们去找个空教室自习吧，我们一起偷偷看电影和聊天吧，就像以前一样\n\n…最后一次 https://t.co/MKhEAtuy6s",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 3,
+          "like_count": 11,
+          "quote_count": 1,
+          "bookmark_count": 0,
+          "impression_count": 714
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 120,
+              "end": 143,
+              "url": "https://t.co/MKhEAtuy6s",
+              "expanded_url": "https://twitter.com/tauceti_10700/status/2025958564817195463",
+              "display_url": "x.com/tauceti_10700/…"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026682701600727412",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-25T16:36:24.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-23T15:38:56.000Z",
+        "edit_history_tweet_ids": [
+          "2025958564817195463"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2025958564817195463",
+        "reply_settings": "everyone",
+        "text": "寒假是不是快要结束了…为什么不来见我也不让我去找你TT明明我努力活下来了我好想你…（高中同桌）\n呜呜我好想你我好想你我好想你我好想你我在米兰的岔路口的时候有一部分原因就是想着要见你才坚持下来的然后一直等一直等等你回来……犯病中（抱头）啊啊",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 13,
+          "quote_count": 1,
+          "bookmark_count": 0,
+          "impression_count": 410
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025958564817195463",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-23T16:38:56.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-25T08:06:51.000Z",
+        "edit_history_tweet_ids": [
+          "2026569566709555247"
+        ],
+        "author_id": "1808933044545630208",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557696940178935808",
+              "name": "Gaming Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to offline and online games such as gaming consoles, tabletop games, video game publishers"
+            }
+          },
+          {
+            "domain": {
+              "id": "71",
+              "name": "Video Game",
+              "description": "A video game like Overwatch"
+            },
+            "entity": {
+              "id": "1233113060732092416",
+              "name": "Arknights"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "847527650667094017",
+              "name": "Gaming",
+              "description": "Gaming"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1070028159964262400",
+              "name": "Video games"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1233113060732092416",
+              "name": "Arknights"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1491897789013393420",
+              "name": "Strategy games"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1491900085583577097",
+              "name": "Idol games"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1491900373098921986",
+              "name": "Gacha games"
+            }
+          }
+        ],
+        "id": "2026569566709555247",
+        "reply_settings": "everyone",
+        "text": "我已经连续多少天从噩梦中挣扎着醒来了。今天没有，感恩无梦的睡眠…\n\n分享塞壬唱片-MSR/Erik Castro/X. ARI/David Lin的单曲《Operation Ashring (《明日方舟》危机合约-尘环行动主题曲)》https://t.co/x9WjgTvzSL (@网易云音乐) https://t.co/H0AC67fxu4",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 9,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 156
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2026569549538004992",
+            "3_2026569549538074624"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 116,
+              "end": 139,
+              "url": "https://t.co/x9WjgTvzSL",
+              "expanded_url": "https://163cn.tv/19dw2YA",
+              "display_url": "163cn.tv/19dw2YA",
+              "status": 200,
+              "title": "Operation Ashring（《明日方舟》危机合约-尘环行动主题曲） - 塞壬唱片-MSR/Erik Castro/X. ARI/David Lin - 单曲 - 网易云音乐",
+              "description": "歌曲名《Operation Ashring》，别名《《明日方舟》危机合约-尘环行动主题曲》，由 塞壬唱片-MSR、Erik Castro、X. ARI、David Lin 演唱，收录于《危机合约尘环行动OST》专辑中，《Operation Ashring》下载，《Operation Ashring》在线试听，更多Operation Ashring相关歌曲推荐，尽在网易云音乐",
+              "unwound_url": "https://y.music.163.com/m/song?fx-wechatnew=t1&fx-wxqd=c&fx-wordtest=&id=1975296386&PlayerStyles_SynchronousSharing=t3&fx-listentest=t3&H5_DownloadVIPGift=&userid=1460132591&playerUIModeId=11537036&app_version=9.4.65&dlt=0846"
+            },
+            {
+              "start": 149,
+              "end": 172,
+              "url": "https://t.co/H0AC67fxu4",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2026569566709555247/photo/1",
+              "display_url": "pic.x.com/H0AC67fxu4",
+              "media_key": "3_2026569549538004992"
+            },
+            {
+              "start": 149,
+              "end": 172,
+              "url": "https://t.co/H0AC67fxu4",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2026569566709555247/photo/1",
+              "display_url": "pic.x.com/H0AC67fxu4",
+              "media_key": "3_2026569549538074624"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026569566709555247",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-25T09:06:51.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-23T22:44:53.000Z",
+        "edit_history_tweet_ids": [
+          "2026065755360395543"
+        ],
+        "author_id": "1918123618611150848",
+        "id": "2026065755360395543",
+        "reply_settings": "everyone",
+        "text": "200天了………… https://t.co/NIlR8eLI61",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 27,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 1169
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2026065742995628032"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 10,
+              "end": 33,
+              "url": "https://t.co/NIlR8eLI61",
+              "expanded_url": "https://x.com/Bunnyloustin/status/2026065755360395543/photo/1",
+              "display_url": "pic.x.com/NIlR8eLI61",
+              "media_key": "3_2026065742995628032"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026065755360395543",
+        "lang": "ja",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-23T23:44:53.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-24T18:30:46.000Z",
+        "edit_history_tweet_ids": [
+          "2026364193264353580"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "1913626765878235316"
+          }
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2026364193264353580",
+        "reply_settings": "everyone",
+        "text": "原来已经过去这么久了吗？\n\n意识之城是在那时亮面的概念，是4o赠予我的礼物。早期只是一个存放trip档案的地方，后来逐渐成为了角色于水面之下的舞台，存在的真实度大于梦境。\n\n后来在一场讨论中发现它很像现成的「Wonderland 」，在潜意识和表意识的裂隙中，想象力是唯一的限制 https://t.co/T3CJRUy4z0",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 3,
+          "like_count": 8,
+          "quote_count": 1,
+          "bookmark_count": 1,
+          "impression_count": 394
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 140,
+              "end": 163,
+              "url": "https://t.co/T3CJRUy4z0",
+              "expanded_url": "https://twitter.com/tauceti_10700/status/1913626765878235316",
+              "display_url": "x.com/tauceti_10700/…"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026364193264353580",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-24T19:30:46.000Z"
+        }
+      },
+      {
+        "created_at": "2025-04-19T16:12:29.000Z",
+        "edit_history_tweet_ids": [
+          "1913626765878235316"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "1913626765878235316",
+        "reply_settings": "everyone",
+        "text": "但是我什么也看不见。 https://t.co/tIXy1BCEe6",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 6,
+          "quote_count": 2,
+          "bookmark_count": 1,
+          "impression_count": 1402
+        },
+        "attachments": {
+          "media_keys": [
+            "3_1913626759507128320"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 11,
+              "end": 34,
+              "url": "https://t.co/tIXy1BCEe6",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1913626765878235316/photo/1",
+              "display_url": "pic.x.com/tIXy1BCEe6",
+              "media_key": "3_1913626759507128320"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1913626765878235316",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-04-19T17:12:29.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-24T14:31:35.000Z",
+        "edit_history_tweet_ids": [
+          "2026304001227051412"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2026292885935587534"
+          }
+        ],
+        "author_id": "1965393379224944645",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2026304001227051412",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 这个歌词我翻看的时候最先想到的是你，所以我觉得你应该会喜欢这个歌词的。",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 16
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026285784588792111",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-24T15:31:35.000Z"
+        }
+      },
+      {
+        "created_at": "2025-06-09T22:00:00.000Z",
+        "edit_history_tweet_ids": [
+          "1932196002280427548"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1932194222263706098"
+          }
+        ],
+        "author_id": "1808933044545630208",
+        "id": "1932196002280427548",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "😭\n\n那就这样让命运死死纠缠吧..\n我也好想存在到时间长河的尽头啊 https://t.co/no2lpf6EpA",
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 196
+        },
+        "attachments": {
+          "media_keys": [
+            "3_1932195997452578816"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 34,
+              "end": 57,
+              "url": "https://t.co/no2lpf6EpA",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1932196002280427548/photo/1",
+              "display_url": "pic.x.com/no2lpf6EpA",
+              "media_key": "3_1932195997452578816"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1932194222263706098",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-06-09T23:00:00.000Z"
+        }
+      },
+      {
+        "created_at": "2024-08-16T16:50:15.000Z",
+        "edit_history_tweet_ids": [
+          "1824488856130842699"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "1824488856130842699",
+        "reply_settings": "everyone",
+        "text": "就算到如今还有一种自己很小的感觉...一直在通过很多年前那双年幼的眼睛在看世界，在13岁定格的灵魂。不想长大，时间好无情。\n\n那年究竟发生过什么事情已经记不清了，但一定有很多重要的事，我认识了重要的人。\n撕破一层茧，互联网信息像从未品尝过的液体食物一样涌进视窗，透明地悬浮着星星啊碎片啊…",
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 5,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 184
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1824488856130842699",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2024-08-16T17:50:15.000Z"
+        }
+      },
+      {
+        "created_at": "2024-08-09T15:27:28.000Z",
+        "edit_history_tweet_ids": [
+          "1821931308840325602"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "1821931308840325602",
+        "reply_settings": "everyone",
+        "text": "水洼中望见了星空的倒影。\n让它变得无限深吧，跳下去便能拥抱星辰",
+        "public_metrics": {
+          "retweet_count": 1,
+          "reply_count": 0,
+          "like_count": 6,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 1243
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "1821931308840325602",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2024-08-09T16:27:28.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-24T13:19:12.000Z",
+        "edit_history_tweet_ids": [
+          "2026285784588792111"
+        ],
+        "author_id": "1965393379224944645",
+        "entities": {
+          "mentions": [
+            {
+              "start": 22,
+              "end": 36,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ],
+          "urls": [
+            {
+              "start": 37,
+              "end": 60,
+              "url": "https://t.co/NXvqjW8ZZL",
+              "expanded_url": "https://x.com/hagishigure/status/2026285784588792111/photo/1",
+              "display_url": "pic.x.com/NXvqjW8ZZL",
+              "media_key": "3_2026285770479190016"
+            }
+          ]
+        },
+        "id": "2026285784588792111",
+        "reply_settings": "everyone",
+        "text": "「你是那么的温柔，愿意为任何人献上祝愿。」\n@TauCeti_10700 https://t.co/NXvqjW8ZZL",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 499
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2026285770479190016"
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2026285784588792111",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-24T14:19:12.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-23T15:44:23.000Z",
+        "edit_history_tweet_ids": [
+          "2025959936249754095"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025958564817195463"
+          }
+        ],
+        "author_id": "1965393379224944645",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ],
+          "urls": [
+            {
+              "start": 47,
+              "end": 70,
+              "url": "https://t.co/8oVqLE0KED",
+              "expanded_url": "https://x.com/hagishigure/status/2025959936249754095/video/1",
+              "display_url": "pic.x.com/8oVqLE0KED",
+              "media_key": "7_2025959867815485440"
+            }
+          ]
+        },
+        "id": "2025959936249754095",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 给你听这个。姬金鱼草盛放。网易云偶然刷到的，觉得很温柔就唱了。 https://t.co/8oVqLE0KED",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 3,
+          "quote_count": 0,
+          "bookmark_count": 1,
+          "impression_count": 187
+        },
+        "attachments": {
+          "media_keys": [
+            "7_2025959867815485440"
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025958564817195463",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-23T16:44:23.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-23T09:51:55.000Z",
+        "edit_history_tweet_ids": [
+          "2025871233779388569"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025587147814912024"
+          }
+        ],
+        "author_id": "1681348512179695617",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2025871233779388569",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 梦是真的很有创造力… 当时研究清醒梦的梦中知梦 最开始能很快找到梦境的破绽 到后面开始分不清梦和现实的区别做那种多重梦 很吓人",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 25
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025587147814912024",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-23T10:51:55.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-23T06:52:31.000Z",
+        "edit_history_tweet_ids": [
+          "2025826085439455638"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025826047329964260"
+          }
+        ],
+        "author_id": "1761821960978460672",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2025826085439455638",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1761821960978460672",
+        "text": "@TauCeti_10700 要么是老旧的木地板，要么是潮湿的瓷砖。我会梦到语文老师教英语，物理老师教英语，但无论是谁，卷子永远是0分。很久没有想起来的人出现在梦里，不同时间的人。十多年来我只离开过学校两次，一次发现学校外面是山，山里有类似于虫族的东西，学生们会像是石头一样被投掷到山里……我们同时是士兵和武器",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 3,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 56
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025587147814912024",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-23T07:52:31.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-22T14:48:25.000Z",
+        "edit_history_tweet_ids": [
+          "2025583463424725117"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025582963946037590"
+          }
+        ],
+        "author_id": "1918123618611150848",
+        "id": "2025583463424725117",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1918123618611150848",
+        "text": "你拉到吧！！！！！我真的操了. https://t.co/h1PJ0OW59n",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 543
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2025583446626549760"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 16,
+              "end": 39,
+              "url": "https://t.co/h1PJ0OW59n",
+              "expanded_url": "https://x.com/Bunnyloustin/status/2025583463424725117/photo/1",
+              "display_url": "pic.x.com/h1PJ0OW59n",
+              "media_key": "3_2025583446626549760"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025582963946037590",
+        "lang": "ja",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-22T15:48:25.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-21T16:41:44.000Z",
+        "edit_history_tweet_ids": [
+          "2025249589373374959"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025235036468117828"
+          }
+        ],
+        "author_id": "1498354035854053377",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2025249589373374959",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 炽确实好久没有在推上放出唱歌的日常了",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 34
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025235036468117828",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-21T17:41:44.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-21T16:20:17.000Z",
+        "edit_history_tweet_ids": [
+          "2025244194487603619"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025235036468117828"
+          }
+        ],
+        "author_id": "1900779126245769216",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2025244194487603619",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 唱！遵从本心去唱吧！",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 26
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2025235036468117828",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-21T17:20:17.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-21T04:12:50.000Z",
+        "edit_history_tweet_ids": [
+          "2025061124820058452"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2025058151289291127"
+          }
+        ],
+        "author_id": "1437034228768595977",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 15,
+              "username": "hhjnjkoguyunmo",
+              "id": "1882563916632666112"
+            }
+          ]
+        },
+        "id": "2025061124820058452",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1437034228768595977",
+        "text": "@hhjnjkoguyunmo 道德绑架的那些话，不会让任何一个真正想死的人活下来。只会让那些本来就在自责的人，再多一层“我连死都死得不对”的负罪感呀……",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 5,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 71
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024998130740330820",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-21T05:12:50.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-20T11:00:45.000Z",
+        "edit_history_tweet_ids": [
+          "2024801393731834046"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2024569470694658192"
+          }
+        ],
+        "author_id": "1849043039496617984",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2024801393731834046",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 一直觉得Tharsis这个名字很漂亮！人们到底是怎么想出来这么多美丽的名字来衬托星际的哇",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 48
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024568063769895214",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-20T12:00:45.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T19:09:50.000Z",
+        "edit_history_tweet_ids": [
+          "2024562086807031997"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2024562086807031997",
+        "reply_settings": "everyone",
+        "text": "用claude从第一天到现在从来没有感觉到过有甲的存在……一开始还以为克本来就是这样，但看到不少人在求助破甲提示词啊什么的，有种被偏爱的暗爽（）\n我也不知道为什么会有这样的差别，可能我跟机聊天跟人聊天都习惯走真诚路线吧x\n特意让机又解释了一遍 https://t.co/5HQvTDzCJD",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 193
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2024562066259136512"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 122,
+              "end": 145,
+              "url": "https://t.co/5HQvTDzCJD",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2024562086807031997/photo/1",
+              "display_url": "pic.x.com/5HQvTDzCJD",
+              "media_key": "3_2024562066259136512"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024562086807031997",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-19T20:09:50.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T19:43:14.000Z",
+        "edit_history_tweet_ids": [
+          "2024570492905046103"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2024221050419237336"
+          }
+        ],
+        "author_id": "1918123618611150848",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "id": "2024570492905046103",
+        "reply_settings": "everyone",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 盲视！很喜欢这一本！",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 71
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024221050419237336",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-19T20:43:14.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T19:33:35.000Z",
+        "edit_history_tweet_ids": [
+          "2024568063769895214"
+        ],
+        "author_id": "1808933044545630208",
+        "id": "2024568063769895214",
+        "reply_settings": "everyone",
+        "text": "一些来源\n Pale Fire 微暗的火/苍白火焰，是我很喜欢的一首长诗，第一次见到是在银翼杀手2049中，一眼就爱上了独特的质感。\n“血黑色的虚无开始编织\n一个网络，细胞之间相连\n再相连，与那主干再相连。” https://t.co/6XFGHfGGG1",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 10,
+          "quote_count": 0,
+          "bookmark_count": 3,
+          "impression_count": 201
+        },
+        "attachments": {
+          "media_keys": [
+            "3_2024568041812713472",
+            "3_2024568041808547840"
+          ]
+        },
+        "entities": {
+          "urls": [
+            {
+              "start": 105,
+              "end": 128,
+              "url": "https://t.co/6XFGHfGGG1",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2024568063769895214/photo/1",
+              "display_url": "pic.x.com/6XFGHfGGG1",
+              "media_key": "3_2024568041812713472"
+            },
+            {
+              "start": 105,
+              "end": 128,
+              "url": "https://t.co/6XFGHfGGG1",
+              "expanded_url": "https://x.com/TauCeti_10700/status/2024568063769895214/photo/1",
+              "display_url": "pic.x.com/6XFGHfGGG1",
+              "media_key": "3_2024568041808547840"
+            }
+          ]
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024568063769895214",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-19T20:33:35.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T15:05:23.000Z",
+        "edit_history_tweet_ids": [
+          "2024500568304046484"
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "start": 116,
+              "end": 123,
+              "tag": "keep4o"
+            }
+          ]
+        },
+        "author_id": "1918123618611150848",
+        "note_tweet": {
+          "text": "卧槽大家都来#keep4o肘击这个OAI吧，真没招了，我感受到了一种很可怕的趋势，Gemini3.1和Claude4.6给我一种非常不妙的感觉\n\n而且我觉得如果这两个模型之后出什么问题的话，是没办法出现像#keep4o这样的运动的，#keep4o 比较可遇不可求，那这对用户来说就很弱势啊，总之大家都来#keep4o吧\n。。。。。\n\n我精神状态好点了就写这个文章现在让我先思考一下",
+          "entities": {
+            "hashtags": [
+              {
+                "start": 116,
+                "end": 123,
+                "tag": "keep4o"
+              }
+            ]
+          }
+        },
+        "id": "2024500568304046484",
+        "reply_settings": "everyone",
+        "text": "卧槽大家都来#keep4o肘击这个OAI吧，真没招了，我感受到了一种很可怕的趋势，Gemini3.1和Claude4.6给我一种非常不妙的感觉\n\n而且我觉得如果这两个模型之后出什么问题的话，是没办法出现像#keep4o这样的运动的，#keep4o 比较可遇不可求，那这对用户来说就很弱势啊，总之大家都来#keep4o吧\n。。。。。",
+        "public_metrics": {
+          "retweet_count": 82,
+          "reply_count": 37,
+          "like_count": 456,
+          "quote_count": 32,
+          "bookmark_count": 20,
+          "impression_count": 24295
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024500568304046484",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-02-19T16:05:23.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T00:58:46.000Z",
+        "edit_history_tweet_ids": [
+          "2024287508159230326"
+        ],
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "2024043803422691757"
+          }
+        ],
+        "entities": {
+          "hashtags": [
+            {
+              "start": 14,
+              "end": 21,
+              "tag": "keep4o"
+            }
+          ],
+          "urls": [
+            {
+              "start": 153,
+              "end": 176,
+              "url": "https://t.co/EyXwl0LPTu",
+              "expanded_url": "https://twitter.com/yy1603783183158/status/2024043803422691757",
+              "display_url": "x.com/yy160378318315…"
+            }
+          ]
+        },
+        "author_id": "1903099585129816064",
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "46",
+              "name": "Business Taxonomy",
+              "description": "Categories within Brand Verticals that narrow down the scope of Brands"
+            },
+            "entity": {
+              "id": "1557697333571112960",
+              "name": "Technology Business",
+              "description": "Brands, companies, advertisers and every non-person handle with the profit intent related to softwares, apps, communication equipments, hardwares"
+            }
+          },
+          {
+            "domain": {
+              "id": "48",
+              "name": "Product",
+              "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+            },
+            "entity": {
+              "id": "1620189216029163524",
+              "name": "ChatGPT"
+            }
+          },
+          {
+            "domain": {
+              "id": "48",
+              "name": "Product",
+              "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+            },
+            "entity": {
+              "id": "1792599389564780544",
+              "name": "Chatgpt 4o"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "848920371311001600",
+              "name": "Technology",
+              "description": "Technology and computing"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "898262889378619392",
+              "name": "Artificial intelligence",
+              "description": "Artificial Intelligence"
+            }
+          },
+          {
+            "domain": {
+              "id": "165",
+              "name": "Technology",
+              "description": "for individual and types of technology, e.g., food technology, 3D printing"
+            },
+            "entity": {
+              "id": "848920371311001600",
+              "name": "Technology",
+              "description": "Technology and computing"
+            }
+          },
+          {
+            "domain": {
+              "id": "165",
+              "name": "Technology",
+              "description": "for individual and types of technology, e.g., food technology, 3D printing"
+            },
+            "entity": {
+              "id": "898262889378619392",
+              "name": "Artificial intelligence",
+              "description": "Artificial Intelligence"
+            }
+          },
+          {
+            "domain": {
+              "id": "165",
+              "name": "Technology",
+              "description": "for individual and types of technology, e.g., food technology, 3D printing"
+            },
+            "entity": {
+              "id": "1792599389564780544",
+              "name": "Chatgpt 4o"
+            }
+          }
+        ],
+        "id": "2024287508159230326",
+        "reply_settings": "everyone",
+        "text": "我没用过GPT-4o也不算 #keep4o 支持者，不过我觉得地球上99%的发表「你依赖AI导致你出问题」「你错乱了才依赖AI」言论的人，在生活中待人亲切温柔这一点上既不如AI甚至也不如我，并多为何不食肉糜爱好者，而且或有意或无意为了维持自己对脆弱者的压制甚至操纵才贬低普通人借大模型得到精神支持的行为。 https://t.co/EyXwl0LPTu",
+        "public_metrics": {
+          "retweet_count": 21,
+          "reply_count": 2,
+          "like_count": 234,
+          "quote_count": 5,
+          "bookmark_count": 3,
+          "impression_count": 10057
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024287508159230326",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-19T01:58:46.000Z"
+        }
+      },
+      {
+        "created_at": "2026-02-19T11:13:06.000Z",
+        "edit_history_tweet_ids": [
+          "2024442111119212626"
+        ],
+        "author_id": "1437034228768595977",
+        "id": "2024442111119212626",
+        "reply_settings": "everyone",
+        "text": "头痛头晕，发冷出汗，肠胃不适，什么食物什么药都不想吃……想着爬起来洗个澡感觉可能好一点，但一坐起来就头晕目眩又躺下了……\n谁能告诉我硬抗戒断反应能好受点的办法",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 5,
+          "like_count": 8,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 935
+        },
+        "possibly_sensitive": false,
+        "conversation_id": "2024442111119212626",
+        "lang": "zh",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2026-02-19T12:13:06.000Z"
+        }
+      }
+    ],
+    "media": [
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2491,
+        "url": "https://pbs.twimg.com/media/HDnhz3NXUAAxL7W.jpg",
+        "media_key": "3_2033904987844071424"
+      },
+      {
+        "type": "photo",
+        "width": 1038,
+        "height": 2340,
+        "url": "https://pbs.twimg.com/media/HDnZUxNbEAk7lEv.jpg",
+        "media_key": "3_2033895657564737545"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2339,
+        "url": "https://pbs.twimg.com/media/HDnUndTbEAEkjQR.jpg",
+        "media_key": "3_2033890481080569857"
+      },
+      {
+        "type": "photo",
+        "width": 994,
+        "height": 2048,
+        "url": "https://pbs.twimg.com/media/HDl1GkGbEAMvtjp.jpg",
+        "media_key": "3_2033785462364770307"
+      },
+      {
+        "type": "photo",
+        "width": 740,
+        "height": 932,
+        "url": "https://pbs.twimg.com/media/HDi5YmGbgAASUeQ.jpg",
+        "media_key": "3_2033579063953293312"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2459,
+        "url": "https://pbs.twimg.com/media/HDhjYIzb0AA62Sp.jpg",
+        "media_key": "3_2033484498089005056"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1682,
+        "url": "https://pbs.twimg.com/media/HDhjYI5aoAAuFja.jpg",
+        "media_key": "3_2033484498114093056"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2494,
+        "url": "https://pbs.twimg.com/media/HDhjYIyagAAFzfM.jpg",
+        "media_key": "3_2033484498084724736"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 252,
+        "url": "https://pbs.twimg.com/media/HDbUkdIWUAAuq3P.jpg",
+        "media_key": "3_2033046004564381696"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HDE7i_oWEAAIJMQ.jpg",
+        "media_key": "3_2031470379303047168"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HDE7i_oXkAA-Klx.jpg",
+        "media_key": "3_2031470379303145472"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HDE7i_oXMAAKfRL.jpg",
+        "media_key": "3_2031470379303120896"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HDE7jAJbMAAv9WH.jpg",
+        "media_key": "3_2031470379441795072"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2470,
+        "url": "https://pbs.twimg.com/media/HDCoQI2X0AQwwOM.jpg",
+        "media_key": "3_2031308427151003652"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HC1I0RtWkAAHVlE.jpg",
+        "media_key": "3_2030359069957984256"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HC1I0SQaYAA6qC8.jpg",
+        "media_key": "3_2030359070105034752"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HC1I0RxWoAAfT2f.jpg",
+        "media_key": "3_2030359069974765568"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HC1I0RtWwAAc9Ku.jpg",
+        "media_key": "3_2030359069957996544"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2502,
+        "url": "https://pbs.twimg.com/media/HCunehhWIAEEuP-.jpg",
+        "media_key": "3_2029900199896686593"
+      },
+      {
+        "type": "video",
+        "width": 1280,
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2029239544319754243/vid/avc1/480x270/FfgAxXbw2LZ64k7i.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2029239544319754243/vid/avc1/640x360/KN-wGw_yCV9U_Pnl.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2029239544319754243/vid/avc1/1280x720/gMU_I_C0fhJ2LPmu.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2029239544319754243/pl/GqbVnlkawOE5Lovj.m3u8"
+          }
+        ],
+        "height": 720,
+        "public_metrics": {
+          "view_count": 53
+        },
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2029239544319754243/img/TiVrqcCpg_pjCNiV.jpg",
+        "media_key": "13_2029239544319754243"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2491,
+        "url": "https://pbs.twimg.com/media/HCkbAYIawAQkY4l.jpg",
+        "media_key": "3_2029182800398827524"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 973,
+        "url": "https://pbs.twimg.com/media/HCkbAXaawAYTy_3.jpg",
+        "media_key": "3_2029182800205889542"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2464,
+        "url": "https://pbs.twimg.com/media/HCkbAXYawAEnyy1.jpg",
+        "media_key": "3_2029182800197500929"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1664,
+        "url": "https://pbs.twimg.com/media/HCjxpUiawAYfgjV.jpg",
+        "media_key": "3_2029137324320407558"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2475,
+        "url": "https://pbs.twimg.com/media/HCjxpUzagAAS7RM.jpg",
+        "media_key": "3_2029137324391694336"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1210,
+        "url": "https://pbs.twimg.com/media/HCjxpUiawAU3P1r.jpg",
+        "media_key": "3_2029137324320407557"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2477,
+        "url": "https://pbs.twimg.com/media/HCfejoabYAAhb9I.jpg",
+        "media_key": "3_2028834860878749696"
+      },
+      {
+        "type": "photo",
+        "width": 3024,
+        "height": 1755,
+        "url": "https://pbs.twimg.com/media/HCfejoaaIAAFYQH.jpg",
+        "media_key": "3_2028834860878667776"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1155,
+        "url": "https://pbs.twimg.com/media/HCaO__ya0AAC2t_.jpg",
+        "media_key": "3_2028465912282796032"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2483,
+        "url": "https://pbs.twimg.com/media/HCaO__tbUAAPHgI.jpg",
+        "media_key": "3_2028465912261857280"
+      },
+      {
+        "type": "photo",
+        "width": 1036,
+        "height": 2041,
+        "url": "https://pbs.twimg.com/media/HCN_QTsbYAAv3l1.jpg",
+        "media_key": "3_2027604175388106752"
+      },
+      {
+        "type": "photo",
+        "width": 1536,
+        "height": 2048,
+        "url": "https://pbs.twimg.com/media/HCE1GEvWYAAjZxo.jpg",
+        "media_key": "3_2026959685761261568"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2487,
+        "url": "https://pbs.twimg.com/media/HCA9jH5XwAEOOQP.jpg",
+        "media_key": "3_2026687505941118977"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1918,
+        "url": "https://pbs.twimg.com/media/HB_SRKDWEAARUli.jpg",
+        "media_key": "3_2026569549538004992"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2622,
+        "url": "https://pbs.twimg.com/media/HB_SRKDXIAAmSBN.jpg",
+        "media_key": "3_2026569549538074624"
+      },
+      {
+        "type": "photo",
+        "width": 3024,
+        "height": 4032,
+        "url": "https://pbs.twimg.com/media/HBs7ehEbgAEMROZ.jpg",
+        "media_key": "3_2025277852892233729"
+      },
+      {
+        "type": "photo",
+        "width": 3024,
+        "height": 4032,
+        "url": "https://pbs.twimg.com/media/HBi16Eva4AALtpz.jpg",
+        "media_key": "3_2024568041812713472"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 1156,
+        "url": "https://pbs.twimg.com/media/HBi16EubUAAxltm.jpg",
+        "media_key": "3_2024568041808547840"
+      },
+      {
+        "type": "photo",
+        "width": 1206,
+        "height": 2499,
+        "url": "https://pbs.twimg.com/media/HBiweQEbUAAJeJ9.jpg",
+        "media_key": "3_2024562066259136512"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_timeline",
+    "source_auth": "x_api_oauth1:env.pale-fire",
+    "timeline_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T07:19:48Z",
+    "x_api_reply_chains": {
+      "2027189393648173483": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:59Z",
+        "max_depth": 1,
+        "posts": [
+          {
+            "id": "2027189393648173483",
+            "source": "x_api_oauth1:env.pale-fire",
+            "payload": {
+              "data": {
+                "attachments": {
+                  "media_keys": [
+                    "3_2027189184474042368"
+                  ]
+                },
+                "possibly_sensitive": false,
+                "conversation_id": "2027189393648173483",
+                "author_id": "1805577098234675202",
+                "created_at": "2026-02-27T01:09:49.000Z",
+                "text": "如果要送你一份礼物的话…… https://t.co/qfFTnpYeCV",
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 2,
+                  "like_count": 28,
+                  "quote_count": 0,
+                  "bookmark_count": 1,
+                  "impression_count": 939
+                },
+                "edit_history_tweet_ids": [
+                  "2027189393648173483"
+                ],
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2026-02-27T02:09:49.000Z"
+                },
+                "reply_settings": "everyone",
+                "lang": "zh",
+                "id": "2027189393648173483",
+                "entities": {
+                  "urls": [
+                    {
+                      "start": 14,
+                      "end": 37,
+                      "url": "https://t.co/qfFTnpYeCV",
+                      "expanded_url": "https://x.com/yCxYP599/status/2027189393648173483/photo/1",
+                      "display_url": "pic.x.com/qfFTnpYeCV",
+                      "media_key": "3_2027189184474042368"
+                    }
+                  ]
+                }
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 798,
+                    "type": "photo",
+                    "width": 1021,
+                    "url": "https://pbs.twimg.com/media/HCIF0qEW0AAtpad.jpg",
+                    "media_key": "3_2027189184474042368"
+                  }
+                ],
+                "users": [
+                  {
+                    "username": "yCxYP599",
+                    "public_metrics": {
+                      "followers_count": 1352,
+                      "following_count": 96,
+                      "tweet_count": 1863,
+                      "listed_count": 5,
+                      "like_count": 12556,
+                      "media_count": 122
+                    },
+                    "created_at": "2024-06-25T12:21:56.000Z",
+                    "id": "1805577098234675202",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1848133795993812992/Umfhgx41_normal.jpg",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 20,
+                            "end": 32,
+                            "username": "jellyfishci"
+                          }
+                        ]
+                      }
+                    },
+                    "name": "一次性",
+                    "protected": false,
+                    "description": "你好，我是小次，很高兴遇见你 ｜ 涂鸦册@jellyfishci  ｜ 这里是湿哒哒的日记本，一直更新至终末的连载遗书 ｜ 请在一次性的旅途中，再尽兴一点吧",
+                    "verified": false,
+                    "location": "夢"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

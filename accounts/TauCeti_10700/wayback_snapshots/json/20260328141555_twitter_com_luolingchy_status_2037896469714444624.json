@@ -1,0 +1,94 @@
+{
+  "data": {
+    "created_at": "2026-03-28T14:15:55.000Z",
+    "possibly_sensitive": false,
+    "author_id": "1595415869689044992",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2037293876361195881"
+      }
+    ],
+    "reply_settings": "everyone",
+    "in_reply_to_user_id": "1808933044545630208",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-28T15:15:55.000Z"
+    },
+    "lang": "zh",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "conversation_id": "2037154529859559810",
+    "edit_history_tweet_ids": [
+      "2037896469714444624"
+    ],
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 9
+    },
+    "id": "2037896469714444624",
+    "text": "@TauCeti_10700 我现在的生活或者说这挺长一段时间的生活已经远不及我住院时候了。。。我也想回了"
+  },
+  "includes": {
+    "users": [
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1920311707546644480/0Ve3MZpc_normal.jpg",
+        "name": "洛灵",
+        "protected": false,
+        "description": "",
+        "username": "luolingchy",
+        "id": "1595415869689044992",
+        "verified": false,
+        "created_at": "2022-11-23T13:56:16.000Z",
+        "public_metrics": {
+          "followers_count": 104,
+          "following_count": 48,
+          "tweet_count": 213,
+          "listed_count": 1,
+          "like_count": 217,
+          "media_count": 8
+        }
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "name": "Pale Fire",
+        "protected": true,
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "location": "0°00′N 260°00′E Mars",
+        "username": "TauCeti_10700",
+        "id": "1808933044545630208",
+        "verified": false,
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        }
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2037154529859559810",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:56Z"
+  }
+}

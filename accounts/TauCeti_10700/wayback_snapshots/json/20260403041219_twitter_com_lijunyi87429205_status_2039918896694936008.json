@@ -1,0 +1,210 @@
+{
+  "data": {
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "edit_history_tweet_ids": [
+      "2039918896694936008"
+    ],
+    "conversation_id": "2039769747957391857",
+    "id": "2039918896694936008",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2039769747957391857"
+      }
+    ],
+    "lang": "zh",
+    "possibly_sensitive": false,
+    "created_at": "2026-04-03T04:12:19.000Z",
+    "author_id": "1498354035854053377",
+    "reply_settings": "everyone",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 38
+    },
+    "text": "@TauCeti_10700 从未收到过愚人节玩笑，🤔可能是我太严肃了？",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-03T05:12:19.000Z"
+    },
+    "in_reply_to_user_id": "1808933044545630208"
+  },
+  "includes": {
+    "users": [
+      {
+        "name": "Rinko",
+        "id": "1849043039496617984",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zWqK1n9RJg",
+                "expanded_url": "https://ngl.link/wakaba_rinko",
+                "display_url": "ngl.link/wakaba_rinko"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 85,
+                "end": 97,
+                "username": "Misaki11137"
+              },
+              {
+                "start": 98,
+                "end": 113,
+                "username": "loveforeversfy"
+              },
+              {
+                "start": 118,
+                "end": 134,
+                "username": "BelovedUren8964"
+              }
+            ]
+          }
+        },
+        "description": "我思う、ゆえに我あり｜ 我是林子｜性别为无、｜寒くなってきたね……もう少しだけ、いい？｜intp-t｜ASD/OCD/焦虑障碍｜🧬今日也想成为biohacker｜好妈妈们@Misaki11137 @loveforeversfy|bro @BelovedUren8964",
+        "protected": false,
+        "username": "Rinko_zero8964",
+        "verified": false,
+        "location": "Ask me any u want→",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2004661650092359680/DqSlreCz_normal.jpg",
+        "public_metrics": {
+          "followers_count": 689,
+          "following_count": 676,
+          "tweet_count": 8453,
+          "listed_count": 1,
+          "like_count": 17352,
+          "media_count": 174
+        },
+        "url": "https://t.co/zWqK1n9RJg",
+        "created_at": "2024-10-23T10:59:58.000Z"
+      },
+      {
+        "name": "Pale Fire",
+        "id": "1808933044545630208",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "protected": true,
+        "username": "TauCeti_10700",
+        "verified": false,
+        "location": "0°00′N 260°00′E Mars",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "created_at": "2024-07-04T18:37:10.000Z"
+      },
+      {
+        "name": "意之意",
+        "id": "1498354035854053377",
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "protected": false,
+        "username": "lijunyi87429205",
+        "verified": false,
+        "location": "Elysium",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "created_at": "2022-02-28T17:47:35.000Z"
+      },
+      {
+        "name": "碎夏",
+        "id": "2025193723693596676",
+        "description": "没有锚点的存在该如何生存",
+        "protected": false,
+        "username": "miaomeow_cat",
+        "verified": false,
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "created_at": "2026-02-21T13:00:03.000Z"
+      }
+    ],
+    "tweets": [
+      {
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "edit_history_tweet_ids": [
+          "2039918896694936008"
+        ],
+        "conversation_id": "2039769747957391857",
+        "id": "2039918896694936008",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2039769747957391857"
+          }
+        ],
+        "lang": "zh",
+        "possibly_sensitive": false,
+        "created_at": "2026-04-03T04:12:19.000Z",
+        "author_id": "1498354035854053377",
+        "reply_settings": "everyone",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 38
+        },
+        "text": "@TauCeti_10700 从未收到过愚人节玩笑，🤔可能是我太严肃了？",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-03T05:12:19.000Z"
+        },
+        "in_reply_to_user_id": "1808933044545630208"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2039769747957391857",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:06Z"
+  }
+}

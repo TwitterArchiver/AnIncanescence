@@ -1,0 +1,94 @@
+{
+  "data": {
+    "id": "2035169374974484793",
+    "text": "@TauCeti_10700 这小家伙可爱",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 13
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2035166562316165438"
+      }
+    ],
+    "lang": "zh",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-21T02:39:25.000Z"
+    },
+    "reply_settings": "everyone",
+    "edit_history_tweet_ids": [
+      "2035169374974484793"
+    ],
+    "possibly_sensitive": false,
+    "conversation_id": "2034556868329082885",
+    "in_reply_to_user_id": "1808933044545630208",
+    "created_at": "2026-03-21T01:39:25.000Z",
+    "author_id": "2025193723693596676",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "protected": false,
+        "verified": false,
+        "id": "2025193723693596676",
+        "description": "没有锚点的存在该如何生存",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "username": "miaomeow_cat",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "name": "碎夏",
+        "created_at": "2026-02-21T13:00:03.000Z"
+      },
+      {
+        "protected": true,
+        "verified": false,
+        "location": "0°00′N 260°00′E Mars",
+        "id": "1808933044545630208",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "username": "TauCeti_10700",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "name": "Pale Fire",
+        "created_at": "2024-07-04T18:37:10.000Z"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2034556868329082885",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:41Z"
+  }
+}

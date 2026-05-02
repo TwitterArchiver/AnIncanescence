@@ -1,0 +1,342 @@
+{
+  "data": {
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "conversation_id": "2042092790964953577",
+    "author_id": "1498354035854053377",
+    "in_reply_to_user_id": "1808933044545630208",
+    "text": "@TauCeti_10700 像试图握紧沙子的留存..炽的疼痛显然不是“心理教育”的对象吧",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-09T05:27:01.000Z"
+    },
+    "id": "2042096924246085711",
+    "reply_settings": "everyone",
+    "edit_history_tweet_ids": [
+      "2042096924246085711"
+    ],
+    "possibly_sensitive": false,
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2042096124455219633"
+      }
+    ],
+    "lang": "zh",
+    "created_at": "2026-04-09T04:27:01.000Z",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 1,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 96
+    }
+  },
+  "includes": {
+    "users": [
+      {
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/exk0RhRMOb",
+                "expanded_url": "https://ngl.link/anincandescence1",
+                "display_url": "ngl.link/anincandescenc…"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 2,
+                "end": 18,
+                "username": "AnIncandescence"
+              }
+            ]
+          }
+        },
+        "username": "ASplendour15",
+        "url": "https://t.co/exk0RhRMOb",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2041093049498079232/MhcvRoGe_normal.jpg",
+        "public_metrics": {
+          "followers_count": 1041,
+          "following_count": 108,
+          "tweet_count": 178,
+          "listed_count": 5,
+          "like_count": 317,
+          "media_count": 39
+        },
+        "protected": false,
+        "id": "1935420089186336768",
+        "created_at": "2025-06-18T19:31:31.000Z",
+        "description": "前世@AnIncandescence\n我会一直恨平台不公的判决和举报的人…",
+        "name": "炽烈已极 到此为止吧。",
+        "verified": false,
+        "location": "夜航忒修斯"
+      },
+      {
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/SMM4418C86",
+                "expanded_url": "https://ngl.link/kevin75593",
+                "display_url": "ngl.link/kevin75593"
+              }
+            ]
+          }
+        },
+        "username": "Kevin33550337",
+        "url": "https://t.co/SMM4418C86",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2003177155614932992/jQjdKDD7_normal.jpg",
+        "public_metrics": {
+          "followers_count": 7,
+          "following_count": 5,
+          "tweet_count": 524,
+          "listed_count": 0,
+          "like_count": 201,
+          "media_count": 46
+        },
+        "protected": false,
+        "id": "1533269224952680448",
+        "created_at": "2022-06-05T02:07:44.000Z",
+        "description": "——我要南墙记住我的额骨",
+        "name": "游衣继火",
+        "verified": false
+      },
+      {
+        "username": "miaomeow_cat",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "protected": false,
+        "id": "2025193723693596676",
+        "created_at": "2026-02-21T13:00:03.000Z",
+        "description": "没有锚点的存在该如何生存",
+        "name": "碎夏",
+        "verified": false
+      },
+      {
+        "username": "TauCeti_10700",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "protected": true,
+        "id": "1808933044545630208",
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "name": "Pale Fire",
+        "verified": false,
+        "location": "0°00′N 260°00′E Mars"
+      },
+      {
+        "username": "lijunyi87429205",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "protected": false,
+        "id": "1498354035854053377",
+        "created_at": "2022-02-28T17:47:35.000Z",
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "name": "意之意",
+        "verified": false,
+        "location": "Elysium"
+      },
+      {
+        "username": "luolingchy",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1920311707546644480/0Ve3MZpc_normal.jpg",
+        "public_metrics": {
+          "followers_count": 104,
+          "following_count": 48,
+          "tweet_count": 213,
+          "listed_count": 1,
+          "like_count": 217,
+          "media_count": 8
+        },
+        "protected": false,
+        "id": "1595415869689044992",
+        "created_at": "2022-11-23T13:56:16.000Z",
+        "description": "",
+        "name": "洛灵",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "conversation_id": "2042092790964953577",
+        "author_id": "1533269224952680448",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 很多人追求的并不是对于其他个体真正的理解与尊重，而是一种“道德清白感”。用傲慢的姿态说出“生活会好起来的”“一切都会过去的”，于是他们便拿到了“赎罪劵”，即便未来再次面对，他们也可以坦然的说：“我挽留过了。”\n这种姿态着实让人作呕。",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-09T05:48:01.000Z"
+        },
+        "id": "2042102206233767981",
+        "reply_settings": "everyone",
+        "edit_history_tweet_ids": [
+          "2042102206233767981"
+        ],
+        "possibly_sensitive": false,
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2042096124455219633"
+          }
+        ],
+        "lang": "zh",
+        "created_at": "2026-04-09T04:48:01.000Z",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 2,
+          "like_count": 4,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 145
+        }
+      },
+      {
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            },
+            {
+              "start": 15,
+              "end": 31,
+              "username": "lijunyi87429205",
+              "id": "1498354035854053377"
+            }
+          ]
+        },
+        "conversation_id": "2042092790964953577",
+        "author_id": "1595415869689044992",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 @lijunyi87429205 好讨厌这种 你死了让我怎么活这种话是世界上最恶心的话语",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-09T05:51:25.000Z"
+        },
+        "id": "2042103064149246144",
+        "reply_settings": "everyone",
+        "edit_history_tweet_ids": [
+          "2042103064149246144"
+        ],
+        "possibly_sensitive": false,
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2042097617245762022"
+          }
+        ],
+        "lang": "zh",
+        "created_at": "2026-04-09T04:51:25.000Z",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 35
+        }
+      },
+      {
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "conversation_id": "2042092790964953577",
+        "author_id": "1498354035854053377",
+        "in_reply_to_user_id": "1808933044545630208",
+        "text": "@TauCeti_10700 到了现在也是先考虑自己的感受吗www感觉只是“花钱买心安”“我已经做了所有能做的事情了”这样…",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-04-09T05:32:38.000Z"
+        },
+        "id": "2042098338586357784",
+        "reply_settings": "everyone",
+        "edit_history_tweet_ids": [
+          "2042098338586357784"
+        ],
+        "possibly_sensitive": false,
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2042097617245762022"
+          }
+        ],
+        "lang": "zh",
+        "created_at": "2026-04-09T04:32:38.000Z",
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 70
+        }
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2042092790964953577",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:15Z"
+  }
+}

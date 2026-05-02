@@ -1,0 +1,136 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1915849715863982081"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1915849732691530222",
+    "created_at": "2025-04-25T19:25:45.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": true,
+      "editable_until": "2025-04-25T20:25:45.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1915849732691530222"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "start": 57,
+          "end": 80,
+          "url": "https://t.co/dEVQ950jPV",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1915849732691530222/photo/1",
+          "display_url": "pic.x.com/dEVQ950jPV",
+          "media_key": "3_1915849715863982081"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1915849732691530222",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "reply_settings": "everyone",
+    "text": "“在塔尔西斯强烈的祈愿中降生的、灯塔的意志”\n\n代价是打翻了一杯茶水，现在这个崽真的变成需要献祭才能现身的存在了 https://t.co/dEVQ950jPV"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 4032,
+        "media_key": "3_1915849715863982081",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/GpZ3Kn0bEAEhbqq.jpg",
+        "width": 3024
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命  /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 41,
+          "following_count": 22,
+          "tweet_count": 89,
+          "listed_count": 0,
+          "like_count": 90,
+          "media_count": 21
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1915849715863982081"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1915849732691530222",
+        "created_at": "2025-04-25T19:25:45.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": true,
+          "editable_until": "2025-04-25T20:25:45.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1915849732691530222"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "start": 57,
+              "end": 80,
+              "url": "https://t.co/dEVQ950jPV",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1915849732691530222/photo/1",
+              "display_url": "pic.x.com/dEVQ950jPV",
+              "media_key": "3_1915849715863982081"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1915849732691530222",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "reply_settings": "everyone",
+        "text": "“在塔尔西斯强烈的祈愿中降生的、灯塔的意志”\n\n代价是打翻了一杯茶水，现在这个崽真的变成需要献祭才能现身的存在了 https://t.co/dEVQ950jPV"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

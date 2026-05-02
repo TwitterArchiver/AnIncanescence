@@ -1,0 +1,173 @@
+{
+  "data": {
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 21
+    },
+    "created_at": "2026-03-29T14:12:12.000Z",
+    "in_reply_to_user_id": "1498354035854053377",
+    "reply_settings": "everyone",
+    "id": "2038257922866905466",
+    "edit_history_tweet_ids": [
+      "2038257922866905466"
+    ],
+    "text": "@TauCeti_10700 也喜欢炽的世界…",
+    "possibly_sensitive": false,
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-29T15:12:12.000Z"
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2038257614837150140"
+      }
+    ],
+    "author_id": "1498354035854053377",
+    "lang": "zh",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "conversation_id": "2038226690669781292"
+  },
+  "includes": {
+    "users": [
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1583077390455971840/VFX6dQZe_normal.jpg",
+        "verified": false,
+        "public_metrics": {
+          "followers_count": 138,
+          "following_count": 386,
+          "tweet_count": 1556,
+          "listed_count": 8,
+          "like_count": 61291,
+          "media_count": 40
+        },
+        "id": "1498354035854053377",
+        "username": "lijunyi87429205",
+        "location": "Elysium",
+        "protected": false,
+        "description": "生理男性 酒神崇拜/ 非专业作者，创作：诗 悲喜剧 短篇小说 / 可以用您觉得任何合适的指代，但如果把我当作朋友，请用“意洵”这个名字吧/",
+        "name": "意之意",
+        "created_at": "2022-02-28T17:47:35.000Z"
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "verified": false,
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "id": "1808933044545630208",
+        "username": "TauCeti_10700",
+        "location": "0°00′N 260°00′E Mars",
+        "protected": true,
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "name": "Pale Fire",
+        "created_at": "2024-07-04T18:37:10.000Z"
+      },
+      {
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2039233305284091904/hdxfbjXg_normal.jpg",
+        "verified": false,
+        "public_metrics": {
+          "followers_count": 416,
+          "following_count": 795,
+          "tweet_count": 2955,
+          "listed_count": 3,
+          "like_count": 31918,
+          "media_count": 83
+        },
+        "id": "1176077981099446272",
+        "username": "Yesmynamehaer1",
+        "url": "https://t.co/or4sXmhPOG",
+        "location": "白鳥形人",
+        "protected": false,
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/or4sXmhPOG",
+                "expanded_url": "https://y.music.163.com/m/user?id=1349815486",
+                "display_url": "y.music.163.com/m/user?id=1349…"
+              }
+            ]
+          }
+        },
+        "description": "我想",
+        "name": "Hereditarystupidity #鬼宿三",
+        "created_at": "2019-09-23T10:17:06.000Z"
+      }
+    ],
+    "tweets": [
+      {
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 1,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 25
+        },
+        "created_at": "2026-03-29T14:10:59.000Z",
+        "in_reply_to_user_id": "1808933044545630208",
+        "reply_settings": "everyone",
+        "id": "2038257614837150140",
+        "edit_history_tweet_ids": [
+          "2038257614837150140"
+        ],
+        "text": "@TauCeti_10700 是旧约圣经中对大洪水的解释呢…偶尔会“泛泛”地关注各种信仰中对世界描述。",
+        "possibly_sensitive": false,
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2026-03-29T15:10:59.000Z"
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "2038255588174340213"
+          }
+        ],
+        "author_id": "1498354035854053377",
+        "lang": "zh",
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "conversation_id": "2038226690669781292"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2038226690669781292",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:02Z"
+  }
+}

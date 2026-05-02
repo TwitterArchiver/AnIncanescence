@@ -1,0 +1,94 @@
+{
+  "data": {
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 26
+    },
+    "edit_history_tweet_ids": [
+      "2036681139163951375"
+    ],
+    "created_at": "2026-03-25T05:46:37.000Z",
+    "id": "2036681139163951375",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2036676111724134745"
+      }
+    ],
+    "reply_settings": "everyone",
+    "lang": "zh",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-25T06:46:37.000Z"
+    },
+    "author_id": "2025193723693596676",
+    "possibly_sensitive": false,
+    "in_reply_to_user_id": "1808933044545630208",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "text": "@TauCeti_10700 小说里魔药的由来x",
+    "conversation_id": "2036676111724134745"
+  },
+  "includes": {
+    "users": [
+      {
+        "id": "2025193723693596676",
+        "username": "miaomeow_cat",
+        "description": "没有锚点的存在该如何生存",
+        "protected": false,
+        "name": "碎夏",
+        "created_at": "2026-02-21T13:00:03.000Z",
+        "public_metrics": {
+          "followers_count": 16,
+          "following_count": 18,
+          "tweet_count": 219,
+          "listed_count": 0,
+          "like_count": 339,
+          "media_count": 8
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025194468119642116/D1KCuBeU_normal.jpg",
+        "verified": false
+      },
+      {
+        "id": "1808933044545630208",
+        "username": "TauCeti_10700",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "protected": true,
+        "name": "Pale Fire",
+        "location": "0°00′N 260°00′E Mars",
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "verified": false
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2036676111724134745",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:53Z"
+  }
+}

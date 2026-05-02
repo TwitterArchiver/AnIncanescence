@@ -1,0 +1,500 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1923393434368217554",
+    "created_at": "2025-05-16T16:32:26.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-05-16T17:32:26.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1923416259879714868"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "KagurazakaLorna",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1923416259879714868",
+    "in_reply_to_user_id": "1808933044545630208",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1923416151314346435"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@KagurazakaLorna 我真的会攒纸箱的，而且基本都会用上"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 50,
+          "following_count": 24,
+          "tweet_count": 121,
+          "listed_count": 0,
+          "like_count": 128,
+          "media_count": 29
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜精神分析，哲学，嘻哈音乐与诗。边界状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destinied Death",
+        "name": "KagurazakaLorna",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 19,
+          "following_count": 22,
+          "tweet_count": 499,
+          "listed_count": 0,
+          "like_count": 1307,
+          "media_count": 18
+        },
+        "username": "KagurazakaLorna",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1923393434368217554",
+        "created_at": "2025-05-16T16:32:26.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-16T17:32:26.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1923416259879714868"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "KagurazakaLorna",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1923416259879714868",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1923416151314346435"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@KagurazakaLorna 我真的会攒纸箱的，而且基本都会用上"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1923393434368217554",
+        "created_at": "2025-05-16T16:32:00.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-16T17:32:00.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1923416151314346435"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "KagurazakaLorna",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1923416151314346435",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 2
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1923405114502431073"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@KagurazakaLorna 不..因为在这边纸箱也是整理收纳的资源（哭）"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1923405114502431073": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1923405114502431073",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1923393434368217554",
+                "created_at": "2025-05-16T16:32:00.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": false,
+                  "editable_until": "2025-05-16T17:32:00.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1923416151314346435"
+                ],
+                "entities": {
+                  "mentions": [
+                    {
+                      "start": 0,
+                      "end": 16,
+                      "username": "KagurazakaLorna",
+                      "id": "1902145766002769920"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "1923416151314346435",
+                "in_reply_to_user_id": "1902145766002769920",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "referenced_tweets": [
+                  {
+                    "type": "replied_to",
+                    "id": "1923405114502431073"
+                  }
+                ],
+                "reply_settings": "everyone",
+                "text": "@KagurazakaLorna 不..因为在这边纸箱也是整理收纳的资源（哭）"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 50,
+                      "following_count": 24,
+                      "tweet_count": 120,
+                      "listed_count": 0,
+                      "like_count": 128,
+                      "media_count": 29
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  },
+                  {
+                    "created_at": "2025-03-18T23:51:20.000Z",
+                    "description": "“Ligne de fuite”｜精神分析，哲学，嘻哈音乐与诗。边界状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+                    "id": "1902145766002769920",
+                    "location": "Destinied Death",
+                    "name": "KagurazakaLorna",
+                    "pinned_tweet_id": "1910259742699823129",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 19,
+                      "following_count": 22,
+                      "tweet_count": 499,
+                      "listed_count": 0,
+                      "like_count": 1307,
+                      "media_count": 18
+                    },
+                    "username": "KagurazakaLorna",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1923393434368217554",
+                    "created_at": "2025-05-16T16:32:00.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-05-16T17:32:00.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1923416151314346435"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 16,
+                          "username": "KagurazakaLorna",
+                          "id": "1902145766002769920"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1923416151314346435",
+                    "in_reply_to_user_id": "1902145766002769920",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1923405114502431073"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "@KagurazakaLorna 不..因为在这边纸箱也是整理收纳的资源（哭）"
+                  },
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1902145766002769920",
+                    "conversation_id": "1923393434368217554",
+                    "created_at": "2025-05-16T15:48:09.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": false,
+                      "editable_until": "2025-05-16T16:48:09.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1923405114502431073"
+                    ],
+                    "entities": {
+                      "mentions": [
+                        {
+                          "start": 0,
+                          "end": 14,
+                          "username": "TauCeti_10700",
+                          "id": "1808933044545630208"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1923405114502431073",
+                    "in_reply_to_user_id": "1808933044545630208",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 1,
+                      "like_count": 1,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 11
+                    },
+                    "referenced_tweets": [
+                      {
+                        "type": "replied_to",
+                        "id": "1923393434368217554"
+                      }
+                    ],
+                    "reply_settings": "everyone",
+                    "text": "@TauCeti_10700 So 你难道跟我一样是那种不拿刀把快递盒子/袋子方方整整地裁开就浑身难受的人？顺便，扔掉刀片是对的！😡"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "id": "1923393434368217554",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1923393434368217554",
+                "created_at": "2025-05-16T15:01:44.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-05-16T16:01:44.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1923393434368217554"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1923393434368217554",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "我去年是下定了某种决心把这边刀片给丢掉了吗¿果然人类甚至无法共情自己\n不对吧这...是不是我没找到\n这里甚至买不着美工刀！！我连个开快递的刀都没有啊啊气笑了"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 50,
+                      "following_count": 24,
+                      "tweet_count": 119,
+                      "listed_count": 0,
+                      "like_count": 127,
+                      "media_count": 29
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1923393434368217554",
+                    "created_at": "2025-05-16T15:01:44.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-05-16T16:01:44.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1923393434368217554"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1923393434368217554",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "我去年是下定了某种决心把这边刀片给丢掉了吗¿果然人类甚至无法共情自己\n不对吧这...是不是我没找到\n这里甚至买不着美工刀！！我连个开快递的刀都没有啊啊气笑了"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

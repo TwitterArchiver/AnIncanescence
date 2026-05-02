@@ -1,0 +1,302 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1918721621369499753",
+    "created_at": "2025-05-03T18:21:09.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-05-03T19:21:09.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1918732579538415963"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 16,
+          "username": "KagurazakaLorna",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1918732579538415963",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1918722448305852647"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@KagurazakaLorna 猫条！？哪有猫条"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 47,
+          "following_count": 23,
+          "tweet_count": 104,
+          "listed_count": 0,
+          "like_count": 103,
+          "media_count": 23
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "登上舞台以前，我撕掉了剧本。",
+        "id": "1902145766002769920",
+        "location": "Destinied Death",
+        "name": "KagurazakaLorna",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 13,
+          "following_count": 19,
+          "tweet_count": 334,
+          "listed_count": 0,
+          "like_count": 855,
+          "media_count": 8
+        },
+        "username": "KagurazakaLorna",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1918721621369499753",
+        "created_at": "2025-05-03T18:21:09.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-03T19:21:09.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1918732579538415963"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 16,
+              "username": "KagurazakaLorna",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1918732579538415963",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1918722448305852647"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@KagurazakaLorna 猫条！？哪有猫条"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1918721621369499753",
+        "created_at": "2025-05-03T17:40:54.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-05-03T18:40:54.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1918722448305852647"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1918722448305852647",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 2,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 7
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1918721621369499753"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 舔舔猫条（）"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1918721621369499753": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1918721621369499753",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1918721621369499753",
+                "created_at": "2025-05-03T17:37:37.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-05-03T18:37:37.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1918721621369499753"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1918721621369499753",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "疤痕会成为阻碍我振作起来的借口...穿短装的时候时刻在提醒我“你并不能像普通人一样自由”\n或许根本就没有人看见，没有人在意，但我会想象并在意他们的眼光，简直是作茧自缚"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "只是一些无关紧要的自言自语罢了 炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 47,
+                      "following_count": 23,
+                      "tweet_count": 103,
+                      "listed_count": 0,
+                      "like_count": 102,
+                      "media_count": 23
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1918721621369499753",
+                    "created_at": "2025-05-03T17:37:37.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-05-03T18:37:37.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1918721621369499753"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1918721621369499753",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "疤痕会成为阻碍我振作起来的借口...穿短装的时候时刻在提醒我“你并不能像普通人一样自由”\n或许根本就没有人看见，没有人在意，但我会想象并在意他们的眼光，简直是作茧自缚"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

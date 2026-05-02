@@ -1,0 +1,123 @@
+{
+  "data": {
+    "created_at": "2026-03-25T05:26:31.000Z",
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "reply_settings": "everyone",
+    "possibly_sensitive": false,
+    "edit_history_tweet_ids": [
+      "2036676080644374740"
+    ],
+    "id": "2036676080644374740",
+    "conversation_id": "2036495330607276468",
+    "text": "@TauCeti_10700 那会不会脑子很乱，我吃了sns就不知道在想什么",
+    "lang": "zh",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2036675341872177214"
+      }
+    ],
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-03-25T06:26:31.000Z"
+    },
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 1,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 15
+    },
+    "author_id": "1815649539057201152",
+    "in_reply_to_user_id": "1808933044545630208"
+  },
+  "includes": {
+    "users": [
+      {
+        "public_metrics": {
+          "followers_count": 142,
+          "following_count": 212,
+          "tweet_count": 1273,
+          "listed_count": 1,
+          "like_count": 2036,
+          "media_count": 58
+        },
+        "protected": false,
+        "id": "1761821960978460672",
+        "description": "they/them🏳️‍🌈🏳️‍⚧️ 务虚",
+        "verified": false,
+        "created_at": "2024-02-25T18:34:37.000Z",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2025827248633171968/d7BX3Lk3_normal.jpg",
+        "username": "oct424242",
+        "name": "🌌"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "protected": true,
+        "id": "1808933044545630208",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "verified": false,
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "username": "TauCeti_10700",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire"
+      },
+      {
+        "public_metrics": {
+          "followers_count": 1568,
+          "following_count": 1374,
+          "tweet_count": 9695,
+          "listed_count": 3,
+          "like_count": 33839,
+          "media_count": 752
+        },
+        "protected": false,
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 3,
+                "end": 13,
+                "username": "yeol_lisu"
+              }
+            ]
+          }
+        },
+        "id": "1815649539057201152",
+        "description": "我对象@yeol_lisu/加速南墙、历史决议、混乱控制、敬畏之心",
+        "verified": false,
+        "created_at": "2024-07-23T07:26:43.000Z",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1898775251515023361/2MoJxyeP_normal.jpg",
+        "username": "NankyuSeiichi",
+        "name": "南宫清一"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2036495330607276468",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:19:52Z"
+  }
+}

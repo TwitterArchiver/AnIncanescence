@@ -1,0 +1,377 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_1997228883134078976"
+      ]
+    },
+    "author_id": "1808933044545630208",
+    "conversation_id": "1996930824584024242",
+    "created_at": "2025-12-06T08:57:29.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-12-06T09:57:29.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1997228892726460748"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 10,
+          "username": "oct424242",
+          "id": "1761821960978460672"
+        }
+      ],
+      "urls": [
+        {
+          "start": 22,
+          "end": 45,
+          "url": "https://t.co/qTlFYldmic",
+          "expanded_url": "https://x.com/TauCeti_10700/status/1997228892726460748/photo/1",
+          "display_url": "pic.x.com/qTlFYldmic",
+          "media_key": "3_1997228883134078976"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1997228892726460748",
+    "in_reply_to_user_id": "1761821960978460672",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1997037581985628587"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@oct424242 漂亮邮票！漂亮邮票！ https://t.co/qTlFYldmic"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 4032,
+        "media_key": "3_1997228883134078976",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/G7eVFmJbYAAPAt-.jpg",
+        "width": 3024
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 76,
+          "following_count": 47,
+          "tweet_count": 289,
+          "listed_count": 1,
+          "like_count": 336,
+          "media_count": 73
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2024-02-25T18:34:37.000Z",
+        "description": "they/them🏳️‍🌈🏳️‍⚧️ 务虚｜提问箱https://t.co/bYJdqcI0be",
+        "entities": {
+          "description": {
+            "urls": [
+              {
+                "start": 25,
+                "end": 48,
+                "url": "https://t.co/bYJdqcI0be",
+                "expanded_url": "https://ngl.link/margaret42",
+                "display_url": "ngl.link/margaret42"
+              }
+            ]
+          }
+        },
+        "id": "1761821960978460672",
+        "location": "北美",
+        "name": "🐙🌌",
+        "pinned_tweet_id": "1898009233653973144",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1828782828555001857/4E7p9DfA_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 78,
+          "following_count": 119,
+          "tweet_count": 778,
+          "listed_count": 1,
+          "like_count": 1156,
+          "media_count": 44
+        },
+        "username": "oct424242",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_1997228883134078976"
+          ]
+        },
+        "author_id": "1808933044545630208",
+        "conversation_id": "1996930824584024242",
+        "created_at": "2025-12-06T08:57:29.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-12-06T09:57:29.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1997228892726460748"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 10,
+              "username": "oct424242",
+              "id": "1761821960978460672"
+            }
+          ],
+          "urls": [
+            {
+              "start": 22,
+              "end": 45,
+              "url": "https://t.co/qTlFYldmic",
+              "expanded_url": "https://x.com/TauCeti_10700/status/1997228892726460748/photo/1",
+              "display_url": "pic.x.com/qTlFYldmic",
+              "media_key": "3_1997228883134078976"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1997228892726460748",
+        "in_reply_to_user_id": "1761821960978460672",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1997037581985628587"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@oct424242 漂亮邮票！漂亮邮票！ https://t.co/qTlFYldmic"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1761821960978460672",
+        "conversation_id": "1996930824584024242",
+        "created_at": "2025-12-05T20:17:17.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-12-05T21:17:17.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1997037581985628587"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1997037581985628587",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 8
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1996930824584024242"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 小贴纸漂亮小卡片！"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1996930824584024242": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1996930824584024242",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {},
+                "author_id": "1808933044545630208",
+                "conversation_id": "1996930824584024242",
+                "created_at": "2025-12-05T13:13:04.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-12-05T14:13:04.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1996930824584024242"
+                ],
+                "entities": {},
+                "geo": {},
+                "id": "1996930824584024242",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "最近好像是那个asd发力了，疯狂收集小贴纸漂亮小卡片，收集药理学精神病学毒物符号学书籍，购入对病情可能有帮助的安全药物和补充剂/以及占比很少的申必小物质...\n\n代价是价格依次递增，钱包hp-1 -20 -50。。恩，要想想怎么办才好"
+              },
+              "includes": {
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 75,
+                      "following_count": 47,
+                      "tweet_count": 286,
+                      "listed_count": 1,
+                      "like_count": 333,
+                      "media_count": 72
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {},
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1996930824584024242",
+                    "created_at": "2025-12-05T13:13:04.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-12-05T14:13:04.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1996930824584024242"
+                    ],
+                    "entities": {},
+                    "geo": {},
+                    "id": "1996930824584024242",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "最近好像是那个asd发力了，疯狂收集小贴纸漂亮小卡片，收集药理学精神病学毒物符号学书籍，购入对病情可能有帮助的安全药物和补充剂/以及占比很少的申必小物质...\n\n代价是价格依次递增，钱包hp-1 -20 -50。。恩，要想想怎么办才好"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "media_url_refreshed_at": "2026-04-18T08:30:56Z",
+    "media_url_refresh_source": "local_media_key_index"
+  }
+}

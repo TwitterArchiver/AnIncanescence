@@ -1,0 +1,364 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {},
+    "author_id": "1808933044545630208",
+    "conversation_id": "1996637396394561621",
+    "created_at": "2025-12-06T07:33:38.000Z",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2025-12-06T08:33:38.000Z"
+    },
+    "edit_history_tweet_ids": [
+      "1997207790776209812"
+    ],
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "lignedefuite_",
+          "id": "1902145766002769920"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1997207790776209812",
+    "in_reply_to_user_id": "1902145766002769920",
+    "lang": "qme",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "1996970091028578562"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "@lignedefuite_ 🥺🥺"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2024-07-04T18:37:10.000Z",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "start": 77,
+                "end": 90,
+                "username": "asplendour15"
+              }
+            ]
+          }
+        },
+        "id": "1808933044545630208",
+        "location": "0°00′N 260°00′E Mars",
+        "name": "Pale Fire",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 76,
+          "following_count": 47,
+          "tweet_count": 288,
+          "listed_count": 1,
+          "like_count": 336,
+          "media_count": 72
+        },
+        "username": "TauCeti_10700",
+        "verified": false
+      },
+      {
+        "created_at": "2025-03-18T23:51:20.000Z",
+        "description": "“Ligne de fuite”｜lacanist perhaps，欧陆哲学，嘻哈音乐与诗。边缘状态，half burn half cry。｜差异性｜“破旧的城市都被人遗弃，但诗人总诞生在无名的荒岛。”",
+        "id": "1902145766002769920",
+        "location": "Destined Death",
+        "name": "ligne de fuite",
+        "pinned_tweet_id": "1910259742699823129",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1909595210889457664/VUA0_twl_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 33,
+          "following_count": 23,
+          "tweet_count": 874,
+          "listed_count": 1,
+          "like_count": 2848,
+          "media_count": 31
+        },
+        "username": "lignedefuite_",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1808933044545630208",
+        "conversation_id": "1996637396394561621",
+        "created_at": "2025-12-06T07:33:38.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-12-06T08:33:38.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1997207790776209812"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "lignedefuite_",
+              "id": "1902145766002769920"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1997207790776209812",
+        "in_reply_to_user_id": "1902145766002769920",
+        "lang": "qme",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1996970091028578562"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@lignedefuite_ 🥺🥺"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1902145766002769920",
+        "conversation_id": "1996637396394561621",
+        "created_at": "2025-12-05T15:49:06.000Z",
+        "edit_controls": {
+          "edits_remaining": 5,
+          "is_edit_eligible": false,
+          "editable_until": "2025-12-05T16:49:06.000Z"
+        },
+        "edit_history_tweet_ids": [
+          "1996970091028578562"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "start": 0,
+              "end": 14,
+              "username": "TauCeti_10700",
+              "id": "1808933044545630208"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1996970091028578562",
+        "in_reply_to_user_id": "1808933044545630208",
+        "lang": "ja",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 0,
+          "reply_count": 1,
+          "like_count": 0,
+          "quote_count": 0,
+          "bookmark_count": 0,
+          "impression_count": 2
+        },
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1996637396394561621"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@TauCeti_10700 不用再痛苦了"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "x_api_reply_chains": {
+      "1996637396394561621": {
+        "version": 1,
+        "fetched_at": "2026-04-18T07:23:56Z",
+        "max_depth": 31,
+        "posts": [
+          {
+            "id": "1996637396394561621",
+            "source": "local_json",
+            "payload": {
+              "data": {
+                "article": {},
+                "attachments": {
+                  "media_keys": [
+                    "3_1996637388924506115"
+                  ]
+                },
+                "author_id": "1808933044545630208",
+                "conversation_id": "1996637396394561621",
+                "created_at": "2025-12-04T17:47:05.000Z",
+                "edit_controls": {
+                  "edits_remaining": 5,
+                  "is_edit_eligible": true,
+                  "editable_until": "2025-12-04T18:47:05.000Z"
+                },
+                "edit_history_tweet_ids": [
+                  "1996637396394561621"
+                ],
+                "entities": {
+                  "urls": [
+                    {
+                      "start": 42,
+                      "end": 65,
+                      "url": "https://t.co/9N69nKVvO8",
+                      "expanded_url": "https://x.com/TauCeti_10700/status/1996637396394561621/photo/1",
+                      "display_url": "pic.x.com/9N69nKVvO8",
+                      "media_key": "3_1996637388924506115"
+                    }
+                  ]
+                },
+                "geo": {},
+                "id": "1996637396394561621",
+                "lang": "zh",
+                "note_tweet": {
+                  "entities": {}
+                },
+                "possibly_sensitive": false,
+                "public_metrics": {
+                  "retweet_count": 0,
+                  "reply_count": 0,
+                  "like_count": 0,
+                  "quote_count": 0,
+                  "bookmark_count": 0,
+                  "impression_count": 0
+                },
+                "reply_settings": "everyone",
+                "text": "“不用再痛苦了”对我说这句话吧，骗我也好\n逃一会。就一会。太阳升起的时候就回现实去 https://t.co/9N69nKVvO8"
+              },
+              "includes": {
+                "media": [
+                  {
+                    "height": 2622,
+                    "media_key": "3_1996637388924506115",
+                    "public_metrics": {},
+                    "type": "photo",
+                    "url": "https://pbs.twimg.com/media/G7V7IGgb0AMDih3.jpg",
+                    "width": 1206
+                  }
+                ],
+                "users": [
+                  {
+                    "created_at": "2024-07-04T18:37:10.000Z",
+                    "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra. / 药物内容@asplendour15",
+                    "entities": {
+                      "description": {
+                        "mentions": [
+                          {
+                            "start": 77,
+                            "end": 90,
+                            "username": "asplendour15"
+                          }
+                        ]
+                      }
+                    },
+                    "id": "1808933044545630208",
+                    "location": "0°00′N 260°00′E Mars",
+                    "name": "Pale Fire",
+                    "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+                    "protected": false,
+                    "public_metrics": {
+                      "followers_count": 75,
+                      "following_count": 47,
+                      "tweet_count": 285,
+                      "listed_count": 1,
+                      "like_count": 329,
+                      "media_count": 72
+                    },
+                    "username": "TauCeti_10700",
+                    "verified": false
+                  }
+                ],
+                "tweets": [
+                  {
+                    "article": {},
+                    "attachments": {
+                      "media_keys": [
+                        "3_1996637388924506115"
+                      ]
+                    },
+                    "author_id": "1808933044545630208",
+                    "conversation_id": "1996637396394561621",
+                    "created_at": "2025-12-04T17:47:05.000Z",
+                    "edit_controls": {
+                      "edits_remaining": 5,
+                      "is_edit_eligible": true,
+                      "editable_until": "2025-12-04T18:47:05.000Z"
+                    },
+                    "edit_history_tweet_ids": [
+                      "1996637396394561621"
+                    ],
+                    "entities": {
+                      "urls": [
+                        {
+                          "start": 42,
+                          "end": 65,
+                          "url": "https://t.co/9N69nKVvO8",
+                          "expanded_url": "https://x.com/TauCeti_10700/status/1996637396394561621/photo/1",
+                          "display_url": "pic.x.com/9N69nKVvO8",
+                          "media_key": "3_1996637388924506115"
+                        }
+                      ]
+                    },
+                    "geo": {},
+                    "id": "1996637396394561621",
+                    "lang": "zh",
+                    "note_tweet": {
+                      "entities": {}
+                    },
+                    "possibly_sensitive": false,
+                    "public_metrics": {
+                      "retweet_count": 0,
+                      "reply_count": 0,
+                      "like_count": 0,
+                      "quote_count": 0,
+                      "bookmark_count": 0,
+                      "impression_count": 0
+                    },
+                    "reply_settings": "everyone",
+                    "text": "“不用再痛苦了”对我说这句话吧，骗我也好\n逃一会。就一会。太阳升起的时候就回现实去 https://t.co/9N69nKVvO8"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

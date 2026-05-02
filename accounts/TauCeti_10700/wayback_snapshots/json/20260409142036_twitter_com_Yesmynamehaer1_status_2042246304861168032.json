@@ -1,0 +1,218 @@
+{
+  "data": {
+    "entities": {
+      "mentions": [
+        {
+          "start": 0,
+          "end": 14,
+          "username": "TauCeti_10700",
+          "id": "1808933044545630208"
+        }
+      ]
+    },
+    "edit_history_tweet_ids": [
+      "2042246304861168032"
+    ],
+    "conversation_id": "2042241877731360906",
+    "id": "2042246304861168032",
+    "referenced_tweets": [
+      {
+        "type": "replied_to",
+        "id": "2042245750005088571"
+      }
+    ],
+    "lang": "zh",
+    "possibly_sensitive": false,
+    "created_at": "2026-04-09T14:20:36.000Z",
+    "author_id": "1176077981099446272",
+    "reply_settings": "everyone",
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 2,
+      "quote_count": 0,
+      "bookmark_count": 0,
+      "impression_count": 86
+    },
+    "text": "@TauCeti_10700 妈妈我真的会想你的",
+    "edit_controls": {
+      "edits_remaining": 5,
+      "is_edit_eligible": false,
+      "editable_until": "2026-04-09T15:20:36.000Z"
+    },
+    "in_reply_to_user_id": "1808933044545630208"
+  },
+  "includes": {
+    "users": [
+      {
+        "name": "mono氚",
+        "id": "1619698674917068801",
+        "description": "UnrealEngine地编师（学 接 私）｜艺术｜形而上｜理想国｜棱镜｜身外的世界总是模糊的…\n我想休息一下 在一个只有我的世界里。",
+        "protected": false,
+        "username": "InfiniteTritium",
+        "verified": false,
+        "location": "NewMap",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1916186524884078594/dGmyKGAr_normal.jpg",
+        "public_metrics": {
+          "followers_count": 20,
+          "following_count": 150,
+          "tweet_count": 443,
+          "listed_count": 0,
+          "like_count": 542,
+          "media_count": 75
+        },
+        "created_at": "2023-01-29T14:08:10.000Z"
+      },
+      {
+        "name": "Pale Fire",
+        "id": "1808933044545630208",
+        "description": "穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.",
+        "protected": true,
+        "username": "TauCeti_10700",
+        "verified": false,
+        "location": "0°00′N 260°00′E Mars",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1853163363142115328/S5o_Yawf_normal.jpg",
+        "public_metrics": {
+          "followers_count": 133,
+          "following_count": 67,
+          "tweet_count": 578,
+          "listed_count": 1,
+          "like_count": 702,
+          "media_count": 148
+        },
+        "created_at": "2024-07-04T18:37:10.000Z"
+      },
+      {
+        "name": "星野",
+        "id": "1115068672098226176",
+        "description": "厌男，包括自己",
+        "protected": false,
+        "username": "uslO6TIZesf19C2",
+        "verified": false,
+        "location": "Shinjuku-ku, Tokyo",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1867429566207475712/NpCp6Ovr_normal.jpg",
+        "public_metrics": {
+          "followers_count": 327,
+          "following_count": 1143,
+          "tweet_count": 7138,
+          "listed_count": 1,
+          "like_count": 13747,
+          "media_count": 583
+        },
+        "created_at": "2019-04-08T01:47:43.000Z"
+      },
+      {
+        "name": "Rinko",
+        "id": "1849043039496617984",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/zWqK1n9RJg",
+                "expanded_url": "https://ngl.link/wakaba_rinko",
+                "display_url": "ngl.link/wakaba_rinko"
+              }
+            ]
+          },
+          "description": {
+            "mentions": [
+              {
+                "start": 85,
+                "end": 97,
+                "username": "Misaki11137"
+              },
+              {
+                "start": 98,
+                "end": 113,
+                "username": "loveforeversfy"
+              },
+              {
+                "start": 118,
+                "end": 134,
+                "username": "BelovedUren8964"
+              }
+            ]
+          }
+        },
+        "description": "我思う、ゆえに我あり｜ 我是林子｜性别为无、｜寒くなってきたね……もう少しだけ、いい？｜intp-t｜ASD/OCD/焦虑障碍｜🧬今日也想成为biohacker｜好妈妈们@Misaki11137 @loveforeversfy|bro @BelovedUren8964",
+        "protected": false,
+        "username": "Rinko_zero8964",
+        "verified": false,
+        "location": "Ask me any u want→",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2004661650092359680/DqSlreCz_normal.jpg",
+        "public_metrics": {
+          "followers_count": 689,
+          "following_count": 676,
+          "tweet_count": 8453,
+          "listed_count": 1,
+          "like_count": 17352,
+          "media_count": 174
+        },
+        "url": "https://t.co/zWqK1n9RJg",
+        "created_at": "2024-10-23T10:59:58.000Z"
+      },
+      {
+        "name": "核子融合炉 #室宿一",
+        "id": "2007465888438706176",
+        "description": "=核子/Kakuko | 炉心融解激推 | 20⬆️ | enby | any pronouns | 飛び込んでみたいと 思う | 不在国内不卖药 | Lay Back and Dive.",
+        "protected": false,
+        "username": "Kakuko42",
+        "verified": false,
+        "location": "眠れない 午前二時",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2017663558406873088/puT6sL5a_normal.jpg",
+        "public_metrics": {
+          "followers_count": 124,
+          "following_count": 194,
+          "tweet_count": 183,
+          "listed_count": 0,
+          "like_count": 2479,
+          "media_count": 2
+        },
+        "created_at": "2026-01-03T14:55:51.000Z"
+      },
+      {
+        "name": "Hereditarystupidity #鬼宿三",
+        "id": "1176077981099446272",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/or4sXmhPOG",
+                "expanded_url": "https://y.music.163.com/m/user?id=1349815486",
+                "display_url": "y.music.163.com/m/user?id=1349…"
+              }
+            ]
+          }
+        },
+        "description": "我想",
+        "protected": false,
+        "username": "Yesmynamehaer1",
+        "verified": false,
+        "location": "白鳥形人",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2039233305284091904/hdxfbjXg_normal.jpg",
+        "public_metrics": {
+          "followers_count": 416,
+          "following_count": 795,
+          "tweet_count": 2955,
+          "listed_count": 3,
+          "like_count": 31918,
+          "media_count": 83
+        },
+        "url": "https://t.co/or4sXmhPOG",
+        "created_at": "2019-09-23T10:17:06.000Z"
+      }
+    ]
+  },
+  "_pale_fire": {
+    "source": "x_api_conversation_search",
+    "source_auth": "x_api_app_only:env.pale-fire",
+    "conversation_search": "all",
+    "conversation_id": "2042241877731360906",
+    "archive_user": "TauCeti_10700",
+    "fetched_at": "2026-04-18T08:20:16Z"
+  }
+}
