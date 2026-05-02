@@ -30,18 +30,29 @@
 ## 目录
 
 ```
-📁 wayback_snapshots/
-    📁 avatar/
-    📁 html/
-    📁 image/
-    📁 json/
-    📁 video/
-    📄 index.json
-    📄 profile.json
+📁 Accounts/
+    📁 AnIncandescence/
+        📁 wayback_snapshots/
+            📁 avatar/
+            📁 html/
+            📁 image/
+            📁 json/
+            📁 video/
+            📄 index.json
+            📄 profile.json
+        📄 _list_media.txt
+        📄 _url_list.txt
+    📁 TauCeti_10700/
+        📁 wayback_snapshots/
+            📁 avatar/
+            📁 html/
+            📁 image/
+            📁 json/
+            📁 video/
+            📄 index.json
+            📄 profile.json
 📄 .nojekyll
 📄 README.md
-📄 _list_media.txt
-📄 _url_list.txt
 📄 index.html
 ```
 
@@ -49,7 +60,7 @@
 
 ## 在线阅读
 
-本存档配有在线阅读器，可按日期浏览、全文搜索。
+本存档配有在线阅读器，可按日期浏览、全文搜索，并支持在两个账号之间切换。
 
 🔗 **[打开阅读器](https://sjshb57.github.io/AnIncanescence/)**
 
