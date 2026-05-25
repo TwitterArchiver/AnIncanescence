@@ -75,7 +75,7 @@
 
 本存档配有在线阅读器，可按日期浏览、全文搜索，并支持在两个账号之间切换。
 
-🔗 **[打开阅读器](https://sjshb57.github.io/AnIncanescence/)**
+🔗 **[打开阅读器](https://TwitterArchiver.github.io/AnIncanescence/)**
 
 ---
 
