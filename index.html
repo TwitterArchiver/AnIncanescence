@@ -624,8 +624,8 @@ body.light .post-iframe-wrap { background: #ffffff; }
 .recent-item { padding: 8px 0; border-bottom: 1px solid var(--border); cursor: pointer; transition: opacity .15s; }
 .recent-pinned { border-left: 3px solid var(--accent,#1d9bf0); padding-left: 8px; }
 .pinned-label { font-size: 11px; color: var(--accent,#1d9bf0); margin-bottom: 2px; font-weight: 600; }
-.pinned-block { border-left: 3px solid var(--accent,#1d9bf0); margin-bottom: 16px; padding-left: 0; }
-.pinned-block-label { font-size: 12px; color: var(--accent,#1d9bf0); font-weight: 700; padding: 6px 12px 4px; display: flex; align-items: center; gap: 4px; }
+.pinned-block { margin-bottom: 16px; }
+.pinned-block-label { font-size: 14px; color: var(--accent,#1d9bf0); font-weight: 700; padding: 6px 0 4px; display: flex; align-items: center; gap: 4px; }
 .recent-item:last-child { border-bottom: none; }
 .recent-item:hover { opacity: .7; }
 .recent-date { font-size: 13px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
@@ -1325,6 +1325,18 @@ if (document.readyState === 'loading') {
   setupStickyDetector();
 }
 
+/* 从 treeData 里找最新那天的日期字符串 */
+function getLatestDay() {
+  const years = Object.keys(treeData).sort();
+  if (!years.length) return null;
+  const y = years[years.length - 1];
+  const months = Object.keys(treeData[y]).sort();
+  const m = months[months.length - 1];
+  const days = Object.keys(treeData[y][m]).sort();
+  const d = days[days.length - 1];
+  return `${y}-${m}-${d}`;
+}
+
 /* ── 日视图 ───────────────────────────────────────────── */
 function selectDay(dk, skipScroll = false) {
   if (searchMode) exitSearch();
@@ -1344,7 +1356,7 @@ function selectDay(dk, skipScroll = false) {
     `${y}年${m}月${d}日<span class="dim">${items.length} 篇</span>`;
 
   // 判断是否是最新那天，是的话在推文tab最前插入置顶
-  const latestDay = db.length > 0 ? utcToLocal(db[0].timestamp).localDate : null;
+  const latestDay = getLatestDay();
   const isLatestDay = (dk === latestDay);
   renderDayView(items, isLatestDay);
 
@@ -1403,12 +1415,18 @@ function renderTweetsTab(sorted, area, showPinned = false) {
   if (showPinned) {
     const pinnedItem = db.find(i => i.is_pinned && !i.is_virtual);
     if (pinnedItem) {
-      const src = `${ASSET_BASE}${pinnedItem.file}`;
+      const src = `${HTML_BASE}${pinnedItem.file}`;
       pinnedHtml = `
       <div class="pinned-block">
         <div class="pinned-block-label">📌 已置顶</div>
-        <iframe class="tweet-frame" src="${esc(src)}"
-          onload="onFrameLoad(this)" style="opacity:0"></iframe>
+        <div class="post-iframe-wrap">
+          <iframe class="post-iframe"
+            src="${esc(src)}"
+            scrolling="no"
+            onload="onFrameLoad(this)"
+            sandbox="allow-scripts allow-same-origin allow-popups">
+          </iframe>
+        </div>
       </div>`;
     }
   }
@@ -1582,6 +1600,7 @@ function toggleReplies(toggleEl) {
 
 /* ── iframe 加载 ──────────────────────────────────────── */
 function onFrameLoad(iframe) {
+  iframe.style.opacity = '1';  // 确保 iframe 可见（置顶 iframe 初始 opacity:0）
   injectFitHeight(iframe);  // 先去掉 body min-height:100vh 让内容自适应
   injectTheme(iframe);
   // 推文tab展开的回复iframe：隐藏embedded-tweet-container（避免重复显示主推文内容）
@@ -2428,28 +2447,22 @@ function linkifyText(text) {
 /* 用 profile.json 里的 bio_entities 精确渲染 bio 链接（有 entities 用 entities，否则 fallback 到 linkifyText） */
 function renderBioWithEntities(text, entities) {
   if (!text) return '';
-  if (!entities || (!entities.mentions?.length && !entities.urls?.length)) {
-    return linkifyText(text);
+  const accentStyle = 'color:var(--accent,#1d9bf0)';
+  let result = esc(text);
+  // 替换 URL：优先匹配 t.co 短链，其次匹配 display_url（bio 里可能已展开）
+  for (const u of ((entities?.urls) || [])) {
+    const link = `<a href="${esc(u.expanded_url)}" target="_blank" style="${accentStyle}">${esc(u.display_url)}</a>`;
+    const escapedTco     = esc(u.url);
+    const escapedDisplay = esc(u.display_url);
+    if (result.includes(escapedTco)) {
+      result = result.replace(escapedTco, link);
+    } else if (result.includes(escapedDisplay)) {
+      result = result.replace(escapedDisplay, link);
+    }
   }
-  const items = [
-    ...(entities.mentions || []).map(m => ({
-      start: m.start, end: m.end,
-      html: `<a href="https://x.com/${esc(m.username)}" target="_blank" style="color:var(--accent,#1d9bf0)">@${esc(m.username)}</a>`
-    })),
-    ...(entities.urls || []).map(u => ({
-      start: u.start, end: u.end,
-      html: `<a href="${esc(u.expanded_url)}" target="_blank" style="color:var(--accent,#1d9bf0)">${esc(u.display_url)}</a>`
-    }))
-  ].sort((a, b) => a.start - b.start);
-
-  let result = '';
-  let lastIdx = 0;
-  for (const item of items) {
-    result += esc(text.slice(lastIdx, item.start));
-    result += item.html;
-    lastIdx = item.end;
-  }
-  result += esc(text.slice(lastIdx));
+  // @用户名 统一用正则替换（不依赖 entities.mentions 是否完整）
+  result = result.replace(/@([A-Za-z0-9_]+)/g,
+    (_, name) => `<a href="https://x.com/${name}" target="_blank" style="${accentStyle}">@${name}</a>`);
   return result;
 }
 
