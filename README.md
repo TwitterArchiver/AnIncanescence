@@ -1,91 +1,24 @@
-# 炽烈已极 · 存档
+## @AnIncanescence 的推文存档
 
-> "我们彻夜飞旋，直至没入火焰。"
+本仓库为 [@AnIncanescence](https://twitter.com/AnIncanescence) 的 Twitter/X 推文存档，
+通过 [Wayback Machine](https://web.archive.org) 抓取，使用 GitHub Pages 自动部署。
 
----
-
-## 关于她
-
-<img src="https://free.picui.cn/free/2026/04/14/69dd981a6e2cf.png" width="120" align="right" style="border-radius:50%; margin-left:16px; margin-bottom:8px"/>
-
-**炽烈已极**
-**@AnIncandescence**
-
-猫，诗歌，精神动力学。艺术，朝闻道，波粒二象性。不断寻找着广播塔的星际候鸟。| "我们彻夜飞旋，直至没入火焰。" | 倒影 @TauCeti_10700 计划这个号机的浓度更高一些
-
-加入于 **2024年1月**，驻留于 **天鹅座X-1**。
+🔗 在线阅读：**https://TwitterArchiver.github.io/AnIncanescence/**
 
 ---
 
-### 她的一些碎片 #1
+### 爬取脚本
 
-**Pale Fire**
-**@TauCeti_10700**
+存档由 [IncandescenceArchiver](https://github.com/sjshb57/IncandescenceArchiver) 自动抓取，
+基于 GitHub Actions 定期增量更新。
 
-穿越语言的壳，任思维溢出容器——请听，离群者无法永恒的悲歌。炽在水洼中的倒影，因为星光获得了生命 /Per aspera ad astra.
+### 阅读器
 
-加入于 **2024年7月**，驻留于 **0°00′N 260°00′E Mars**。
-
----
-
-## 这个存档是什么
-
-这里收录了她在互联网上留下的痕迹——  
-文字、想法、和她凝视过的事物。
-
-她已经离开了。  
-但这些还在。
+前端基于 [白炽阅读器 · IncandescenceReader](https://github.com/sjshb57/IncandescenceReader)。
 
 ---
 
-## 目录
+> 内容版权归原作者所有，本仓库仅用于存档与纪念目的。
 
-```
-📁 Accounts/
-    📁 AnIncandescence/
-        📁 wayback_snapshots/
-            📁 avatar/
-            📁 html/
-            📁 image/
-            📁 json/
-            📁 video/
-            📄 index.json
-            📄 profile.json
-        📄 _list_media.txt
-        📄 _url_list.txt
-    📁 TauCeti_10700/
-        📁 wayback_snapshots/
-            📁 avatar/
-            📁 html/
-            📁 image/
-            📁 json/
-            📁 video/
-            📄 index.json
-            📄 profile.json
-        📄 _list_media.txt
-        📄 _url_list.txt
-📄 .nojekyll
-📄 README.md
-📄 index.html
-```
-
----
-
-## 在线阅读
-
-本存档配有在线阅读器，可按日期浏览、全文搜索，并支持在两个账号之间切换。
-
-🔗 **[打开阅读器](https://TwitterArchiver.github.io/AnIncanescence/)**
-
----
-
-## 原始存档地址：**[点击此处](https://github.com/sjshb57/AnIncanescence/)**
-
----
-
-## 写在最后
-
----
-
-*本存档由 sjshb57 整理，建于 2026年4月14日。*  
-*如有补充或更正，欢迎 PR 或联系。*
+**本仓库 Fork 自 [sjshb57/IncandescenceArchiver](https://github.com/sjshb57/IncandescenceArchiver)，
+遵循上游项目 [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) 开源协议。**
