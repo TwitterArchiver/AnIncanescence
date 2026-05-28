@@ -13,6 +13,8 @@ jobs:
     name: 建档 HTML+图片
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -161,6 +163,8 @@ jobs:
     needs: build-html-image
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -226,6 +230,8 @@ jobs:
     needs: build-video
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
