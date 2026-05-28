@@ -10,6 +10,8 @@ jobs:
     name: 增量 HTML+图片
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -133,6 +135,8 @@ jobs:
     needs: update-html-image
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -209,6 +213,8 @@ jobs:
     needs: update-video
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
