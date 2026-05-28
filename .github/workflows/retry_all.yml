@@ -8,6 +8,8 @@ jobs:
     name: 全量重试 图片
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -93,6 +95,8 @@ jobs:
     needs: retry-image
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
@@ -160,6 +164,8 @@ jobs:
     needs: retry-video
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      TWITTER_PROXY_BASE: ${{ secrets.TWITTER_PROXY_BASE }}
     permissions:
       contents: write
 
