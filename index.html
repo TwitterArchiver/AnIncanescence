@@ -2276,22 +2276,22 @@ function doSearch(kw) {
   // 标题统一只显示推文 ID（避免长链接撑爆标题）
   const trimmed = kw.trim();
   const linkMatch = trimmed.match(/status\/(\d+)/);
-  const isPureId = /^\d{15,}$/.test(trimmed);   // 15位以上纯数字 → 当推文 ID
+  const isPureId = /^\d{15,}$/.test(trimmed);   // 15位以上纯数字 → 尝试当推文 ID
   const isFileName = /\.html?$/i.test(trimmed);
   let exactMode = false, exactItem = null, displayKw = kw;
   if (linkMatch) {
-    exactMode = true;
+    exactMode = true;                           // 链接格式明确，找不到也显示无结果
     const id = linkMatch[1];
-    displayKw = id;                              // 标题只显示 ID
+    displayKw = id;
     exactItem = db.find(i => i.tweet_id === id || (i.file && i.file.includes(id)));
-  } else if (isPureId) {
-    exactMode = true;
-    displayKw = trimmed;
-    exactItem = db.find(i => i.tweet_id === trimmed || (i.file && i.file.includes(trimmed)));
   } else if (isFileName) {
-    exactMode = true;
+    exactMode = true;                           // 文件名格式明确
     displayKw = trimmed;
     exactItem = db.find(i => i.file === trimmed || (i.file && i.file.endsWith(trimmed)));
+  } else if (isPureId) {
+    // 纯数字：先试 ID 匹配，找到才进精确模式；找不到降级为关键词搜索（避免误伤）
+    const found = db.find(i => i.tweet_id === trimmed || (i.file && i.file.includes(trimmed)));
+    if (found) { exactMode = true; exactItem = found; displayKw = trimmed; }
   }
 
   document.getElementById('day-heading').innerHTML=`"${esc(displayKw)}"`;
@@ -2369,18 +2369,35 @@ function jumpToPost(dayKey, file, tweetId) {
   }
   if (activeTab !== targetTab) switchTab(targetTab);
 
-  const col = document.getElementById('main-col');
-  if (col) { col.style.visibility = 'hidden'; col.scrollTop = 0; }
-  selectDay(dayKey, true);  // skipScroll，由下面统一控制跳转
+  selectDay(dayKey);  // 内容立即可见，图片懒加载渐入（不白屏）
 
-  // 目标是否已就绪：所有 iframe load 完 + 内部图片 complete，且目标元素存在
+  // 定位（可重复调用做校正）
+  const locate = (smooth) => {
+    if (isReplyCard && tweetId) {
+      const card = document.querySelector(`.reply-card[data-tweet-id="${tweetId}"]`);
+      if (!card) return false;
+      const section = card.closest('.replies-section');
+      if (section) {
+        const toggle = section.querySelector('.replies-toggle');
+        const list   = section.querySelector('.replies-list');
+        if (toggle && list && !list.classList.contains('open')) toggleReplies(toggle);
+      }
+      card.scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block:'center'});
+      return true;
+    }
+    const iframes = document.querySelectorAll('.post-iframe,.reply-iframe');
+    for (const f of iframes) {
+      if (f.src.endsWith(file)) {
+        (f.closest('.post-block') || f).scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block:'start'});
+        return true;
+      }
+    }
+    return false;
+  };
+
+  // 目标是否就绪：所有 iframe load 完 + 内部图片 complete
   const isReady = () => {
     const iframes = Array.from(document.querySelectorAll('.post-iframe,.reply-iframe'));
-    if (isReplyCard) {
-      if (!document.querySelector(`.reply-card[data-tweet-id="${tweetId}"]`)) return false;
-    } else {
-      if (!iframes.some(f => f.src.endsWith(file))) return false;
-    }
     for (const f of iframes) {
       if (f.dataset.loaded !== '1') return false;
       try {
@@ -2392,48 +2409,20 @@ function jumpToPost(dayKey, file, tweetId) {
     return true;
   };
 
-  const doJump = () => {
-    if (col) col.style.visibility = '';
-    void document.body.offsetHeight;
-
-    if (isReplyCard && tweetId) {
-      const card = document.querySelector(`.reply-card[data-tweet-id="${tweetId}"]`);
-      if (card) {
-        const section = card.closest('.replies-section');
-        if (section) {
-          const toggle = section.querySelector('.replies-toggle');
-          const list   = section.querySelector('.replies-list');
-          if (toggle && list && !list.classList.contains('open')) toggleReplies(toggle);
-        }
-        setTimeout(() => card.scrollIntoView({behavior:'smooth',block:'center'}), 150);
-        return;
+  // 先粗定位（内容已可见），再等加载完精确校正一次
+  setTimeout(() => {
+    locate(true);
+    const startTime = Date.now();
+    const tick = () => {
+      if (isReady() || Date.now() - startTime > 2500) {
+        document.querySelectorAll('.post-iframe,.reply-iframe').forEach(f => { try { autoHeight(f); } catch(e){} });
+        requestAnimationFrame(() => requestAnimationFrame(() => locate(false)));
+      } else {
+        requestAnimationFrame(tick);
       }
-    }
-    // iframe 定位（主推文 / 回复 tab）
-    const iframes = document.querySelectorAll('.post-iframe,.reply-iframe');
-    const sticky = document.querySelector('.sticky-area');
-    const stickyH = sticky ? sticky.offsetHeight : 0;
-    for (const f of iframes) {
-      if (f.src.endsWith(file)) {
-        const block = f.closest('.post-block') || f;
-        const blockRect = block.getBoundingClientRect();
-        const colRect = col.getBoundingClientRect();
-        col.scrollTop = col.scrollTop + (blockRect.top - colRect.top) - stickyH;
-        break;
-      }
-    }
-  };
-
-  const startTime = Date.now();
-  const tick = () => {
-    if (isReady() || Date.now() - startTime > 2000) {
-      document.querySelectorAll('.post-iframe,.reply-iframe').forEach(f => { try { autoHeight(f); } catch(e){} });
-      requestAnimationFrame(() => requestAnimationFrame(doJump));
-    } else {
-      requestAnimationFrame(tick);
-    }
-  };
-  requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, 300);
 }
 
 function clearSearch() {
