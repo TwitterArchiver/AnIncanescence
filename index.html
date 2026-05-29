@@ -1569,7 +1569,7 @@ function renderReplyCard(rep) {
     : `<div class="reply-avatar" style="background:var(--banner-bg)"></div>`;
 
   return `
-  <div class="reply-card${rep.is_virtual ? ' reply-card-virtual' : ''}">
+  <div class="reply-card${rep.is_virtual ? ' reply-card-virtual' : ''}" data-tweet-id="${esc(rep.tweet_id||'')}">
     <div class="reply-avatar-col">
       ${avatarHtml}
       <div class="reply-thread-line"></div>
@@ -2271,12 +2271,54 @@ function doSearch(kw) {
   searchMode=true; activeDay=null;
   document.querySelectorAll('.day-row').forEach(e=>e.classList.remove('active'));
   document.getElementById('day-heading').innerHTML=`"${esc(kw)}"`;
+
+  // ── 精确定位模式：推特链接 / 文件名 ──
+  // 1. 推特链接：…/status/数字  → 提取推文 ID
+  // 2. 文件名：xxx.html
+  // 命中精确格式时，只显示唯一匹配的那条；找不到则显示无结果（不降级为关键词搜索）
+  const trimmed = kw.trim();
+  const linkMatch = trimmed.match(/status\/(\d+)/);
+  const isFileName = /\.html?$/i.test(trimmed);
+  let exactMode = false, exactItem = null;
+  if (linkMatch) {
+    exactMode = true;
+    const id = linkMatch[1];
+    exactItem = db.find(i => i.tweet_id === id || (i.file && i.file.includes(id)));
+  } else if (isFileName) {
+    exactMode = true;
+    exactItem = db.find(i => i.file === trimmed || (i.file && i.file.endsWith(trimmed)));
+  }
+
+  const area=document.getElementById('content-area');
+
+  if (exactMode) {
+    if (!exactItem) {
+      area.innerHTML=`<div class="welcome">
+        <div class="welcome-icon" style="opacity:.3">🔍</div>
+        <div class="welcome-title">无结果</div>
+        <div class="welcome-hint">没有找到匹配该链接/文件名的推文</div>
+      </div>`; return;
+    }
+    const { localDate, localTime } = utcToLocal(exactItem.timestamp);
+    area.innerHTML=`<div class="anim">
+      <div class="result-count">精确匹配 1 条</div>
+      <div class="result-item" onclick="jumpToPost('${esc(localDate)}','${esc(exactItem.file)}','${esc(exactItem.tweet_id||'')}')">
+        <div class="result-meta">
+          <span class="result-date">${localDate}</span>
+          <span class="result-time">${localTime}</span>
+        </div>
+        <div class="result-text">${esc(exactItem.text||'(无正文)')}</div>
+      </div>
+    </div>`;
+    return;
+  }
+
+  // ── 普通关键词 / 日期搜索 ──
   const kl=kw.toLowerCase();
   const res=db.filter(i=>{
     const { localDate, localTime } = utcToLocal(i.timestamp);
     return (i.text&&i.text.toLowerCase().includes(kl))||localDate.includes(kw)||localTime.includes(kw);
   });
-  const area=document.getElementById('content-area');
   if (!res.length) {
     area.innerHTML=`<div class="welcome">
       <div class="welcome-icon" style="opacity:.3">🔍</div>
@@ -2294,7 +2336,7 @@ function doSearch(kw) {
     ${shown.map(item=>{
       const { localDate, localTime } = utcToLocal(item.timestamp);
       return `
-      <div class="result-item" onclick="jumpToPost('${esc(localDate)}','${esc(item.file)}')">
+      <div class="result-item" onclick="jumpToPost('${esc(localDate)}','${esc(item.file)}','${esc(item.tweet_id||'')}')">
         <div class="result-meta">
           <span class="result-date">${localDate}</span>
           <span class="result-time">${localTime}</span>
@@ -2305,10 +2347,46 @@ function doSearch(kw) {
   </div>`;
 }
 
-function jumpToPost(dayKey, file) {
+function jumpToPost(dayKey, file, tweetId) {
   clearSearch();
+
+  // 判断目标推文应该在哪个 tab，以及是否需要展开主推文的回复区
+  const item = tweetId ? idIndex[tweetId] : null;
+  let targetTab = 'tweets';
+  let isReplyCard = false;   // 目标是"挂在主推文下的回复卡片"（reply-card，非 iframe）
+  if (item && item.is_reply) {
+    // 这条回复的对话归属：conversation_id 对应的若是自己的主推文，则它挂在推文 tab
+    const conv = item.conversation_id ? idIndex[item.conversation_id] : null;
+    const belongsToOwnMain = conv && !conv.is_reply && !conv.is_virtual;
+    if (belongsToOwnMain) {
+      targetTab = 'tweets';     // 推文 tab，在主推文下展开回复
+      isReplyCard = true;
+    } else {
+      targetTab = 'replies';    // 回复别人的 → 回复 tab（iframe）
+    }
+  }
+
+  // 切到正确的 tab
+  if (activeTab !== targetTab) switchTab(targetTab);
+
   selectDay(dayKey);
-  setTimeout(()=>{
+
+  setTimeout(() => {
+    if (isReplyCard && tweetId) {
+      // 推文 tab 下的回复：先展开所在主推文的回复区，再滚动到该 reply-card
+      const card = document.querySelector(`.reply-card[data-tweet-id="${tweetId}"]`);
+      if (card) {
+        const section = card.closest('.replies-section');
+        if (section) {
+          const toggle = section.querySelector('.replies-toggle');
+          const list   = section.querySelector('.replies-list');
+          if (toggle && list && !list.classList.contains('open')) toggleReplies(toggle);
+        }
+        setTimeout(() => card.scrollIntoView({behavior:'smooth',block:'center'}), 120);
+        return;
+      }
+    }
+    // 主推文 / 回复 tab：定位到 iframe
     document.querySelectorAll('.post-iframe,.reply-iframe').forEach(f=>{
       if(f.src.endsWith(file)) f.scrollIntoView({behavior:'smooth',block:'start'});
     });
