@@ -462,11 +462,92 @@ a:hover { text-decoration: underline; }
 .post-reply-badge svg { opacity: .5; }
 
 /* iframe 容器 */
-.post-iframe-wrap { width: 100%; background: #000000; }
+.post-iframe-wrap { width: 100%; background: #000000; position: relative; }
 body.light .post-iframe-wrap { background: #ffffff; }
 .post-iframe {
   width: 100%; border: none; display: block; min-height: 160px;
 }
+
+/* 分享按钮（浮在推文右上角）*/
+.share-btn {
+  position: absolute;
+  top: 12px; right: 14px;
+  z-index: 5;
+  width: 34px; height: 34px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--text-dim);
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  transition: color .15s, border-color .15s, transform .12s;
+}
+.share-btn:hover { color: var(--accent); border-color: var(--accent); transform: scale(1.08); }
+.share-btn svg { width: 17px; height: 17px; }
+
+/* 分享弹窗 */
+.share-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.45);
+  display: none; align-items: center; justify-content: center;
+  z-index: 1000; padding: 20px;
+  backdrop-filter: blur(2px);
+}
+.share-overlay.open { display: flex; }
+.share-dialog {
+  width: 100%; max-width: 460px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.25);
+  animation: shareIn .2s cubic-bezier(.16,1,.3,1);
+}
+@keyframes shareIn { from { opacity:0; transform: translateY(12px) scale(.98); } to { opacity:1; transform:none; } }
+.share-dialog-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 16px;
+}
+.share-dialog-title { font-size: 1.05rem; font-weight: 700; color: var(--text); }
+.share-close {
+  width: 30px; height: 30px; border: none; background: var(--bg-hover);
+  border-radius: 50%; color: var(--text-dim); cursor: pointer; font-size: 16px;
+  display: flex; align-items: center; justify-content: center;
+}
+.share-close:hover { color: var(--text); }
+.share-row {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 10px;
+}
+.share-row-body { flex: 1; min-width: 0; }
+.share-row-label { font-size: 11px; color: var(--text-dim); margin-bottom: 3px; }
+.share-row-value {
+  font-size: 13px; color: var(--text);
+  background: var(--bg-hover);
+  border-radius: 8px; padding: 9px 12px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.share-copy {
+  flex-shrink: 0;
+  padding: 8px 14px; font-size: 13px; font-weight: 600;
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 8px; cursor: pointer;
+  align-self: flex-end;
+  transition: background .15s;
+}
+.share-copy:hover { background: var(--accent-hover); }
+.share-copy.copied { background: #00ba7c; }
+
+/* 复制提示 toast */
+.share-toast {
+  position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%) translateY(20px);
+  background: #00ba7c; color: #fff;
+  padding: 10px 20px; border-radius: 10px; font-size: 14px; font-weight: 600;
+  opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s;
+  z-index: 1100;
+}
+.share-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
 /* ── 回复链展开区 ─────────────────────────────────────── */
 .replies-section {
@@ -1029,6 +1110,7 @@ let treeData  = {};
 let activeDay = null;
 let ascending = false;
 let searchMode= false;
+let preSearchState = null;  // 搜索前的浏览位置，取消搜索时恢复
 let isLight   = true;
 let activeTab = 'tweets';
 let ownerUsername = '';  // 当前账号 username（去 @ 转小写），用于识别"主人 vs 外人"
@@ -1046,6 +1128,7 @@ async function init() {
   // 先尝试加载账号清单
   await loadAccounts();
   await loadCurrentAccount();
+  handleLocateParam();
 }
 
 /* ── 多账号 ─────────────────────────────────────────── */
@@ -1460,6 +1543,9 @@ function renderTweetsTab(sorted, area, showPinned = false) {
       <div class="pinned-block">
         <div class="pinned-block-label">📌 已置顶</div>
         <div class="post-iframe-wrap">
+          <button class="share-btn" title="分享" onclick="openShare('${esc(pinnedItem.tweet_id||'')}','${esc(pinnedItem.file||'')}')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          </button>
           <iframe class="post-iframe"
             src="${esc(src)}"
             scrolling="no"
@@ -1510,6 +1596,9 @@ function renderTweetsTab(sorted, area, showPinned = false) {
         <span class="post-seq">${i+1} / ${mainTweets.length}</span>
       </div>
       <div class="post-iframe-wrap">
+        <button class="share-btn" title="分享" onclick="openShare('${esc(item.tweet_id||'')}','${esc(item.file||'')}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </button>
         <iframe class="post-iframe"
           src="${HTML_BASE}${esc(item.file)}"
           scrolling="no"
@@ -1620,6 +1709,9 @@ function renderRepliesTab(sorted, area) {
       </div>
       <div class="post-time-label" style="padding:2px 16px 4px;font-size:12px;color:var(--text-muted)">${localTime}</div>
       <div class="post-iframe-wrap">
+        <button class="share-btn" title="分享" onclick="openShare('${esc(item.tweet_id||'')}','${esc(item.file||'')}')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+        </button>
         <iframe class="post-iframe"
           src="${HTML_BASE}${esc(item.file)}"
           scrolling="no"
@@ -2268,6 +2360,11 @@ function setupSearch() {
 
 function doSearch(kw) {
   if (!kw) { exitSearch(); return; }
+  // 进入搜索前保存当前浏览位置（天 + 滚动），取消搜索时恢复
+  if (!searchMode) {
+    const col = document.getElementById('main-col');
+    preSearchState = { day: activeDay, scrollTop: col ? col.scrollTop : 0, tab: activeTab };
+  }
   searchMode=true; activeDay=null;
   document.querySelectorAll('.day-row').forEach(e=>e.classList.remove('active'));
 
@@ -2276,21 +2373,21 @@ function doSearch(kw) {
   // 标题统一只显示推文 ID（避免长链接撑爆标题）
   const trimmed = kw.trim();
   const linkMatch = trimmed.match(/status\/(\d+)/);
-  const isPureId = /^\d{15,}$/.test(trimmed);   // 15位以上纯数字 → 尝试当推文 ID
   const isFileName = /\.html?$/i.test(trimmed);
   let exactMode = false, exactItem = null, displayKw = kw;
   if (linkMatch) {
     exactMode = true;                           // 链接格式明确，找不到也显示无结果
     const id = linkMatch[1];
     displayKw = id;
-    exactItem = db.find(i => i.tweet_id === id || (i.file && i.file.includes(id)));
+    exactItem = db.find(i => i.tweet_id === id);
   } else if (isFileName) {
     exactMode = true;                           // 文件名格式明确
     displayKw = trimmed;
     exactItem = db.find(i => i.file === trimmed || (i.file && i.file.endsWith(trimmed)));
-  } else if (isPureId) {
-    // 纯数字：先试 ID 匹配，找到才进精确模式；找不到降级为关键词搜索（避免误伤）
-    const found = db.find(i => i.tweet_id === trimmed || (i.file && i.file.includes(trimmed)));
+  } else if (/^\d+$/.test(trimmed)) {
+    // 纯数字：用完整 tweet_id 精确相等匹配。输入部分数字不等于任何完整 ID，
+    // 会自动降级为关键词搜索；只有输入完整 ID 才精确命中。
+    const found = db.find(i => i.tweet_id === trimmed);
     if (found) { exactMode = true; exactItem = found; displayKw = trimmed; }
   }
 
@@ -2433,6 +2530,21 @@ function clearSearch() {
 
 function exitSearch() {
   searchMode=false;
+  // 优先恢复搜索前的浏览位置（天 + tab + 滚动）
+  if (preSearchState && preSearchState.day) {
+    const st = preSearchState;
+    preSearchState = null;
+    if (st.tab && st.tab !== activeTab) switchTab(st.tab);
+    activeDay = st.day;
+    selectDay(st.day, true);  // skipScroll，下面手动恢复滚动
+    const col = document.getElementById('main-col');
+    if (col) {
+      // 等渲染完再恢复滚动位置
+      setTimeout(() => { col.scrollTop = st.scrollTop; }, 60);
+    }
+    return;
+  }
+  preSearchState = null;
   if (activeDay) {
     const [y,m,d]=activeDay.split('-');
     const items=treeData[y]?.[m]?.[d]||[];
@@ -2626,6 +2738,97 @@ function utcToLocal(timestamp) {
     localDate: `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`,
     localTime: `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`,
   };
+}
+
+/* ── 分享弹窗 ─────────────────────────────────────────── */
+function openShare(tweetId, file) {
+  if (!tweetId && !file) return;
+  const username = (currentAccount && currentAccount.username) || ownerUsername || '';
+  const twitterUrl = username && tweetId ? `https://twitter.com/${username}/status/${tweetId}` : '';
+  const shortId = tweetId ? tweetId.slice(-8) : '';
+  const locateUrl = shortId ? `${location.origin}${location.pathname}?t=${shortId}` : '';
+
+  const rows = [
+    twitterUrl ? { label: '推特原链接', value: twitterUrl } : null,
+    tweetId    ? { label: '推文 ID',    value: tweetId } : null,
+    file       ? { label: '文件名',     value: file } : null,
+    locateUrl  ? { label: '存档定位链接', value: locateUrl } : null,
+  ].filter(Boolean);
+
+  let overlay = document.getElementById('share-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'share-overlay';
+    overlay.className = 'share-overlay';
+    overlay.onclick = (e) => { if (e.target === overlay) closeShare(); };
+    document.body.appendChild(overlay);
+  }
+  overlay.innerHTML = `
+    <div class="share-dialog">
+      <div class="share-dialog-head">
+        <div class="share-dialog-title">分享这条推文</div>
+        <button class="share-close" onclick="closeShare()">✕</button>
+      </div>
+      ${rows.map(r => `
+        <div class="share-row">
+          <div class="share-row-body">
+            <div class="share-row-label">${esc(r.label)}</div>
+            <div class="share-row-value" title="${esc(r.value)}">${esc(r.value)}</div>
+          </div>
+          <button class="share-copy" onclick="copyShare(this,'${esc(r.value).replace(/'/g,"\\'")}')">复制</button>
+        </div>`).join('')}
+    </div>`;
+  overlay.classList.add('open');
+}
+
+function closeShare() {
+  const overlay = document.getElementById('share-overlay');
+  if (overlay) overlay.classList.remove('open');
+}
+
+function copyShare(btn, text) {
+  const done = () => {
+    btn.textContent = '已复制';
+    btn.classList.add('copied');
+    showToast('已复制到剪贴板');
+    setTimeout(() => { btn.textContent = '复制'; btn.classList.remove('copied'); }, 1500);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+  } else {
+    fallbackCopy(text, done);
+  }
+}
+function fallbackCopy(text, cb) {
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); cb(); } catch(e) {}
+  document.body.removeChild(ta);
+}
+function showToast(msg) {
+  let t = document.getElementById('share-toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'share-toast'; t.className = 'share-toast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), 1800);
+}
+
+/* ── ?t= 定位：打开带定位参数的链接时，跳到对应推文 ──────── */
+function handleLocateParam() {
+  const t = new URLSearchParams(location.search).get('t');
+  if (!t) return;
+  // 在已加载的 db 里找 tweet_id 后缀匹配 t 的推文（t 是后8位）
+  const item = db.find(i => i.tweet_id && i.tweet_id.endsWith(t));
+  if (!item) return;
+  const { localDate } = utcToLocal(item.timestamp);
+  // 等首屏渲染稳定后跳转
+  setTimeout(() => jumpToPost(localDate, item.file, item.tweet_id), 300);
 }
 
 init();
