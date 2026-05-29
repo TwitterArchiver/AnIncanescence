@@ -625,7 +625,7 @@ body.light .post-iframe-wrap { background: #ffffff; }
 .recent-pinned { border-left: 3px solid var(--accent,#1d9bf0); padding-left: 8px; }
 .pinned-label { font-size: 11px; color: var(--accent,#1d9bf0); margin-bottom: 2px; font-weight: 600; }
 .pinned-block { margin-bottom: 16px; }
-.pinned-block-label { font-size: 14px; color: var(--accent,#1d9bf0); font-weight: 700; padding: 6px 0 4px; display: flex; align-items: center; gap: 4px; }
+.pinned-block-label { font-size: 12px; color: var(--accent,#1d9bf0); font-weight: 700; padding: 6px 0 4px; display: flex; align-items: center; gap: 4px; }
 .recent-item:last-child { border-bottom: none; }
 .recent-item:hover { opacity: .7; }
 .recent-date { font-size: 13px; color: var(--accent); font-weight: 600; margin-bottom: 2px; }
@@ -989,17 +989,18 @@ body.light .post-iframe-wrap { background: #ffffff; }
 
 <script>
 // 路径前缀（多账号支持）：根据当前账号 dir 动态调整
-// Electron 走  协议；当只有一个账号时账号清单为空，等同单账号场景
-// _accounts 是 main.js 暴露的虚拟路径，会动态扫 accounts/ 下所有子目录的 profile.json
-// GitHub Pages 是静态服务，无法扫目录。直接硬编码账号目录列表。
-// 增加新账号只需在数组里加一项目录名。
-// 其他信息（name/username/avatar/banner）从各自的 profile.json 自动读取。
+// 环境检测：Electron 桌面版走 incr:// 协议，浏览器（GitHub Pages）走相对路径
+// Electron 下 _accounts 是 main.js 暴露的虚拟路径，会动态扫 accounts/ 下所有子目录的 profile.json
+// GitHub Pages 是静态服务无法扫目录，用下方硬编码的账号目录列表（Electron 模式会忽略它）。
+// 增加新账号只需在数组里加一项目录名；其他信息从各自的 profile.json 自动读取。
+const IS_ELECTRON = (location.protocol === 'incr:');
+const BASE = IS_ELECTRON ? 'incr://local/' : '';
 const ACCOUNTS_HARDCODED = ['AnIncandescence', 'TauCeti_10700'];
-let ACCOUNT_BASE   = '';                       // 资源根
-let DB_PATH        = 'wayback_snapshots/index.json';
-let PROFILE_PATH   = 'wayback_snapshots/profile.json';
-let HTML_BASE      = 'wayback_snapshots/html/';
-let ASSET_BASE     = 'wayback_snapshots/';
+let ACCOUNT_BASE   = BASE;                       // 资源根
+let DB_PATH        = BASE + 'wayback_snapshots/index.json';
+let PROFILE_PATH   = BASE + 'wayback_snapshots/profile.json';
+let HTML_BASE      = BASE + 'wayback_snapshots/html/';
+let ASSET_BASE     = BASE + 'wayback_snapshots/';
 
 // 多账号状态
 let accounts       = [];       // 加载到的账号清单
@@ -1007,7 +1008,7 @@ let currentAccount = null;     // 当前账号对象（accounts 里的某一项�
 
 function applyAccountPaths(acct) {
   if (acct && acct.dir) {
-    const prefix = `accounts/${acct.dir}/`;
+    const prefix = `${BASE}accounts/${acct.dir}/`;
     ACCOUNT_BASE = prefix;
     DB_PATH      = prefix + 'wayback_snapshots/index.json';
     PROFILE_PATH = prefix + 'wayback_snapshots/profile.json';
@@ -1015,11 +1016,11 @@ function applyAccountPaths(acct) {
     ASSET_BASE   = prefix + 'wayback_snapshots/';
   } else {
     // 单账号兜底：旧目录结构
-    ACCOUNT_BASE = '';
-    DB_PATH      = 'wayback_snapshots/index.json';
-    PROFILE_PATH = 'wayback_snapshots/profile.json';
-    HTML_BASE    = 'wayback_snapshots/html/';
-    ASSET_BASE   = 'wayback_snapshots/';
+    ACCOUNT_BASE = BASE;
+    DB_PATH      = BASE + 'wayback_snapshots/index.json';
+    PROFILE_PATH = BASE + 'wayback_snapshots/profile.json';
+    HTML_BASE    = BASE + 'wayback_snapshots/html/';
+    ASSET_BASE   = BASE + 'wayback_snapshots/';
   }
 }
 
@@ -1049,24 +1050,38 @@ async function init() {
 
 /* ── 多账号 ─────────────────────────────────────────── */
 async function loadAccounts() {
-  if (!Array.isArray(ACCOUNTS_HARDCODED) || ACCOUNTS_HARDCODED.length === 0) return;
-  // 并发加载每个账号的 profile.json，组合成账号清单
-  const tasks = ACCOUNTS_HARDCODED.map(async (dir) => {
+  if (IS_ELECTRON) {
+    // Electron：从 main.js 暴露的虚拟路径动态扫描所有账号
     try {
-      const r = await fetch(`accounts/${dir}/wayback_snapshots/profile.json`);
-      if (!r.ok) return { dir, name: dir, username: dir, avatar: '' };
-      const c = await r.json();
-      return {
-        dir,
-        name: c.name || dir,
-        username: (c.username || dir).replace(/^@/, ''),
-        avatar: c.avatar ? `accounts/${dir}/wayback_snapshots/${c.avatar}` : '',
-      };
+      const r = await fetch(BASE + '_accounts');
+      if (!r.ok) return;
+      const list = await r.json();
+      if (!Array.isArray(list) || list.length === 0) return;
+      accounts = list;
     } catch (e) {
-      return { dir, name: dir, username: dir, avatar: '' };
+      console.info('账号清单加载失败，单账号模式');
+      return;
     }
-  });
-  accounts = await Promise.all(tasks);
+  } else {
+    // GitHub Pages：静态服务无法扫目录，用硬编码列表，各自读 profile.json
+    if (!Array.isArray(ACCOUNTS_HARDCODED) || ACCOUNTS_HARDCODED.length === 0) return;
+    const tasks = ACCOUNTS_HARDCODED.map(async (dir) => {
+      try {
+        const r = await fetch(`accounts/${dir}/wayback_snapshots/profile.json`);
+        if (!r.ok) return { dir, name: dir, username: dir, avatar: '' };
+        const c = await r.json();
+        return {
+          dir,
+          name: c.name || dir,
+          username: (c.username || dir).replace(/^@/, ''),
+          avatar: c.avatar ? `accounts/${dir}/wayback_snapshots/${c.avatar}` : '',
+        };
+      } catch (e) {
+        return { dir, name: dir, username: dir, avatar: '' };
+      }
+    });
+    accounts = await Promise.all(tasks);
+  }
   // 决定当前账号：localStorage > 第一个
   const remembered = localStorage.getItem('reader-account');
   currentAccount = (remembered && accounts.find(a => a.dir === remembered)) || accounts[0];
@@ -1095,7 +1110,7 @@ function renderAccountSwitcher() {
   const stripAt = (s) => (s || '').replace(/^@/, '');
   popup.innerHTML = accounts.map(a => `
     <div class="account-popup-item ${currentAccount && a.dir === currentAccount.dir ? 'current' : ''}" onclick="switchAccount('${esc(a.dir)}')">
-      <img class="a-avatar" src="${a.avatar ? esc(a.avatar) : ''}" alt="" onerror="this.style.background='var(--banner-bg)';this.removeAttribute('src')">
+      <img class="a-avatar" src="${a.avatar ? BASE + esc(a.avatar) : ''}" alt="" onerror="this.style.background='var(--banner-bg)';this.removeAttribute('src')">
       <div class="a-info">
         <div class="a-name">${esc(a.name || stripAt(a.username))}</div>
         <div class="a-handle">@${esc(stripAt(a.username))}</div>
@@ -1448,6 +1463,7 @@ function renderTweetsTab(sorted, area, showPinned = false) {
           <iframe class="post-iframe"
             src="${esc(src)}"
             scrolling="no"
+            loading="lazy"
             onload="onFrameLoad(this)"
             sandbox="allow-scripts allow-same-origin allow-popups">
           </iframe>
@@ -1497,6 +1513,7 @@ function renderTweetsTab(sorted, area, showPinned = false) {
         <iframe class="post-iframe"
           src="${HTML_BASE}${esc(item.file)}"
           scrolling="no"
+          loading="lazy"
           onload="onFrameLoad(this)"
           sandbox="allow-scripts allow-same-origin allow-popups">
         </iframe>
@@ -1606,6 +1623,7 @@ function renderRepliesTab(sorted, area) {
         <iframe class="post-iframe"
           src="${HTML_BASE}${esc(item.file)}"
           scrolling="no"
+          loading="lazy"
           onload="onFrameLoad(this)"
           sandbox="allow-scripts allow-same-origin allow-popups">
         </iframe>
