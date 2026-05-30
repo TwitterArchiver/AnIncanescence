@@ -549,6 +549,29 @@ body.light .post-iframe-wrap { background: #ffffff; }
 }
 .share-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 
+/* 图片放大 lightbox */
+.img-lightbox {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,.9);
+  display: none; align-items: center; justify-content: center;
+  z-index: 1200; padding: 24px;
+  cursor: zoom-out;
+}
+.img-lightbox.open { display: flex; }
+.img-lightbox img {
+  max-width: 100%; max-height: 100%;
+  object-fit: contain; border-radius: 8px;
+  animation: shareIn .2s cubic-bezier(.16,1,.3,1);
+}
+.lightbox-close {
+  position: fixed; top: 18px; right: 18px;
+  width: 40px; height: 40px;
+  background: rgba(255,255,255,.12); border: none; border-radius: 50%;
+  color: #fff; font-size: 18px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.lightbox-close:hover { background: rgba(255,255,255,.25); }
+
 /* ── 回复链展开区 ─────────────────────────────────────── */
 .replies-section {
   border-top: 1px solid var(--border);
@@ -1856,6 +1879,61 @@ function injectFitHeight(iframe) {
   } catch(e) {}
 }
 
+/* ── 多图网格化：把主推文里平铺的多张图收成推特风格网格 ── */
+function gridClass(n) { return n === 2 ? 'n2' : n === 3 ? 'n3' : n === 4 ? 'n4' : 'n5plus'; }
+
+function injectGridCss(doc) {
+  if (doc.getElementById('__img_grid_css__')) return;
+  const s = doc.createElement('style');
+  s.id = '__img_grid_css__';
+  s.textContent = `
+    .__img_grid__ {
+      display: grid; gap: 3px; margin-top: 12px;
+      border-radius: 14px; overflow: hidden;
+    }
+    .__img_grid__ img.tweet-image {
+      width: 100% !important; height: 100% !important;
+      object-fit: cover; margin: 0 !important;
+      border-radius: 0 !important; cursor: pointer; display: block;
+      min-height: 0 !important;
+    }
+    .__img_grid__.n2 { grid-template-columns: 1fr 1fr; aspect-ratio: 16/9; }
+    .__img_grid__.n3 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; aspect-ratio: 16/10; }
+    .__img_grid__.n3 img.tweet-image:first-child { grid-row: 1 / 3; }
+    .__img_grid__.n4 { grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; aspect-ratio: 16/10; }
+    .__img_grid__.n5plus { grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: 1fr; }
+  `;
+  doc.head.appendChild(s);
+}
+
+function gridifyImages(doc, nonjson, iframe) {
+  const content = nonjson.querySelector('.tweet-content');
+  if (!content) return;
+  if (content.querySelector('.__img_grid__')) return;  // 已处理
+  // 只取外层主推文的直接子图片（embedded 内的不动）
+  const imgs = Array.from(content.querySelectorAll(':scope > img.tweet-image'))
+    .filter(el => el.tagName === 'IMG');
+  if (imgs.length < 2) return;  // 单图保持原样
+
+  injectGridCss(doc);
+  const grid = doc.createElement('div');
+  grid.className = '__img_grid__ ' + gridClass(imgs.length);
+  content.insertBefore(grid, imgs[0]);
+  imgs.forEach(img => {
+    grid.appendChild(img);
+    img.addEventListener('click', (e) => { e.preventDefault(); openLightbox(img.src); });
+    // 破图移除后更新网格，避免留空格
+    img.addEventListener('error', () => {
+      if (img.parentNode === grid) img.remove();
+      const remain = grid.querySelectorAll('img.tweet-image').length;
+      if (remain === 0) { grid.remove(); }
+      else if (remain === 1) { const only = grid.querySelector('img.tweet-image'); only.className = 'tweet-image'; content.insertBefore(only, grid); grid.remove(); }
+      else grid.className = '__img_grid__ ' + gridClass(remain);
+      try { autoHeight(iframe); } catch(e) {}
+    }, { once: true });
+  });
+}
+
 /* ── 修复 iframe 内的图片显示 ────────────────────────────
    爬虫bug：外层 tweet-image 可能包含被引用推文的图，embedded 永远没图
    修复：用 index.json 里的 wanted_images / embedded_images 精确控制
@@ -1992,6 +2070,9 @@ function fixImagesInFrame(iframe) {
 
     // 3. 清理冗余短链（图片占位+引用占位的 t.co 链接，普通分享链接保留）
     removeShortlinksInFrame(nonjson, embedded, item);
+
+    // 3b. 多图网格化：主推文 ≥2 张图 → 收起成推特风格网格（点击放大看原图）
+    gridifyImages(doc, nonjson, iframe);
 
     // 4. 折叠 embedded（默认收起，避免引用框内大图占用过多垂直空间）
     //    reply-iframe 已经把整个 embedded 隐藏了，不需要折叠
@@ -2745,6 +2826,25 @@ function utcToLocal(timestamp) {
     localDate: `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`,
     localTime: `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`,
   };
+}
+
+/* ── 图片放大 lightbox（父页面全屏，由 iframe 内图片点击触发）── */
+function openLightbox(src) {
+  if (!src) return;
+  let box = document.getElementById('img-lightbox');
+  if (!box) {
+    box = document.createElement('div');
+    box.id = 'img-lightbox';
+    box.className = 'img-lightbox';
+    box.onclick = closeLightbox;
+    document.body.appendChild(box);
+  }
+  box.innerHTML = `<img src="${src.replace(/"/g,'&quot;')}" alt=""><button class="lightbox-close" aria-label="关闭">✕</button>`;
+  box.classList.add('open');
+}
+function closeLightbox() {
+  const box = document.getElementById('img-lightbox');
+  if (box) box.classList.remove('open');
 }
 
 /* ── 分享弹窗 ─────────────────────────────────────────── */
