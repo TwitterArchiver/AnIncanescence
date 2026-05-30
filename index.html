@@ -552,7 +552,8 @@ body.light .post-iframe-wrap { background: #ffffff; }
 /* 图片放大 lightbox */
 .img-lightbox {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.72);
+  backdrop-filter: blur(8px);
   display: none; align-items: center; justify-content: center;
   z-index: 1200; padding: 24px;
   cursor: zoom-out;
@@ -1909,12 +1910,23 @@ function injectGridCss(doc) {
 function gridifyImages(doc, nonjson, iframe) {
   const content = nonjson.querySelector('.tweet-content');
   if (!content) return;
-  if (content.querySelector('.__img_grid__')) return;  // 已处理
   // 只取外层主推文的直接子图片（embedded 内的不动）
   const imgs = Array.from(content.querySelectorAll(':scope > img.tweet-image'))
     .filter(el => el.tagName === 'IMG');
-  if (imgs.length < 2) return;  // 单图保持原样
+  if (imgs.length === 0) return;
 
+  // 单图：不网格化，只加点击放大
+  if (imgs.length === 1) {
+    const img = imgs[0];
+    if (!img.dataset.lbBound) {
+      img.style.cursor = 'zoom-in';
+      img.addEventListener('click', (e) => { e.preventDefault(); openLightbox(img.src); });
+      img.dataset.lbBound = '1';
+    }
+    return;
+  }
+
+  if (content.querySelector('.__img_grid__')) return;  // 已处理
   injectGridCss(doc);
   const grid = doc.createElement('div');
   grid.className = '__img_grid__ ' + gridClass(imgs.length);
@@ -1927,7 +1939,7 @@ function gridifyImages(doc, nonjson, iframe) {
       if (img.parentNode === grid) img.remove();
       const remain = grid.querySelectorAll('img.tweet-image').length;
       if (remain === 0) { grid.remove(); }
-      else if (remain === 1) { const only = grid.querySelector('img.tweet-image'); only.className = 'tweet-image'; content.insertBefore(only, grid); grid.remove(); }
+      else if (remain === 1) { const only = grid.querySelector('img.tweet-image'); only.className = 'tweet-image'; only.style.cursor = 'zoom-in'; content.insertBefore(only, grid); grid.remove(); }
       else grid.className = '__img_grid__ ' + gridClass(remain);
       try { autoHeight(iframe); } catch(e) {}
     }, { once: true });
