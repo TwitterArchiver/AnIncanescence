@@ -468,23 +468,23 @@ body.light .post-iframe-wrap { background: #ffffff; }
   width: 100%; border: none; display: block; min-height: 160px;
 }
 
-/* 分享按钮（浮在推文右上角）*/
+/* 分享按钮（浮在推文右上角，只图标无框）*/
 .share-btn {
   position: absolute;
-  top: 12px; right: 14px;
+  top: 10px; right: 12px;
   z-index: 5;
-  width: 34px; height: 34px;
+  width: 30px; height: 30px;
   display: flex; align-items: center; justify-content: center;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 50%;
+  background: transparent;
+  border: none;
+  padding: 0;
   color: var(--text-dim);
   cursor: pointer;
-  box-shadow: 0 1px 4px rgba(0,0,0,.06);
-  transition: color .15s, border-color .15s, transform .12s;
+  transition: color .15s, transform .12s;
+  -webkit-tap-highlight-color: transparent;
 }
-.share-btn:hover { color: var(--accent); border-color: var(--accent); transform: scale(1.08); }
-.share-btn svg { width: 17px; height: 17px; }
+.share-btn:hover, .share-btn:active { color: var(--accent); transform: scale(1.12); }
+.share-btn svg { width: 19px; height: 19px; }
 
 /* 分享弹窗 */
 .share-overlay {
@@ -497,7 +497,7 @@ body.light .post-iframe-wrap { background: #ffffff; }
 .share-overlay.open { display: flex; }
 .share-dialog {
   width: 100%; max-width: 460px;
-  background: var(--bg-card);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 20px;
@@ -2373,13 +2373,20 @@ function doSearch(kw) {
   // 标题统一只显示推文 ID（避免长链接撑爆标题）
   const trimmed = kw.trim();
   const linkMatch = trimmed.match(/status\/(\d+)/);
+  const tParam = trimmed.match(/[?&]?t=(\d+)/);   // 定位短码 / 完整定位链接里的 ?t=后8位
   const isFileName = /\.html?$/i.test(trimmed);
   let exactMode = false, exactItem = null, displayKw = kw;
   if (linkMatch) {
-    exactMode = true;                           // 链接格式明确，找不到也显示无结果
+    exactMode = true;                           // 推特链接，找不到也显示无结果
     const id = linkMatch[1];
     displayKw = id;
     exactItem = db.find(i => i.tweet_id === id);
+  } else if (tParam) {
+    // 定位码：用 tweet_id 后缀匹配（短码是后几位）
+    exactMode = true;
+    const suffix = tParam[1];
+    displayKw = '?t=' + suffix;
+    exactItem = db.find(i => i.tweet_id && i.tweet_id.endsWith(suffix));
   } else if (isFileName) {
     exactMode = true;                           // 文件名格式明确
     displayKw = trimmed;
@@ -2747,12 +2754,14 @@ function openShare(tweetId, file) {
   const twitterUrl = username && tweetId ? `https://twitter.com/${username}/status/${tweetId}` : '';
   const shortId = tweetId ? tweetId.slice(-8) : '';
   const locateUrl = shortId ? `${location.origin}${location.pathname}?t=${shortId}` : '';
+  const shortCode = shortId ? `?t=${shortId}` : '';
 
   const rows = [
     twitterUrl ? { label: '推特原链接', value: twitterUrl } : null,
     tweetId    ? { label: '推文 ID',    value: tweetId } : null,
     file       ? { label: '文件名',     value: file } : null,
-    locateUrl  ? { label: '存档定位链接', value: locateUrl } : null,
+    locateUrl  ? { label: '存档定位链接（浏览器打开）', value: locateUrl } : null,
+    shortCode  ? { label: '定位短码（粘贴到搜索框）', value: shortCode } : null,
   ].filter(Boolean);
 
   let overlay = document.getElementById('share-overlay');
