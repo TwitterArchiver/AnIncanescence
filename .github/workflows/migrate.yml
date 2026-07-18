@@ -62,7 +62,7 @@ jobs:
             [ -z "$U" ] && continue
             [ -d "accounts/${U}/wayback_snapshots" ] || continue
             echo "::group::[$U] rebuild-index"
-            ( cd "accounts/${U}" && python3 /tmp/archive.py rebuild-index )
+            ( cd "accounts/${U}" && python3 /tmp/archive.py rebuild-index ) || echo "::warning::[$U] rebuild-index 有非零退出，继续"
             echo "::endgroup::"
           done <<< "${{ steps.info.outputs.accounts }}"
 
@@ -72,7 +72,7 @@ jobs:
             [ -z "$U" ] && continue
             [ -d "accounts/${U}/wayback_snapshots" ] || continue
             echo "::group::[$U] fetch-media"
-            ( cd "accounts/${U}" && python3 /tmp/archive.py fetch-media )
+            ( cd "accounts/${U}" && python3 /tmp/archive.py fetch-media ) || echo "::warning::[$U] fetch-media 有失败项（通常是 Wayback 404），继续"
             echo "::endgroup::"
           done <<< "${{ steps.info.outputs.accounts }}"
 
@@ -82,7 +82,7 @@ jobs:
             [ -z "$U" ] && continue
             [ -d "accounts/${U}/wayback_snapshots" ] || continue
             echo "::group::[$U] build-index"
-            ( cd "accounts/${U}" && python3 /tmp/archive.py build-index )
+            ( cd "accounts/${U}" && python3 /tmp/archive.py build-index ) || echo "::warning::[$U] build-index 有非零退出，继续"
             echo "::endgroup::"
           done <<< "${{ steps.info.outputs.accounts }}"
 
