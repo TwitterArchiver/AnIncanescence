@@ -1,0 +1,238 @@
+{
+  "data": {
+    "article": {},
+    "attachments": {
+      "media_keys": [
+        "3_2033517967464648704"
+      ]
+    },
+    "author_id": "1741993395910811648",
+    "conversation_id": "2033517976499241420",
+    "created_at": "2026-03-16T12:17:21.000Z",
+    "edit_controls": {
+      "editable_until": "2026-03-16T13:17:21.000Z",
+      "edits_remaining": 5,
+      "is_edit_eligible": true
+    },
+    "edit_history_tweet_ids": [
+      "2033517976499241420"
+    ],
+    "entities": {
+      "urls": [
+        {
+          "display_url": "pic.x.com/T0pdYzxwjN",
+          "end": 152,
+          "expanded_url": "https://x.com/AnIncandescence/status/2033517976499241420/photo/1",
+          "media_key": "3_2033517967464648704",
+          "start": 129,
+          "url": "https://t.co/T0pdYzxwjN"
+        },
+        {
+          "display_url": "x.com/anincandescenc…",
+          "end": 176,
+          "expanded_url": "https://twitter.com/anincandescence/status/2033514698809954621",
+          "start": 153,
+          "url": "https://t.co/ERX4XOd0aG"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "2033517976499241420",
+    "lang": "zh",
+    "note_tweet": {
+      "entities": {}
+    },
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "id": "2033514698809954621",
+        "type": "quoted"
+      }
+    ],
+    "reply_settings": "everyone",
+    "text": "同学在群里发的照片。虽然很想上课但看到这样的场景还是心跳加速紧张起来，找不到座位的教室，周围每一张陌生的面孔和掺杂着听不懂的语言，就算掌握了知识也永远害怕考试……自己像一个小孩被丢到大人们中间，大家都好厉害啊感觉我什么都不会，也不够坚强没能读下去，对不起。 https://t.co/T0pdYzxwjN https://t.co/ERX4XOd0aG"
+  },
+  "includes": {
+    "media": [
+      {
+        "height": 1920,
+        "media_key": "3_2033517967464648704",
+        "public_metrics": {},
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HDiB0T8a0AAEK59.jpg",
+        "width": 1080
+      }
+    ],
+    "tweets": [
+      {
+        "article": {},
+        "attachments": {
+          "media_keys": [
+            "3_2033517967464648704"
+          ]
+        },
+        "author_id": "1741993395910811648",
+        "conversation_id": "2033517976499241420",
+        "created_at": "2026-03-16T12:17:21.000Z",
+        "edit_controls": {
+          "editable_until": "2026-03-16T13:17:21.000Z",
+          "edits_remaining": 5,
+          "is_edit_eligible": true
+        },
+        "edit_history_tweet_ids": [
+          "2033517976499241420"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/T0pdYzxwjN",
+              "end": 152,
+              "expanded_url": "https://x.com/AnIncandescence/status/2033517976499241420/photo/1",
+              "media_key": "3_2033517967464648704",
+              "start": 129,
+              "url": "https://t.co/T0pdYzxwjN"
+            },
+            {
+              "display_url": "x.com/anincandescenc…",
+              "end": 176,
+              "expanded_url": "https://twitter.com/anincandescence/status/2033514698809954621",
+              "start": 153,
+              "url": "https://t.co/ERX4XOd0aG"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2033517976499241420",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 0,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2033514698809954621",
+            "type": "quoted"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "同学在群里发的照片。虽然很想上课但看到这样的场景还是心跳加速紧张起来，找不到座位的教室，周围每一张陌生的面孔和掺杂着听不懂的语言，就算掌握了知识也永远害怕考试……自己像一个小孩被丢到大人们中间，大家都好厉害啊感觉我什么都不会，也不够坚强没能读下去，对不起。 https://t.co/T0pdYzxwjN https://t.co/ERX4XOd0aG"
+      },
+      {
+        "article": {},
+        "attachments": {},
+        "author_id": "1741993395910811648",
+        "conversation_id": "2033160062928310348",
+        "created_at": "2026-03-16T12:04:19.000Z",
+        "edit_controls": {
+          "editable_until": "2026-03-16T13:04:19.000Z",
+          "edits_remaining": 5,
+          "is_edit_eligible": false
+        },
+        "edit_history_tweet_ids": [
+          "2033514698809954621"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 8,
+              "id": "1974276207496867842",
+              "start": 0,
+              "username": "DXMDusk"
+            },
+            {
+              "end": 24,
+              "id": "1992300667395092480",
+              "start": 9,
+              "username": "Albert_C_Anker"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "2033514698809954621",
+        "in_reply_to_user_id": "1974276207496867842",
+        "lang": "zh",
+        "note_tweet": {
+          "entities": {}
+        },
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5,
+          "like_count": 2,
+          "quote_count": 1,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2033509222399570044",
+            "type": "replied_to"
+          }
+        ],
+        "reply_settings": "everyone",
+        "text": "@DXMDusk @Albert_C_Anker TwT…好想学艺术人类学那样的课…好想上摄影课…"
+      }
+    ],
+    "users": [
+      {
+        "created_at": "2024-01-02T01:22:57.000Z",
+        "description": "猫，诗歌，精神动力学。艺术，朝闻道，波粒二象性。不断寻找着广播塔的星际候鸟。 | “我们彻夜飞旋，直至没入火焰。” | 倒影@TauCeti_10700 计划这个号机的浓度更高一些 | 🚪88/158",
+        "entities": {
+          "description": {
+            "mentions": [
+              {
+                "end": 76,
+                "start": 62,
+                "username": "TauCeti_10700"
+              }
+            ]
+          },
+          "url": {
+            "urls": [
+              {
+                "display_url": "ngl.link/anincandescenc…",
+                "end": 23,
+                "expanded_url": "https://ngl.link/anincandescence1",
+                "start": 0,
+                "url": "https://t.co/iO6MRJNTYR"
+              }
+            ]
+          }
+        },
+        "id": "1741993395910811648",
+        "location": "天鹅座X-1 //⬇️ 匿名提问箱",
+        "name": "炽烈已极",
+        "pinned_tweet_id": "2024076888923365667",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/2027047460930023425/YHzQxhYF_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 1788,
+          "following_count": 242,
+          "like_count": 15243,
+          "listed_count": 6,
+          "media_count": 1139,
+          "tweet_count": 6392
+        },
+        "url": "https://t.co/iO6MRJNTYR",
+        "username": "AnIncandescence",
+        "verified": false
+      }
+    ]
+  }
+}
