@@ -1,4 +1,4 @@
-name: 迁移：重建状态并刷新索引（一次性）
+name: 迁移：重建状态并刷新索引
 
 # 用于老脚本手动跑出来的仓库：html/ 与 json/ 都在，但缺 _log/ 与 archive_index.json。
 # rebuild-index 从现有文件反推状态，build-index 用当前脚本重新生成 index.json
