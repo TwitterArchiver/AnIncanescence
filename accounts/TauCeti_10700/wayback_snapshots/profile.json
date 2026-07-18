@@ -5,5 +5,14 @@
   "location": "0°00′N 260°00′E Mars",
   "link": "",
   "avatar": "avatar/avatar_1808933044545630208.jpg",
-  "banner": "avatar/1500x500.jpg"
+  "banner": "avatar/1500x500.jpg",
+  "bio_entities": {
+    "mentions": [
+      {
+        "start": 77,
+        "end": 90,
+        "username": "asplendour15"
+      }
+    ]
+  }
 }
