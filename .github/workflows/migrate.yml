@@ -66,6 +66,16 @@ jobs:
             echo "::endgroup::"
           done <<< "${{ steps.info.outputs.accounts }}"
 
+      - name: fetch-media（补齐从未下载成功过的媒体）
+        run: |
+          while IFS= read -r U; do
+            [ -z "$U" ] && continue
+            [ -d "accounts/${U}/wayback_snapshots" ] || continue
+            echo "::group::[$U] fetch-media"
+            ( cd "accounts/${U}" && python3 /tmp/archive.py fetch-media )
+            echo "::endgroup::"
+          done <<< "${{ steps.info.outputs.accounts }}"
+
       - name: build-index（用新脚本重新生成 index.json）
         run: |
           while IFS= read -r U; do
