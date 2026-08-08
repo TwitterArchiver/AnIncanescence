@@ -328,7 +328,20 @@ a:hover { text-decoration: underline; }
 .p-user         { color: var(--text-dim); font-size: 15px; }
 .p-bio          { margin: 12px 0 8px; font-size: 15px; color: var(--text); line-height: 1.5; white-space: pre-wrap; }
 .p-meta         { color: var(--text-dim); font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; margin-top: 4px; }
-.p-meta span    { display: flex; align-items: center; gap: 4px; }
+.p-meta span    { display: flex; align-items: center; gap: 4px; min-width: 0; }
+/* 换行交给 flex-wrap，长度交给 ellipsis。
+   1ch 是字符「0」的宽度，26ch 即按实际字形宽度封顶：中文占得多、拉丁占得少，
+   比数字符更接近肉眼判断。min() 让窄屏取 100%、宽屏被 26ch 管住。 */
+#p-loc          { max-width: 55%; }
+#p-loc, #p-link { overflow: hidden; }
+#p-loc span, #p-link a {
+  display: inline-block;
+  max-width: min(100%, 26ch);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
 
 /* ── 搜索栏 + 吸顶区域 ────────────────────────────────── */
 .sticky-area {
@@ -407,6 +420,27 @@ a:hover { text-decoration: underline; }
 }
 .day-heading { font-size: 16px; font-weight: 800; color: var(--text); }
 .day-heading .dim { font-weight: 400; font-size: 13px; color: var(--text-dim); margin-left: 6px; }
+/* 手机端标题本身也是打开日期抽屉的入口：banner 上那个汉堡按钮压在用户自定义
+   图片上，无论怎么取色都可能不够显眼，这里给一个始终清晰的入口。
+   桌面端侧栏常驻，不需要，箭头也不显示。 */
+.day-heading .cal-arrow { display: none; }
+@media (max-width: 900px) {
+  .day-heading {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .day-heading .cal-arrow {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--text-dim);
+    transform: translateY(1px);
+  }
+  .day-heading:active { opacity: .6; }
+}
 .order-btn {
   font-size: 13px; padding: 5px 14px;
   border: 1px solid var(--border); border-radius: 999px;
@@ -890,19 +924,27 @@ body.light .post-iframe-wrap { background: #ffffff; }
     margin-right: 0;     /* 取消和搜索框之间的间距 */
     margin-left: -4px;   /* 往左挤一点 */
   }
-  /* 三条线 —— banner 是用户自定义图片不随主题切换
-     固定用深灰，无论主题切换都不变 */
+  /* 三条线 —— banner 是用户上传的任意图片，固定深色或固定白色都会在某些图上糊掉。
+     改为 JS 采样 banner 左上角实际像素后决定明暗（见 tuneBurgerColor），
+     这里只给一个中性默认值兜底。--burger-halo 是反向的柔和阴影，
+     用于图案繁杂、明暗混杂的局部，避免线条被背景纹理吃掉。 */
+  .menu-toggle-banner {
+    --burger-ink: rgba(40, 40, 40, 0.85);
+    --burger-halo: rgba(255, 255, 255, 0.45);
+    filter: drop-shadow(0 0 1.5px var(--burger-halo));
+    transition: filter 0.2s;
+  }
   .menu-toggle-banner::before {
     content: "";
     display: block;
     width: 17px;
     height: 1.5px;
-    background: rgba(40, 40, 40, 0.85);
+    background: var(--burger-ink);
     box-shadow:
-      0 -5px 0 rgba(40, 40, 40, 0.85),
-      0 5px 0 rgba(40, 40, 40, 0.85);
+      0 -5px 0 var(--burger-ink),
+      0 5px 0 var(--burger-ink);
     border-radius: 1px;
-    transition: background 0.15s, box-shadow 0.15s;
+    transition: background 0.2s, box-shadow 0.2s;
   }
   /* 搜索栏按钮（不在 banner 上）：暗色默认白线，浅色主题改深线 */
   .menu-toggle-search::before {
@@ -969,6 +1011,76 @@ body.light .post-iframe-wrap { background: #ffffff; }
 
 @keyframes fadeUp { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
 .anim { animation: fadeUp .2s ease both; }
+
+
+/* ── 账号总览弹窗（仅桌面客户端）──
+   盖在当前窗口上、背景虚化，不新开窗口也不跳页 */
+.acct-modal-mask {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0, 0, 0, .45);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  display: none; align-items: center; justify-content: center;
+  padding: 40px 24px;
+}
+.acct-modal-mask.open { display: flex; }
+.acct-modal {
+  width: min(920px, 100%); max-height: 100%;
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 18px;
+  box-shadow: 0 18px 60px rgba(0,0,0,.35);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.am-head { padding: 18px 22px 12px; border-bottom: 1px solid var(--border); }
+.am-title { font-size: 20px; font-weight: 800; }
+.am-sub { font-size: 12px; color: var(--text-dim); margin-top: 3px; }
+.am-close {
+  position: absolute; top: 14px; right: 18px;
+  background: none; border: none; color: var(--text-dim);
+  font-size: 22px; cursor: pointer; line-height: 1; z-index: 1;
+}
+.am-search {
+  margin: 12px 22px 0; padding: 9px 13px;
+  background: var(--bg-search); border: 1px solid var(--border);
+  border-radius: 999px; color: var(--text); font-family: inherit; font-size: 14px;
+  outline: none; width: calc(100% - 44px); box-sizing: border-box;
+}
+.am-body { overflow-y: auto; padding: 8px 12px 18px; flex: 1; }
+.am-group {
+  font-size: 12px; font-weight: 700; color: var(--text-dim);
+  padding: 14px 10px 6px; letter-spacing: .03em;
+}
+.am-item {
+  display: flex; align-items: center; gap: 11px;
+  padding: 9px 10px; border-radius: 12px; cursor: pointer;
+}
+.am-item:hover { background: rgba(128,128,128,.12); }
+.am-item.current { background: rgba(29,155,240,.12); }
+.am-item.disabled { opacity: .45; cursor: default; }
+.am-item.disabled:hover { background: none; }
+.am-ava {
+  width: 42px; height: 42px; flex: 0 0 42px;
+  border-radius: 11px; overflow: hidden; background: var(--border);
+  display: block;
+}
+.am-ava img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.am-meta { min-width: 0; flex: 1; display: block; }
+.am-name { font-size: 14px; font-weight: 700; overflow-wrap: anywhere; display: block; }
+.am-at { font-size: 12px; color: var(--accent); display: block; }
+.am-bio {
+  font-size: 11px; color: var(--text-dim); margin-top: 2px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.am-empty { font-size: 12px; color: var(--text-dim); padding: 10px; }
+.am-tag {
+  font-size: 10px; color: var(--text-dim); border: 1px solid var(--border);
+  border-radius: 999px; padding: 2px 7px; flex-shrink: 0;
+}
+.am-tag.hot { color: var(--accent); border-color: var(--accent); cursor: pointer; }
+.am-tag.hot:hover { background: rgba(29,155,240,.12); }
+/* 左上角标题双击也能打开，作为第二入口 */
+.sidebar-logo { cursor: default; -webkit-user-select: none; user-select: none; }
+
 </style>
 </head>
 <body>
@@ -976,13 +1088,30 @@ body.light .post-iframe-wrap { background: #ffffff; }
 <!-- 手机端抽屉的遮罩（仅 ≤640px 显示） -->
 <div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
 
+<!-- 账号总览：本机 + 在线，仅桌面客户端显示 -->
+<div class="acct-modal-mask" id="acct-modal-mask" onclick="if(event.target===this)closeAccountModal()">
+  <div class="acct-modal" style="position:relative">
+    <button class="am-close" onclick="closeAccountModal()" aria-label="关闭">✕</button>
+    <div class="am-head">
+      <div class="am-title">全部账号</div>
+      <div class="am-sub" id="am-sub">本机与在线存档</div>
+    </div>
+    <input class="am-search" id="am-search" type="text" placeholder="搜索昵称、账号名或仓库名…"
+           autocomplete="off" spellcheck="false" oninput="renderAccountModal()">
+    <div class="am-body" id="am-body"></div>
+  </div>
+</div>
+
 <div class="layout">
 
   <!-- ══ 左侧边栏 ══════════════════════════════════════════ -->
   <aside class="sidebar">
     <div class="sidebar-head">
-      <div class="sidebar-logo">白炽阅读器</div>
+      <div class="sidebar-logo" id="sidebar-logo" title="双击浏览全部账号">白炽阅读器</div>
       <div class="sidebar-logo-sub">IncandescenceReader · @AnIncandescence</div>
+    </div>
+    <div class="sidebar-ctrl" id="sidebar-acct-entry" style="display:none">
+      <button class="ctrl-btn" style="width:100%" onclick="openAccountModal()">🗂 全部账号</button>
     </div>
     <div class="sidebar-ctrl">
       <button class="ctrl-btn" onclick="expandAll()">展开全部</button>
@@ -1042,7 +1171,7 @@ body.light .post-iframe-wrap { background: #ffffff; }
       </div>
 
       <div class="day-topbar">
-        <div class="day-heading" id="day-heading">选择日期浏览</div>
+        <div class="day-heading" id="day-heading" onclick="openDatePicker()">选择日期浏览<span class="cal-arrow">▾</span></div>
         <button class="order-btn" id="order-btn" onclick="toggleOrder()">↑ 旧→新</button>
       </div>
 
@@ -1081,6 +1210,14 @@ body.light .post-iframe-wrap { background: #ffffff; }
       <div id="recent-list"></div>
     </div>
 
+    <div class="rp-box" id="rp-all-accounts" style="display:none">
+      <div class="rp-title">全部账号</div>
+      <div style="font-size:12px;color:var(--text-dim);margin-bottom:10px" id="rp-acct-sub">本机与在线存档</div>
+      <button onclick="openAccountModal()" style="width:100%;padding:9px 12px;border-radius:10px;
+        border:1px solid var(--border);background:transparent;color:var(--text);
+        font-family:inherit;font-size:13px;cursor:pointer">浏览全部账号</button>
+    </div>
+
     <div class="rp-box credit-box">
       <b>愿世间再无痛苦，唯爱永不独行 · 炽烈已极</b><br><br>
       谨以此工具纪念<br>@AnIncandescence<br><br>
@@ -1112,6 +1249,15 @@ let accounts       = [];       // 加载到的账号清单
 let currentAccount = null;     // 当前账号对象（accounts 里的某一项）
 
 function applyAccountPaths(acct) {
+  // 在线账号自带绝对地址（各账号分散在不同仓库，没有统一的 BASE）
+  if (acct && acct.remote && acct.base) {
+    ACCOUNT_BASE = acct.base;
+    DB_PATH      = acct.base + 'wayback_snapshots/index.json';
+    PROFILE_PATH = acct.base + 'wayback_snapshots/profile.json';
+    HTML_BASE    = acct.base + 'wayback_snapshots/html/';
+    ASSET_BASE   = acct.base + 'wayback_snapshots/';
+    return;
+  }
   if (acct && acct.dir) {
     const prefix = `${BASE}accounts/${acct.dir}/`;
     ACCOUNT_BASE = prefix;
@@ -1158,6 +1304,9 @@ async function init() {
 
 /* ── 多账号 ─────────────────────────────────────────── */
 async function loadAccounts() {
+  // 在线清单独立加载：本机一个账号都没有时 loadAccounts 会提前 return，
+  // 挂在它后面的话在线区就永远是空的，入口也不会出现。
+  loadOnlineAccounts();
   if (IS_ELECTRON) {
     // Electron：从 main.js 暴露的虚拟路径动态扫描所有账号
     try {
@@ -1246,16 +1395,180 @@ document.addEventListener('click', (e) => {
   }
 });
 
+/* ══ 账号总览弹窗（仅桌面客户端）══════════════════════════
+   本机账号来自打包进 resources/accounts/ 的目录，在线账号来自组织的
+   repos.json。两者列在同一个页面里，用户不需要理解"模式"这个概念。 */
+let onlineAccounts = [];      // [{repo, acct, name, username, description, base}]
+let onlineOffline  = false;   // 拉不到网络、用的是本地缓存
+let onlineError    = '';      // 拉取失败的原因，直接显示在弹窗里便于定位
+
+const ORG_PAGES = 'https://twitterarchiver.github.io';
+
+// 走 incr:// 代理，保证与页面同源；路径层级和本机模式一模一样，
+// 渲染层因此不需要任何特判（见 main.js 的 _net/ 处理）
+function onlineBase(repo, acct) {
+  return `incr://local/_net/twitterarchiver.github.io/${repo}/accounts/${acct || repo}/`;
+}
+// 头像等主页面直接引用的图片不必走代理，https 更快
+function onlineAssetBase(repo, acct) {
+  return `${ORG_PAGES}/${repo}/accounts/${acct || repo}/`;
+}
+
+async function loadOnlineAccounts() {
+  if (!IS_ELECTRON) return;
+  try {
+    const r = await fetch('incr://local/_online_accounts');
+    if (!r.ok) throw new Error('HTTP ' + r.status + '（main.js 可能不是最新版，缺少 _online_accounts 处理）');
+    const j = await r.json();
+    onlineOffline = !!j.offline;
+    onlineError = '';
+    onlineAccounts = (j.list || []).map(x => ({
+      repo: x.repo, dir: x.acct || x.repo,
+      name: x.name || x.repo, username: x.username || ('@' + x.repo),
+      bio: x.description || '',
+      avatar: onlineAssetBase(x.repo, x.acct) + 'wayback_snapshots/' + (x.avatar || 'avatar/avatar.jpg'),
+      base: onlineBase(x.repo, x.acct),
+      remote: true,
+    }));
+  } catch (e) {
+    onlineAccounts = []; onlineOffline = true;
+    onlineError = String(e && e.message || e);
+    console.error('[在线账号] 加载失败:', e);
+  }
+  updateAccountEntry();
+  // 清单是异步回来的，弹窗可能已经打开着
+  if (document.getElementById('acct-modal-mask')?.classList.contains('open')) renderAccountModal();
+}
+
+function updateAccountEntry() {
+  // 右侧栏在窗口宽度 <1100px 时整体 display:none，所以左侧栏也放一个常驻入口
+  const side = document.getElementById('sidebar-acct-entry');
+  if (side) side.style.display = IS_ELECTRON ? '' : 'none';
+  const box = document.getElementById('rp-all-accounts');
+  // 桌面端一律显示：在线清单还没回来或拉取失败时，至少入口还在
+  if (box) box.style.display = IS_ELECTRON ? '' : 'none';
+  const sub = document.getElementById('rp-acct-sub');
+  if (sub) sub.textContent = `本机 ${accounts.length} 个 · 在线 ${onlineAccounts.length} 个`
+    + (onlineOffline ? '（离线）' : '');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  updateAccountEntry();
+  const logo = document.getElementById('sidebar-logo');
+  if (logo) logo.addEventListener('dblclick', openAccountModal);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeAccountModal();
+  });
+});
+
+function openAccountModal() {
+  if (!IS_ELECTRON) return;
+  document.getElementById('acct-modal-mask').classList.add('open');
+  renderAccountModal();
+  const box = document.getElementById('am-search');
+  if (box) setTimeout(() => box.focus(), 50);
+}
+function closeAccountModal() {
+  document.getElementById('acct-modal-mask').classList.remove('open');
+}
+
+function renderAccountModal() {
+  const kw = (document.getElementById('am-search')?.value || '').trim().toLowerCase();
+  const hit = a => !kw
+    || (a.name || '').toLowerCase().includes(kw)
+    || (a.dir  || '').toLowerCase().includes(kw)
+    || (a.repo || '').toLowerCase().includes(kw)
+    || (a.username || '').toLowerCase().includes(kw);
+
+  const localList  = accounts.filter(hit);
+  // 本机已有的账号在在线区保留一份并置顶，方便对照着切到在线版（本地副本可能较旧）
+  // 本机已有的账号不在在线区重复列一遍；想看在线版就点本机条目上的标记
+  const localDirs  = new Set(accounts.map(a => (a.dir || '').toLowerCase()));
+  const onlineList = onlineAccounts.filter(a => hit(a) && !localDirs.has((a.dir || '').toLowerCase()));
+
+  const row = (a, kind) => {
+    const cur = currentAccount && currentAccount.dir === a.dir
+      && !!currentAccount.remote === (kind === 'online');
+    const disabled = kind === 'online' && onlineOffline;
+    const hasOnline = kind === 'local'
+      && onlineAccounts.some(o => (o.dir || '').toLowerCase() === (a.dir || '').toLowerCase());
+    const tag = kind === 'local'
+      ? (hasOnline
+          ? `<span class="am-tag hot" title="本地副本可能较旧，点这里读在线版"
+               onclick="event.stopPropagation();pickAccount('${esc(a.dir)}','online')">看在线版</span>`
+          : '<span class="am-tag">本机</span>')
+      : (disabled ? '<span class="am-tag">离线</span>' : '');
+    return `<div class="am-item ${cur ? 'current' : ''} ${disabled ? 'disabled' : ''}"
+      ${disabled ? '' : `onclick="pickAccount('${esc(a.dir)}','${kind}')"`}>
+      <span class="am-ava"><img src="${esc(a.avatar || '')}" alt="" loading="lazy"
+            onerror="this.closest('.am-ava').style.visibility='hidden'"></span>
+      <span class="am-meta">
+        <span class="am-name">${esc(a.name || a.dir)}</span>
+        <span class="am-at">${esc(a.username || '')}</span>
+        ${a.bio ? `<div class="am-bio">${esc(a.bio)}</div>` : ''}
+      </span>${tag}</div>`;
+  };
+
+  const sub = document.getElementById('am-sub');
+  if (sub) sub.textContent = onlineError
+    ? `本机 ${accounts.length} 个 · 在线清单加载失败：${onlineError}`
+    : `本机 ${accounts.length} 个 · 在线 ${onlineAccounts.length} 个`
+      + (onlineOffline ? '（离线，为上次同步的列表）' : '');
+
+  const parts = [];
+  parts.push(`<div class="am-group">本机 · ${localList.length}</div>`);
+  parts.push(localList.length ? localList.map(a => row(a, 'local')).join('')
+                              : '<div class="am-empty">这个安装包没有预置存档</div>');
+  parts.push(`<div class="am-group">在线 · ${onlineList.length}${onlineOffline ? '（离线，为上次同步的列表）' : ''}</div>`);
+  parts.push(onlineList.length ? onlineList.map(a => row(a, 'online')).join('')
+    : `<div class="am-empty">${onlineAccounts.length === 0
+        ? (onlineError ? '在线清单没能加载：' + esc(onlineError) : '在线清单加载中…')
+        : '没有匹配的在线账号'}</div>`);
+  document.getElementById('am-body').innerHTML = parts.join('');
+}
+
+/* 选中某个账号：在当前窗口切过去，不新开窗口 */
+function pickAccount(dir, kind) {
+  closeAccountModal();
+  if (kind === 'online') {
+    const a = onlineAccounts.find(x => x.dir === dir);
+    if (a) switchToAccount(a);
+  } else {
+    switchAccount(dir);
+  }
+}
+
+function frameSrcAttr(file) {
+  // 在线账号经 incr:// 代理后与本机同源，用法完全一致，不需要区分。
+  // data-file 保留：比起用 src 结尾匹配更直接，也不受路径前缀变化影响。
+  return `data-file="${esc(file)}" src="${esc(HTML_BASE + file)}"`;
+}
+
+/* 按存档文件名找到对应的 iframe */
+function findFrameByFile(file) {
+  const frames = Array.from(document.querySelectorAll('.post-iframe'));
+  return frames.find(f => f.dataset.file === file)
+      || frames.find(f => f.src && f.src.endsWith(file))
+      || null;
+}
+
 async function switchAccount(dir) {
   const acct = accounts.find(a => a.dir === dir);
-  if (!acct || (currentAccount && acct.dir === currentAccount.dir)) {
+  if (!acct || (currentAccount && acct.dir === currentAccount.dir && !currentAccount.remote)) {
     document.getElementById('account-popup').classList.remove('open');
     return;
   }
+  await switchToAccount(acct);
+}
+
+/* 切到任意账号（本机或在线），在当前窗口内完成 */
+async function switchToAccount(acct) {
+  if (!acct) return;
   currentAccount = acct;
   applyAccountPaths(acct);
-  localStorage.setItem('reader-account', acct.dir);
-  document.getElementById('account-popup').classList.remove('open');
+  // 在线账号不记进 localStorage：下次启动应回到本机账号，避免一开就要联网
+  if (!acct.remote) localStorage.setItem('reader-account', acct.dir);
+  document.getElementById('account-popup')?.classList.remove('open');
 
   // 重置状态
   db = []; treeData = {}; idIndex = {}; replyMap = {};
@@ -1263,7 +1576,7 @@ async function switchAccount(dir) {
   document.getElementById('search-input').value = '';
   // 主内容区恢复欢迎页（避免显示上个账号的内容残留或空白）
   const dayHeading = document.getElementById('day-heading');
-  if (dayHeading) dayHeading.textContent = '选择日期浏览';
+  if (dayHeading) dayHeading.innerHTML = '选择日期浏览<span class="cal-arrow">▾</span>';
   const area = document.getElementById('content-area');
   if (area) area.innerHTML = `
       <div class="welcome">
@@ -1294,15 +1607,18 @@ async function loadProfile() {
     // 保存当前账号 username（去 @ 转小写）—— 用于 reply-card 识别主人 vs 外人
     ownerUsername = (c.username || '').replace(/^@/, '').toLowerCase();
     if (c.avatar) document.getElementById('p-avatar').src = `${ASSET_BASE}${c.avatar}`;
-    if (c.banner) document.getElementById('p-banner').src = `${ASSET_BASE}${c.banner}`;
-    if (c.location) document.getElementById('p-loc').innerHTML  = `📍 ${esc(c.location)}`;
+    if (c.banner) {
+      const bn = document.getElementById('p-banner');
+      bn.addEventListener('load', () => tuneBurgerColor(bn), { once: true });
+      bn.src = `${ASSET_BASE}${c.banner}`;
+    }
+    // 位置里也可能出现链接，同样剥前缀（应用端 LinkUtil.stripInText 的行为）
+    if (c.location) document.getElementById('p-loc').innerHTML =
+      `📍 <span>${esc(c.location).replace(URL_IN_TEXT, m => stripUrlPrefix(m))}</span>`;
     if (c.link) {
-      // 修复：裸域名（无协议头）会被浏览器当作相对路径，统一加上 https://
-      const rawLink = c.link;
-      const href = rawLink.startsWith('http://') || rawLink.startsWith('https://')
-        ? rawLink : 'https://' + rawLink;
-      const d = rawLink.replace(/^https?:\/\//, '');
-      document.getElementById('p-link').innerHTML = `🔗 <a href="${esc(href)}" target="_blank">${esc(d)}</a>`;
+      // 裸域名（无协议头）会被浏览器当作相对路径，href 统一补 https://
+      document.getElementById('p-link').innerHTML =
+        `🔗 <a href="${esc(fullUrl(c.link))}" target="_blank">${esc(stripUrlPrefix(c.link))}</a>`;
     }
     // 用账号头像作为 favicon（Canvas 裁成圆形）
     if (c.avatar) {
@@ -1434,6 +1750,19 @@ function collapseAll(){ document.querySelectorAll('.tree-year,.tree-month').forE
 
 /* ── 手机端抽屉控制（≤640px）─────────────────────────── */
 function isMobile() { return window.matchMedia('(max-width: 900px)').matches; }
+/* 打开日期抽屉。桌面端侧栏常驻，点标题不做任何事。 */
+function openDatePicker() {
+  if (!isMobile()) return;
+  const sb = document.querySelector('.sidebar');
+  if (sb && sb.classList.contains('open')) { closeSidebar(); return; }
+  toggleSidebar();
+  // 抽屉里内容可能很长，滚到当前选中的那一天
+  requestAnimationFrame(() => {
+    const cur = sb && sb.querySelector('.day-item.active, .tree-day.active, .active');
+    if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: 'center' });
+  });
+}
+
 function toggleSidebar() {
   const sb = document.querySelector('.sidebar');
   const ov = document.getElementById('sidebar-overlay');
@@ -1507,7 +1836,7 @@ function selectDay(dk, skipScroll = false) {
   const [y,m,d] = dk.split('-');
   const items = treeData[y]?.[m]?.[d]||[];
   document.getElementById('day-heading').innerHTML =
-    `${y}年${m}月${d}日<span class="dim">${items.length} 篇</span>`;
+    `${y}年${m}月${d}日<span class="dim">${items.length} 篇</span><span class="cal-arrow">▾</span>`;
 
   // 判断是否是最新那天，是的话在推文tab最前插入置顶
   const latestDay = getLatestDay();
@@ -1569,7 +1898,7 @@ function renderTweetsTab(sorted, area, showPinned = false) {
   if (showPinned) {
     const pinnedItem = db.find(i => i.is_pinned && !i.is_virtual);
     if (pinnedItem) {
-      const src = `${HTML_BASE}${pinnedItem.file}`;
+      const srcAttr = frameSrcAttr(pinnedItem.file);
       // 置顶推文也要构建回复链（和普通推文一致）
       const pOwnerReplies = (replyMap[pinnedItem.tweet_id] || [])
         .slice().sort((a, b) => a.timestamp.localeCompare(b.timestamp));
@@ -1594,7 +1923,7 @@ function renderTweetsTab(sorted, area, showPinned = false) {
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
           </button>
           <iframe class="post-iframe"
-            src="${esc(src)}"
+            ${srcAttr}
             scrolling="no"
             loading="lazy"
             onload="onFrameLoad(this)"
@@ -1658,7 +1987,7 @@ function renderTweetsTab(sorted, area, showPinned = false) {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
         </button>
         <iframe class="post-iframe"
-          src="${HTML_BASE}${esc(item.file)}"
+          ${frameSrcAttr(item.file)}
           scrolling="no"
           loading="lazy"
           onload="onFrameLoad(this)"
@@ -1771,7 +2100,7 @@ function renderRepliesTab(sorted, area) {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
         </button>
         <iframe class="post-iframe"
-          src="${HTML_BASE}${esc(item.file)}"
+          ${frameSrcAttr(item.file)}
           scrolling="no"
           loading="lazy"
           onload="onFrameLoad(this)"
@@ -1809,6 +2138,7 @@ function onFrameLoad(iframe) {
     autoHeight(iframe);  // 兜底再算一次
     iframe.dataset.loaded = '1';
   }, 100);
+
 }
 
 /* iframe内嵌html的body有 min-height:100vh + padding:20px，会撑出大片空白
@@ -2104,7 +2434,9 @@ function fixImagesInFrame(iframe) {
             video.controls = true;
             video.preload = 'metadata';
             const source = doc.createElement('source');
-            source.src = p;
+            // #t=1 让浏览器把第 1 秒那一帧当封面，和安卓端 videoFrameMillis(1000) 一致；
+            // 开头常是黑场，直接取首帧会是一片黑。preload=metadata 只拉文件头和这一帧附近。
+            source.src = p + (p.includes('#') ? '' : '#t=1');
             source.type = 'video/mp4';
             video.appendChild(source);
             embContent.appendChild(video);
@@ -2307,6 +2639,9 @@ function autoHeight(iframe) {
     iframe.style.height = (h + 4) + 'px';
     // 恢复滚动位置
     if (col) col.scrollTop = savedTop;
+    // 滚动锚定：整条都在视口上方的 iframe 变高时，下面的内容会被整体顶走，
+    // 用户正在看的位置就跑了。把同样的量补进滚动位置即可保持不动。
+    // 只在"整条都看不见"时补偿——正在看的那条变高是内容展开，属于预期行为。
   } catch(e) { iframe.style.height = '400px'; }
 }
 
@@ -2528,7 +2863,7 @@ function doSearch(kw) {
     if (found) { exactMode = true; exactItem = found; displayKw = trimmed; }
   }
 
-  document.getElementById('day-heading').innerHTML=`"${esc(displayKw)}"`;
+  document.getElementById('day-heading').innerHTML=`"${esc(displayKw)}"<span class="cal-arrow">▾</span>`;
 
   const area=document.getElementById('content-area');
 
@@ -2627,12 +2962,12 @@ function jumpToPost(dayKey, file, tweetId) {
       card.scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block:'center'});
       return true;
     }
-    const iframes = document.querySelectorAll('.post-iframe,.reply-iframe');
-    for (const f of iframes) {
-      if (f.src.endsWith(file)) {
-        (f.closest('.post-block') || f).scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block:'start'});
-        return true;
-      }
+    const frames = Array.from(document.querySelectorAll('.post-iframe,.reply-iframe'));
+    const f = frames.find(x => x.dataset.file === file)
+           || frames.find(x => x.src && x.src.endsWith(file));
+    if (f) {
+      (f.closest('.post-block') || f).scrollIntoView({behavior: smooth ? 'smooth' : 'auto', block:'start'});
+      return true;
     }
     return false;
   };
@@ -2695,9 +3030,9 @@ function exitSearch() {
     const items=treeData[y]?.[m]?.[d]||[];
     renderDayView(items);
     document.getElementById('day-heading').innerHTML=
-      `${y}年${m}月${d}日<span class="dim">${items.length} 篇</span>`;
+      `${y}年${m}月${d}日<span class="dim">${items.length} 篇</span><span class="cal-arrow">▾</span>`;
   } else {
-    document.getElementById('day-heading').textContent='选择日期浏览';
+    document.getElementById('day-heading').innerHTML='选择日期浏览<span class="cal-arrow">▾</span>';
     document.getElementById('content-area').innerHTML=`
       <div class="welcome">
         <div class="welcome-icon">✦</div>
@@ -2758,14 +3093,8 @@ function jumpToRecent(dayKey, file) {
 
   // 找到目标 .post-block 并跳转
   const doJump = () => {
-    const iframes = document.querySelectorAll('.post-iframe');
-    let block = null;
-    for (const f of iframes) {
-      if (f.src.endsWith(file)) {
-        block = f.closest('.post-block');
-        break;
-      }
-    }
+    const found = findFrameByFile(file);
+    const block = found ? found.closest('.post-block') : null;
     if (!block) {
       if (col) col.style.visibility = '';
       return;
@@ -2778,8 +3107,7 @@ function jumpToRecent(dayKey, file) {
     const stickyH = sticky ? sticky.offsetHeight : 0;
     const blockRect = block.getBoundingClientRect();
     const colRect = col.getBoundingClientRect();
-    const target = col.scrollTop + (blockRect.top - colRect.top) - stickyH;
-    col.scrollTop = target;
+    col.scrollTop = col.scrollTop + (blockRect.top - colRect.top) - stickyH;
   };
 
   if (sameDay) {
@@ -2792,11 +3120,7 @@ function jumpToRecent(dayKey, file) {
   // —— onFrameLoad 会给真正 load 完的 iframe 设置 dataset.loaded='1'
   const isReady = () => {
     const iframes = Array.from(document.querySelectorAll('.post-iframe'));
-    let targetIdx = -1;
-    for (let i = 0; i < iframes.length; i++) {
-      if (iframes[i].src.endsWith(file)) { targetIdx = i; break; }
-    }
-    if (targetIdx === -1) return false;
+    if (!findFrameByFile(file)) return false;
     for (const f of iframes) {
       if (f.dataset.loaded !== '1') return false;
       try {
@@ -2845,16 +3169,120 @@ function toggleTheme(){ applyTheme(!isLight); }
 function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function escRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
 
-/* bio / 纯文本里的 URL 和 @用户名 转成可点击链接 */
+/* 按 banner 左上角的实际像素决定汉堡按钮的明暗。
+   固定深色在深色 banner 上看不见，固定白色在浅色 banner 上看不见，
+   加圆底或描边又破坏观感，所以直接量一下那块到底是什么颜色。
+
+   同时算局部方差：图案繁杂的区域（比如左上角正好压着文字或高对比图案）
+   单靠明暗判断不可靠，这时把反向阴影加重，让线条始终有轮廓。 */
+function tuneBurgerColor(img) {
+  const btn = document.getElementById('menu-toggle-banner');
+  if (!btn || !img.naturalWidth) return;
+  const bw = img.clientWidth, bh = img.clientHeight;
+  if (!bw || !bh) { requestAnimationFrame(() => tuneBurgerColor(img)); return; }
+  try {
+    // banner 是 object-fit: cover —— 先按覆盖比例缩放，再居中裁掉溢出的部分。
+    // 所以屏幕左上角对应的原图坐标不是 (0,0)，直接从 (0,0) 取样会取到被裁掉的区域。
+    const nw = img.naturalWidth, nh = img.naturalHeight;
+    const s  = Math.max(bw / nw, bh / nh);      // cover 的缩放系数
+    const offX = (nw * s - bw) / 2;             // 水平被裁掉的量（居中裁剪）
+    const offY = (nh * s - bh) / 2;
+
+    const R  = 52;                              // 按钮 36px + 8px 边距 + 余量，CSS 像素
+    const sx = offX / s;                        // 换算回原图坐标
+    const sy = offY / s;
+    const sw = Math.max(1, Math.min(R / s, nw - sx));
+    const sh = Math.max(1, Math.min(R / s, nh - sy));
+
+    const cv = document.createElement('canvas');
+    cv.width = 16; cv.height = 16;
+    const ctx = cv.getContext('2d', { willReadFrequently: true });
+    ctx.drawImage(img, sx, sy, sw, sh, 0, 0, 16, 16);
+    const d = ctx.getImageData(0, 0, 16, 16).data;
+
+    let sum = 0, sum2 = 0, n = 0;
+    for (let i = 0; i < d.length; i += 4) {
+      // 相对亮度（sRGB 感知加权），比简单平均更接近肉眼判断
+      const l = (0.2126 * d[i] + 0.7152 * d[i + 1] + 0.0722 * d[i + 2]) / 255;
+      sum += l; sum2 += l * l; n++;
+    }
+    const mean = sum / n;
+    const sd   = Math.sqrt(Math.max(0, sum2 / n - mean * mean));
+
+    // 临界值由 WCAG 对比度公式解出：白线(L=1)与深线(L=0.02)对比度相等处
+    // (1.05)/(x+0.05) = (x+0.05)/0.07 → x ≈ 0.22。中灰背景上白线只有 1.8:1，深线有 8:1。
+    const dark = mean > 0.22;
+    const ink  = dark ? 'rgba(28, 28, 30, 0.92)' : 'rgba(255, 255, 255, 0.95)';
+    // 繁杂区域（方差大）阴影加重，纯色区域几乎看不出阴影
+    const a    = sd > 0.18 ? 0.75 : 0.35;
+    const halo = dark ? `rgba(255,255,255,${a})` : `rgba(0,0,0,${a})`;
+
+    btn.style.setProperty('--burger-ink', ink);
+    btn.style.setProperty('--burger-halo', halo);
+    btn.style.filter = `drop-shadow(0 0 ${sd > 0.18 ? 2 : 1.5}px ${halo})`;
+  } catch (e) {
+    // 跨域或 Electron 自定义协议下 canvas 可能被污染，保持 CSS 默认值即可
+  }
+}
+
+// 视口变化会改变 cover 的裁剪范围，重新取样
+window.addEventListener('resize', () => {
+  const bn = document.getElementById('p-banner');
+  if (bn && bn.complete && bn.naturalWidth) tuneBurgerColor(bn);
+});
+
+/* 链接的显示形式，与应用端 util/LinkUtil.kt 保持一致：
+   去掉 https:// http:// www. 和结尾斜杠，过长则截断。href 始终用原始完整 URL。 */
+function stripUrlPrefix(raw) {
+  return String(raw).trim()
+    .replace(/^https?:\/\//i, '')
+    .replace(/^www\./i, '')
+    .replace(/\/$/, '');
+}
+function fullUrl(raw) {
+  const t = String(raw).trim();
+  return /^https?:\/\//i.test(t) ? t : 'https://' + t;
+}
+
+/* 正文里的 URL 到 CJK 或中文标点为止——\S+ 会把紧跟其后的中文一起吞进去。
+   \u201c\u201d 是全角引号，不在 \uff00-\uffef 区间内，得单独排除。
+   排除 < > & " 是因为本函数在 esc() 之后执行：这几个字符已变成 &lt; &gt; &amp; &quot;，
+   排掉 & 就能让 URL 在实体处停下。不能写成 &lt;&gt;&amp; —— 字符类里那等于
+   逐个排除 & l t ; g a m p，含这些字母的网址会被截断。 */
+const URL_CHARS = '[^\\s\\u2018\\u2019\\u201c\\u201d\\u3000-\\u303f\\u4e00-\\u9fff\\uff00-\\uffef<>&"]+';
+const URL_IN_TEXT = new RegExp('https?:\\/\\/' + URL_CHARS, 'gi');
+/* URL 与 @用户名 必须合并成一条、单次扫描：分两次替换的话，
+   形如 https://x.com/@user 的链接会在第二遍被当成提及再替换，产生嵌套 <a>。 */
+const LINK_OR_MENTION = new RegExp('(https?:\\/\\/' + URL_CHARS + ')|(@[A-Za-z0-9_]+)', 'gi');
+
+/* bio / 纯文本里的 URL 和 @用户名 转成可点击链接（链接文字剥掉协议头） */
 function linkifyText(text) {
   if (!text) return '';
-  let s = esc(text);
-  s = s.replace(/(https?:\/\/[^\s&lt;&gt;&amp;"]+)/g, '<a href="$1" target="_blank" style="color:var(--accent,#1d9bf0)">$1</a>');
-  s = s.replace(/@([A-Za-z0-9_]+)/g, '<a href="https://x.com/$1" target="_blank" style="color:var(--accent,#1d9bf0)">@$1</a>');
-  return s;
+  const st = 'color:var(--accent,#1d9bf0)';
+  return esc(text).replace(LINK_OR_MENTION, (m, url, mention) =>
+    url ? `<a href="${url}" target="_blank" style="${st}">${stripUrlPrefix(url)}</a>`
+        : `<a href="https://x.com/${mention.slice(1)}" target="_blank" style="${st}">${mention}</a>`);
 }
 
 /* 用 profile.json 里的 bio_entities 精确渲染 bio 链接（有 entities 用 entities，否则 fallback 到 linkifyText） */
+
+/* 只在标签之外、且不在已有 <a> 内的纯文本上做链接化。
+   直接对整段 HTML 跑正则会把上一步生成的 href="https://…" 里的地址再包一层。 */
+function linkifyTextNodes(html, fn) {
+  const parts = html.split(/(<[^>]*>)/);
+  let depth = 0;
+  for (let i = 0; i < parts.length; i++) {
+    const p = parts[i];
+    if (p.startsWith('<')) {
+      if (/^<a[\s>]/i.test(p)) depth++;
+      else if (/^<\/a>/i.test(p)) depth = Math.max(0, depth - 1);
+      continue;
+    }
+    if (depth === 0 && p) parts[i] = fn(p);
+  }
+  return parts.join('');
+}
+
 function renderBioWithEntities(text, entities) {
   if (!text) return '';
   const accentStyle = 'color:var(--accent,#1d9bf0)';
@@ -2866,13 +3294,21 @@ function renderBioWithEntities(text, entities) {
     const escapedDisplay = esc(u.display_url);
     if (result.includes(escapedTco)) {
       result = result.replace(escapedTco, link);
-    } else if (result.includes(escapedDisplay)) {
-      result = result.replace(escapedDisplay, link);
+    } else {
+      // bio 里的短链可能已被 archive.py 展开成完整地址，此时按 display_url 匹配
+      // 只会替换掉中间一段，https:// 前缀会留在 <a> 外面变成裸文字。
+      const escapedExpanded = esc(u.expanded_url);
+      const bare = escapedExpanded.replace(/^https?:\/\//i, '');
+      if (result.includes(escapedExpanded))        result = result.replace(escapedExpanded, link);
+      else if (result.includes('https://' + bare)) result = result.replace('https://' + bare, link);
+      else if (result.includes('http://' + bare))  result = result.replace('http://' + bare, link);
+      else if (result.includes(escapedDisplay))    result = result.replace(escapedDisplay, link);
     }
   }
-  // @用户名 统一用正则替换（不依赖 entities.mentions 是否完整）
-  result = result.replace(/@([A-Za-z0-9_]+)/g,
-    (_, name) => `<a href="https://x.com/${name}" target="_blank" style="${accentStyle}">@${name}</a>`);
+  // entities 没覆盖到的裸链接 + @用户名，一次扫描完成（只处理标签外的文本）
+  result = linkifyTextNodes(result, seg => seg.replace(LINK_OR_MENTION, (m, url, mention) =>
+    url ? `<a href="${url}" target="_blank" style="${accentStyle}">${stripUrlPrefix(url)}</a>`
+        : `<a href="https://x.com/${mention.slice(1)}" target="_blank" style="${accentStyle}">${mention}</a>`));
   return result;
 }
 
