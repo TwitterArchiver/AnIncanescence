@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-09-20T07:30:13",
+  "last_updated": "2026-09-26T17:40:50",
   "html": {
     "https://web.archive.org/web/20240706110236if_/https://twitter.com/AnIncandescence/status/1809543465514012807": {
       "status": "done"
@@ -18226,6 +18226,10 @@
     },
     "https://web.archive.org/web/20240707130237if_/https://twitter.com/AnIncandescence/status/1809936057544368553": {
       "status": "done"
+    },
+    "https://web.archive.org/web/20240923092526if_/https://twitter.com/AnIncandescence/status/1838147655119093941": {
+      "status": "done",
+      "last_updated": "2026-09-26T17:40:48"
     }
   },
   "images": {
